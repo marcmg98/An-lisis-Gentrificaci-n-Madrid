@@ -1,0 +1,949 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10276080-autocine-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "10276080",
+		"title": "Autocine Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fea63d5e3af7a510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Valverde"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE ISLA DE JAVA 2"
+		},
+		"location": {
+			"latitude": 40.485784039607616,
+			"longitude": -3.6784958755227875
+		},
+		"organization": {
+			"organization-desc": "  Bus: 66, 124, 137, SE704, N24.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Autocine Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7381184-centro-comercial-dreams-palacio-municipal-hielo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/PistasPatinaje",
+		"id": "7381184",
+		"title": "Centro Comercial Dreams - Palacio Municipal de Hielo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c599006aee194410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE SILVANO 77"
+		},
+		"location": {
+			"latitude": 40.46287225446314,
+			"longitude": -3.635776268846016
+		},
+		"organization": {
+			"organization-desc": "  Metro: Canillas (línea 4).  Bus: 120, 112, 122, 153.  Bicimad: 535 (Calle Ramón Power, 2)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Centro Comercial Dreams - Palacio Municipal de Hielo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6647175-cine-artistic-metropol.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "6647175",
+		"title": "Cine Artistic Metropol",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b69b2f335181b310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE CIGARRERAS 6"
+		},
+		"location": {
+			"latitude": 40.40488744133082,
+			"longitude": -3.7074402109488225
+		},
+		"organization": {
+			"organization-desc": "  Metro: Acacias (línea 5), Embajadores (líneas 3 y 5), Puerta de Toledo (línea 5).   Bus: 34, 36, 41, 60, 62, 78, 116, 118, 119, 148, C1, C2, C03, N12, N15, N17.  Cercanías Renfe: Embajadores (línea C5), Pirámides (líneas C1 y C10).   Bicimad: Estaciones 46 (Ribera de Curtidores, 28), 163 (Paseo de la Esperanza, 2).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Artistic Metropol"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17321-cine-capitol-gran-via.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "17321",
+		"title": "Cine Capitol Gran Vía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6dac3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 41"
+		},
+		"location": {
+			"latitude": 40.42044662928379,
+			"longitude": -3.706582132732834
+		},
+		"organization": {
+			"organization-desc": " Descripción monumental: Arquitectos: Luis Martínez - Feduchi y Vicente Eced (1931 - 1933). Esta joya arquitectónica vanguardista e innovadora se construyó con la ambición de convertirse en un hito urbano. Desde su origen se pensó en él como soporte de anuncios luminosos. Metro: Callao (líneas 3, 5), Santo Domingo (línea 2).  Bus: 001, 1, 2, 3, 44, 46, 74, 75, 133, 147, 148, N16, N18, N19, N20, N21.  Bicimad: Estaciones 2 (calle Miguel Moya, 1), 22 (Jacometrezo, 3), 23 (plaza de Santo Domingo, 1).  Aparcamiento: Plaza del Rey (54), Plaza del Rey.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Capitol Gran Vía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17304-cine-cinesa-gavia-3d.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "17304",
+		"title": "Cine Cinesa La Gavia 3D",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=390c3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/CascoHVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28051",
+			"street-address": "CALLE ADOLFO BIOY CASARES 2"
+		},
+		"location": {
+			"latitude": 40.367701522967664,
+			"longitude": -3.597512351069017
+		},
+		"organization": {
+			"organization-desc": "  Bus: 145",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Cinesa La Gavia 3D"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68001-cine-cinesa-rosas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "68001",
+		"title": "Cine Cinesa Las Rosas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3c9255004e91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Arcos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "AVENIDA GUADALAJARA 2"
+		},
+		"location": {
+			"latitude": 40.41851857456756,
+			"longitude": -3.6224973167642536
+		},
+		"organization": {
+			"organization-desc": "  Metro: Alsacia (línea 2).  Bus: 106, 140, 70, 165, 159, 167, E2, N7.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Cinesa Las Rosas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4549928-cine-cinesa-manoteras.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "4549928",
+		"title": "Cine Cinesa Manoteras",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1eb86f91462a1110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Valdefuentes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28050",
+			"street-address": "AVENIDA MANOTERAS 40"
+		},
+		"location": {
+			"latitude": 40.48605015845937,
+			"longitude": -3.665403458638993
+		},
+		"organization": {
+			"organization-desc": "  Cercanías Renfe: Fuente de la Mora (C1, C2, C7 y C10).  Autobús: 150.  Bicimad: Estación 540 (calle de Dulce Chacón, s/n).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Cinesa Manoteras"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33938-cine-cinesa-mendez-alvaro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "33938",
+		"title": "Cine Cinesa Méndez Álvaro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b32e3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Atocha"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "CALLE ACANTO 2"
+		},
+		"location": {
+			"latitude": 40.396541482879385,
+			"longitude": -3.6755567794919757
+		},
+		"organization": {
+			"organization-desc": "  Metro: Méndez Álvaro (línea 6).  Bus: 113.  Cercanías Renfe: Méndez Álvaro (líneas C1, C5 y C10).  Bicimad: Estación 180 (calle Retama, 5).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Cinesa Méndez Álvaro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/160926-cine-cinesa-principe-pio-3d.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "160926",
+		"title": "Cine Cinesa Príncipe Pío 3D",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=de97051c8d91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "PASEO FLORIDA Centro de Ocio, Cultura y Comercio Príncipe Pío"
+		},
+		"location": {
+			"latitude": 40.42078197104075,
+			"longitude": -3.7209625681527148
+		},
+		"organization": {
+			"organization-desc": "  Metro: Príncipe Pío (líneas 6, 10)  Bus: 41, 46, 75  Cercanías Renfe: Príncipe Pío (líneas C1, C7 y C10)  Bicimad: Estación 161 (Paseo de la Florida, 8)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Cinesa Príncipe Pío 3D"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137916-cine-cinesa-proyecciones.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "137916",
+		"title": "Cine Cinesa Proyecciones",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2f67051c8d91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE FUENCARRAL 136"
+		},
+		"location": {
+			"latitude": 40.431491248346006,
+			"longitude": -3.703242682577312
+		},
+		"organization": {
+			"organization-desc": "  Metro: Quevedo (línea 2), Bilbao (líneas 1 y 4).   Bus: 3, 16, 21, 37, 40, 61, 147, 149, C03.  Bicimad: Estaciones 200 (glorieta Quevedo, 5), 4 (calle Manuela Malasaña, 5), 5 (calle Fuencarral, 108).  Aparcamiento: Olavide (52), Plaza de Olavide.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Cinesa Proyecciones"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17314-cine-estudio-circulo-bellas-artes.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "17314",
+		"title": "Cine Estudio Círculo de Bellas Artes",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7cfc3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE MARQUES DE CASA RIERA 4"
+		},
+		"location": {
+			"latitude": 40.41782839104989,
+			"longitude": -3.696207041222261
+		},
+		"organization": {
+			"organization-desc": "  Metro: Banco de España (línea 2), Sevilla (línea 2).  Bus: 15, 150, 20, 5, 51, 53, 001, 146, 52, 9, 002, 1, 2, 3, 46, 74, 14, 27, 37, 45, C03, N16, N13, N14.  Bicimad: Estaciones 20a (calle Alcalá, 49), 28 (calle Alcalá, 27), 29 (calle del Marqués de Cubas, 25).   Aparcamiento: Sevilla (41), calle Sevilla y calle Alcalá.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Estudio Círculo de Bellas Artes"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17366-cine-vaguada.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "17366",
+		"title": "Cine La Vaguada",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8e8355004e91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElPilar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28029",
+			"street-address": "AVENIDA MONFORTE DE LEMOS 36"
+		},
+		"location": {
+			"latitude": 40.47903297218874,
+			"longitude": -3.7082641886598307
+		},
+		"organization": {
+			"organization-desc": "  Metro: Barrio del Pilar (línea 9).  Bus: 128, 132, 137, 49, 83, N22.  Bicimad: Estación 572 (avenida Monforte de lemos, 123), 577 (calle Monforte de Lemos, 103), 571 (calle Melchor Fernández Almagro, 80).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine La Vaguada"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/129467-cine-mk2-palacio-hielo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "129467",
+		"title": "Cine mk2 Palacio de Hielo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=442d654d9d91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE SILVANO 77"
+		},
+		"location": {
+			"latitude": 40.46287225446314,
+			"longitude": -3.635776268846016
+		},
+		"organization": {
+			"organization-desc": "  Metro: Canillas (línea 4).  Bus: 120, 112, 122, 153.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine mk2 Palacio de Hielo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12062501-cine-mk2-paz.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "12062501",
+		"title": "Cine mk2 Paz",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9887abfb9e779810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE FUENCARRAL 125"
+		},
+		"location": {
+			"latitude": 40.4308674226062,
+			"longitude": -3.703382726546904
+		},
+		"organization": {
+			"organization-desc": "  ",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine mk2 Paz"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17349-cine-palacio-prensa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "17349",
+		"title": "Cine Palacio de la Prensa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fe3d3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "PLAZA CALLAO 4"
+		},
+		"location": {
+			"latitude": 40.41985083351601,
+			"longitude": -3.7055098379576314
+		},
+		"organization": {
+			"organization-desc": "  Metro: Callao (líneas 3 y 5).  Bus: 001, 1, 146, 2, 3, 46, 74, 148, 147, 75, N16, N18, N19, N20, N21.  Bicimad:Estaciones 22 (calle Jacometrezzo, 3), 2 (calle Miguel Moya, 1).  Aparcamiento: El Corte Inglés Callao (92), Plaza de Callao.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Palacio de la Prensa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17358-cine-renoir-plaza-espana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "17358",
+		"title": "Cine Renoir Plaza de España",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b1bd3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Arguelles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE MARTIN DE LOS HEROS 12"
+		},
+		"location": {
+			"latitude": 40.42438586137852,
+			"longitude": -3.7134129337181156
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza España (líneas 2, 3 y 10).  Bus: 001, 1, 133, 138, 2, 44, 74, C2, C1, N21.   Bicimad: Estaciones 14 (calle Ventura Rodríguez, 2), 116 a y b (calle Princesa, 5).  Aparcamiento: Plaza de España (53), Plaza de España.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Renoir Plaza de España"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58576-cine-renoir-retiro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "58576",
+		"title": "Cine Renoir Retiro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b7dd3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/Ibiza"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "CALLE NARVAEZ 42"
+		},
+		"location": {
+			"latitude": 40.420084298955224,
+			"longitude": -3.6763016832755295
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ibiza (líneas 9).  Bus: 15, 215, 26, 61, 63, C1, C2, 2, 28, E2, E3, E4, E5, N6, N8.  Bicimad: Estaciones 61 (calle O'Donnell, 28), 181 (Ibiza, 18).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Renoir Retiro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5787803-cine-sala-berlanga.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "5787803",
+		"title": "Cine Sala Berlanga",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=08025b888b3aa210VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE ANDRES MELLADO 53"
+		},
+		"location": {
+			"latitude": 40.43593121735638,
+			"longitude": -3.714414978591487
+		},
+		"organization": {
+			"organization-desc": "  Metro: Moncloa (líneas 3 y 6), Islas Filipinas (línea 7).  Bus: 001, 1, 2, 16, 44, 61, 62, 82, 132, 138, C1, C2, N21.  Bicimad: Estación 199 (Fernando el Católico, 61), 245 (calle Galileo, 63), 111a (calle Arcipreste de Hita, 12), 111b (calle Arcipreste de Hita, 12).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Sala Berlanga"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91099-cine-verdi.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "91099",
+		"title": "Cine Verdi",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b63e3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE BRAVO MURILLO 28"
+		},
+		"location": {
+			"latitude": 40.4366394181734,
+			"longitude": -3.7040768464753553
+		},
+		"organization": {
+			"organization-desc": "  Metro: Quevedo (línea 2), Canal (líneas 2 y 7).  Bus: 3, 12, 16, 37, 61, 149, N23.  Bicimad: Estaciones 201 (calle José Abascal, 2), 200 (glorieta Quevedo, 5), 126 (calle del General Álvarez de Castro, 1).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Verdi"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11030160-cine-yelmo-luxury-palafox.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "11030160",
+		"title": "Cine Yelmo Luxury Palafox",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c1c6be0e48e6d610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE LUCHANA 15"
+		},
+		"location": {
+			"latitude": 40.430081135559696,
+			"longitude": -3.7009022033424803
+		},
+		"organization": {
+			"organization-desc": "  Metro: Bilbao (líneas 1 y 4).  Bus: 147, 40, 37, 149, 3, 21, C03, N23.  Bicimad: Estaciones 124 (calle Manuel Silvela, 20), 4 (calle Manuela Malasaña, 5), 5 (calle Fuencarral, 108).  Aparcamiento: Fuencarral (27), calle Fuencarral, 111 (entre 111 y 121).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cine Yelmo Luxury Palafox"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17319-cines-callao.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "17319",
+		"title": "Cines Callao",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=142255004e91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "PLAZA CALLAO 3"
+		},
+		"location": {
+			"latitude": 40.42001814188945,
+			"longitude": -3.7054785807072705
+		},
+		"organization": {
+			"organization-desc": " Descripción monumental:  conjunto monumental, y sencillo en sus líneas, diseñado por el arquitecto Luis Gutiérrez Soto (1926 - 1927) con elementos decorativos neobarrocos,  art déco  y de influencia vienesa. Destaca su decoración y el torreón en esquina que pretende ser un faro luminoso anunciador. Metro: Callao (líneas 3 y 5), Gran Vía (líneas 1 y 5), Santo Domingo (línea 2), Sol (líneas 1, 2 y 3).  Bus: 001, 1, 2, 3, 44, 46, 74, 75, 133, 146, 147, 148, SE712, N16, N18, N19, N20, N21.  Cercanías Renfe: Sol (líneas C3, C3a y C4).  Bicimad: Estaciones 22 (calle Jacometrezzo, 3), 2 (calle Miguel Moya, 1), 23 (plaza de Santo Domingo, 1).  Aparcamiento: El Corte Inglés Callao (92), Plaza de Callao.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cines Callao"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11213887-cines-embajadores.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "11213887",
+		"title": "Cines Embajadores",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=74fe743ce6a24710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Delicias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "GLORIETA SANTA MARIA DE LA CABEZA 5"
+		},
+		"location": {
+			"latitude": 40.40070476221974,
+			"longitude": -3.6985414548506554
+		},
+		"organization": {
+			"organization-desc": "  Metro: Delicias (línea 3), Embajadores (líneas 3 y 5), Palos de la Frontera (línea 3).  Bus: 6, 8, 19, 45, 47, 55, 59, 60, 78, 85, 86, 148, 247, E1, N14, N17.  Cercanías Renfe: Delicias (líneas C1 y C10), Embajadores (línea C5).  Bicimad: Estaciones 121 (paseo Santa María de la Cabeza, 58), 171 (calle Embajadores, 97).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cines Embajadores"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11014053-cines-golem.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "11014053",
+		"title": "Cines Golem",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=52fdf7bb9d91d610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Arguelles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE MARTIN DE LOS HEROS 14"
+		},
+		"location": {
+			"latitude": 40.42470339769853,
+			"longitude": -3.7136954365525874
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza España (líneas 2, 3 y 10).  Bus: 001, 1, 133, 138, 2, 44, 74, C2, C1, N21.  Bicimad: Estaciones 14 (calle Ventura Rodríguez, 2), 116a (calle Princesa, 5).  Aparcamiento: Plaza de España (53), Plaza de España.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cines Golem"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17355-cines-renoir-princesa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "17355",
+		"title": "Cines Renoir Princesa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fa8d3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Arguelles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE PRINCESA 3"
+		},
+		"location": {
+			"latitude": 40.42474343764168,
+			"longitude": -3.7128566472819906
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de España (líneas 2, 3 y 10), Ventura Rodríguez (línea 3).  Bus: 001, 1, 133, 138, 2, 44, 74, C2, C1, 39, N21.  Bicimad: Estaciones 14 (calle Ventura Rodríguez, 2), 116 a y b (calle Princesa, 5).  Aparcamiento: Plaza de España (53), Plaza de España.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Cines Renoir Princesa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963310-cineteca-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "6963310",
+		"title": "Cineteca Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2dbd1fe44c5ee310VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Chopera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "PLAZA LEGAZPI 8"
+		},
+		"location": {
+			"latitude": 40.39130985242181,
+			"longitude": -3.6958028442054074
+		},
+		"organization": {
+			"organization-desc": "2.668 metros cuadrados conforman un espacio, moderno y multifuncional, que acoge una programación audiovisual atenta al desarrollo cultural de la sociedad contemporánea, prestando especial atención al cine de no ficción y a las formas limítrofes con el documental, el cine más alternativo e independiente y la colaboración con festivales y propuestas culturales que tienen lugar en la ciudad de Madrid y con un fuerte acento en el apoyo al pensamiento, la creación y la formación crítica y audiovisual. Cineteca cuenta con tres salas de proyección, Azcona (224 butacas), Plató (121 butacas) y Borau (65 butacas), así como varios espacios polivalentes - Archivo, Vestíbulo, Cantina, Patio. Venta anticipada en la página web. Metro: Legazpi (líneas 3 y 6).  Bus: 123, 22, 79, 148, 18, 6, 78, 45, 8, 19, 247, 47, 59, 62, 76, 85, 86, 156, 180.  Bicimad: Estación 177 (calle Bolívar, 3).",
+			"accesibility": "1",
+			"schedule": "Horario de taquilla (situada frente a Cantina de Cineteca) en acceso Plaza de Legazpi: de martes a domingo, de 16:30 a 20:30 horas o hasta inicio de actividad. La venta de entradas online continúa activa en la web de Cineteca.",
+			"services": "Entradas adquiridas por Internet: acceso directo sin pasar por taquilla mostrando la entrada en papel o en dispositivo móvil. En caso contrario es imprescindible retirar la entrada en taquilla presentando número de localizador o tarjeta de compra.   Para acceder a todas las sesiones se necesita ticket de entrada. Una vez empezada la sesión no se permitirá el acceso a las salas. No está permitido fumar ni acceder a las salas con comida y bebida. No se permite la entrada con animales, excepto perros guía. Se ruega silencien los teléfonos móviles durante la sesión. Por motivos de seguridad, no abandonen sus asientos hasta que se hayan encendido totalmente las luces de la sala. Los espectadores cuentan con hojas de reclamación a su disposición en taquilla. La programación puede sufrir cambios por causas ajenas Cineteca.",
+			"organization-name": "Cineteca Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2044-filmoteca-espanola-cine-dore.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "2044",
+		"title": "Filmoteca Española. Cine Doré",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1c1f3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE SANTA ISABEL 3"
+		},
+		"location": {
+			"latitude": 40.41181537728099,
+			"longitude": -3.699210277850401
+		},
+		"organization": {
+			"organization-desc": "Desde el 28 de febrero de 1989 el cine Doré es la sala de proyecciones de Filmoteca Española, y se utiliza tanto para su programación como para la realización de todo tipo de actividades de divulgación que permitan difundir el patrimonio cinematográfico español y sobre el cine en general: presentación de libros, seminarios, mesas redondas, coloquios, conferencias, etcétera.  Metro: Antón Martín (línea 1) y Lavapiés (línea 3).  Bus: 26, 32, 6, 002, M1, 57.  Bicimad: Estaciones 41 (calle Atocha 54), 42 (calle Atocha, 95).  Aparcamiento: Plaza de Santa Ana (77).",
+			"accesibility": "3",
+			"schedule": "Presencialmente el mismo día de la proyección. Las taquillas abren de 17:00 a 20:00 en horario de invierno y de 17:30 a 20:30 en horario de verano (del 1 julio a 1 de septiembre)  De forma online con 72 horas de antelación.",
+			"services": "Venta de entradas f orma online con 72 horas de antelación.",
+			"organization-name": "Filmoteca Española. Cine Doré"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55827-odeon-multicines-alcala-norte.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "55827",
+		"title": "Odeón Multicines Alcalá Norte",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f14c3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ALCALA 414"
+		},
+		"location": {
+			"latitude": 40.417217086707446,
+			"longitude": -3.7022467840241053
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ciudad Lineal (línea 5).  Bus: 104, 109, 113, 4, 77, 105, 38, 48, 70, N5.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Odeón Multicines Alcalá Norte"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43002-pequeno-cine-estudio.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "43002",
+		"title": "Pequeño Cine Estudio",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f77d3d232e91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE MAGALLANES 1"
+		},
+		"location": {
+			"latitude": 40.43245465882511,
+			"longitude": -3.7053743931338916
+		},
+		"organization": {
+			"organization-desc": "  Metro: Quevedo (línea 2).  Bus: 149, 3, 37, 16, 61, N23.  Bicimad: Estación 200 (glorieta Quevedo, 5), 3 (plaza del Conde del Valle de Súchil, 3), 127 (calle Fernardo el Católico, 19).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Pequeño Cine Estudio"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11012941-yelmo-cines-ideal.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "11012941",
+		"title": "Yelmo Cines Ideal",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=363bbedef850d610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE DOCTOR CORTEZO 6"
+		},
+		"location": {
+			"latitude": 40.41381195334125,
+			"longitude": -3.703799959506574
+		},
+		"organization": {
+			"organization-desc": "  Metro: Tirso de Molina (líneas 1), Sol (líneas 1, 2 y 3), Antón Martín (línea 1).   Autobús: 002, M1, SE712, 26, 32, 6, 65, 50, N26.   Cercanías Renfe: Sol (líneas C3, C3a, C4, C4a).  Bicimad: Estaciones 34 (plaza de Jacinto Benavente), 32 (plaza de la Provincia, 1), 33 (calle de Carretas, 8), 52 (plaza de Santa Ana, 10).  Aparcamiento: Jacinto Benavente (15), Plaza Jacinto Benavente.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Yelmo Cines Ideal"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5548871-yelmo-cines-islazul.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "5548871",
+		"title": "Yelmo Cines Islazul",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2bc4a4cc80056210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/Buenavista"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28054",
+			"street-address": "CALLE CALDERILLA 1"
+		},
+		"location": {
+			"latitude": 40.36521668890186,
+			"longitude": -3.737923481612698
+		},
+		"organization": {
+			"organization-desc": "  Bus: 118, N16.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Yelmo Cines Islazul"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11012970-yelmo-cines-plenilunio.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+		"id": "11012970",
+		"title": "Yelmo Cines Plenilunio",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4f5cbedef850d610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Rejas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "CALLE ARACNE  sin número"
+		},
+		"location": {
+			"latitude": 40.44865124253895,
+			"longitude": -3.5872459083036285
+		},
+		"organization": {
+			"organization-desc": "  ",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Yelmo Cines Plenilunio"
+		}
+	}	  
+  ]
+}
+

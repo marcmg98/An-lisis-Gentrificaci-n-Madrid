@@ -1,0 +1,3727 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191232-angeles-urbanos-hortaleza-centro-ocupacional-personas-discapacidad-intelectual.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7191232",
+		"title": "Ángeles Urbanos Hortaleza, centro ocupacional para personas con discapacidad intelectual",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b9848f0794072410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE JOSE ALVAREZ DE TOLEDO 6 PLANTA Baja"
+		},
+		"location": {
+			"latitude": 40.4622896632514,
+			"longitude": -3.6291868399298917
+		},
+		"organization": {
+			"organization-desc": "  Metro: Canillas (línea 4)  Bus: 73, 120",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Ángeles Urbanos Hortaleza, centro ocupacional para personas con discapacidad intelectual"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156077-apam-centro-rehabilitacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "11156077",
+		"title": "APAM Centro de rehabilitación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f96bbc18998c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/CuatroCaminos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28020",
+			"street-address": "CALLE JAEN 32"
+		},
+		"location": {
+			"latitude": 40.45028920491589,
+			"longitude": -3.7002985278627993
+		},
+		"organization": {
+			"organization-desc": "  Metro: Alvarado (línea 1)  Bus: 5, 149, 43, 124, 128, 3, 64, 66",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "APAM Centro de rehabilitación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10613790-apfmps-residencia-centro-dia-centro-ocupacional-instituto-doctor-quintero-lumbreras.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10613790",
+		"title": "APFMPS, Residencia, centro de día y centro ocupacional Instituto Doctor Quintero Lumbreras",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=11dc2ab96da61610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Distrito"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CARRETERA COLMENAR VIEJO 13.6"
+		},
+		"location": {
+			"latitude": 40.56299317375062,
+			"longitude": -3.7140517146418874
+		},
+		"organization": {
+			"organization-desc": "  Bus: 712, 713, 714, 716",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Residencia, centro de día y centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "APFMPS, Residencia, centro de día y centro ocupacional Instituto Doctor Quintero Lumbreras"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "1417",
+		"title": "ATENPACE Centro de rehabilitación para jóvenes y adultos paralíticos cerebrales",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f25376172d71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/PenaGrande"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28035",
+			"street-address": "CALLE ISLAS MARQUESAS 27"
+		},
+		"location": {
+			"latitude": 40.47636911532918,
+			"longitude": -3.7263082350685446
+		},
+		"organization": {
+			"organization-desc": "  Metro: Peñagrande, Avenida de la Ilustración (línea 7)   Bus: 64, 83, 133",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "ATENPACE Centro de rehabilitación para jóvenes y adultos paralíticos cerebrales"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827523-alicia-koplowitz-centro-dia-centro-residencial-esclerosis-multiple-comunidad-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "7827523",
+		"title": "Alicia Koplowitz Centro de día y centro residencial de Esclerosis Múltiple de la Comunidad de Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e9f7c8c2e9ca410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/Valdebernardo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "BULEVAR JOSE PRAT 40"
+		},
+		"location": {
+			"latitude": 40.3961484554016,
+			"longitude": -3.619735666015524
+		},
+		"organization": {
+			"organization-desc": "  Metro: Valdebernardo (línea 9)  Bus: 71, 130, E4  Bicimad: Estación 465 (Cordel de Pavones, 48)",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro residencial y centro de día para personas con discapacidad física.",
+			"organization-name": "Alicia Koplowitz Centro de día y centro residencial de Esclerosis Múltiple de la Comunidad de Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11917-aluche-centro-ocupacional-personas-discapacidad-intelectual.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11917",
+		"title": "Aluche, centro ocupacional para personas con discapacidad intelectual",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f72466051361c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/LasAguilas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28044",
+			"street-address": "CALLE RAFAEL FINAT 48"
+		},
+		"location": {
+			"latitude": 40.378239183007324,
+			"longitude": -3.771529019692818
+		},
+		"organization": {
+			"organization-desc": "  Bus: 17, 34, 39, 117, 138, 139  Renfe: Las Águilas (C5)  Metro: Aluche (línea 5)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Aluche, centro ocupacional para personas con discapacidad intelectual"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155083-amafe-centro-dia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155083",
+		"title": "Amafe, Centro de día",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c924648cbfeb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Guindalera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28028",
+			"street-address": "CALLE RUIZ PERELLO 7"
+		},
+		"location": {
+			"latitude": 40.430014220483805,
+			"longitude": -3.6667355853404433
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ventas (línea 2, 5)    Bus: 106, 110, 146, 21, 210, 38, 53, 12",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Amafe, Centro de día"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35013-amanecer-centro-ocupacional-personas-discapacidad-intelectual.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "35013",
+		"title": "Amanecer, Centro ocupacional para personas con discapacidad intelectual",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e087b3e42751c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/CiudadJardin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28002",
+			"street-address": "CALLE MATILDE DIEZ 8"
+		},
+		"location": {
+			"latitude": 40.44588922720919,
+			"longitude": -3.673799864511205
+		},
+		"organization": {
+			"organization-desc": "  Metro: Prosperidad (línea 4), Cruz del Rayo (línea 9)  Bus: 73, 9  Bicimad: Estación 146 (calle María Francisca, 1)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Amanecer, Centro ocupacional para personas con discapacidad intelectual"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34541-aprocor-i-taller-centro-ocupacional.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "34541",
+		"title": "Aprocor I, Taller centro ocupacional",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9697b3e42751c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE ESTEBAN PALACIOS 12"
+		},
+		"location": {
+			"latitude": 40.457872904908626,
+			"longitude": -3.6222314192739904
+		},
+		"organization": {
+			"organization-desc": "  Bus: 112, 122, 153, 104",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual",
+			"organization-name": "Aprocor I, Taller centro ocupacional"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610720-asociacion-esclerosis-multiple-madrid-centro-rehabilitacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "10610720",
+		"title": "Asociación esclerosis múltiple Madrid, centro de rehabilitación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2e94ef2b16151610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/LaPaz"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE SANGENJO 36 PLANTA 1º"
+		},
+		"location": {
+			"latitude": 40.48753110350201,
+			"longitude": -3.6985691585465794
+		},
+		"organization": {
+			"organization-desc": "  Bus: 67, 83, 125, 175, 178, 165, 166",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Asociación esclerosis múltiple Madrid, centro de rehabilitación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156108-carmen-rodriguez-centro-rehabilitacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "11156108",
+		"title": "Carmen Rodríguez, Centro de rehabilitación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=846cbc18998c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Legazpi"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "CALLE CROMO 5"
+		},
+		"location": {
+			"latitude": 40.39012058613276,
+			"longitude": -3.688378230986349
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arganzuela-Planetario (línea 6)  Bus: 148, 156",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Carmen Rodríguez, Centro de rehabilitación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11841150-centro-belmonte-unicas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11841150",
+		"title": "Centro Belmonte Únicas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa3ad8a63ef44810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/Opanel"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28019",
+			"street-address": "CALLE BELMONTE DE TAJO 52"
+		},
+		"location": {
+			"latitude": 40.39109482890491,
+			"longitude": -3.720064527253826
+		},
+		"organization": {
+			"organization-desc": "  Bus: 118, 116  Metro: Urgel (línea 5)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con enfermedad mental crónica.",
+			"organization-name": "Centro Belmonte Únicas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610621-centro-dato-ii-centro-recuperacion-personas-discapacidad-fisica.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "10610621",
+		"title": "Centro Dato II, centro de recuperación para personas con discapacidad física",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f623ef2b16151610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "RONDA AVUTARDA 3"
+		},
+		"location": {
+			"latitude": 40.45308767054584,
+			"longitude": -3.636823746093877
+		},
+		"organization": {
+			"organization-desc": "  Bus: 114, 115",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de recuperación para personas con discapacidad física.",
+			"organization-name": "Centro Dato II, centro de recuperación para personas con discapacidad física"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608730-centro-dato-rehabilitacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10608730",
+		"title": "Centro Dato de rehabilitación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d6fb3eb6a4c41610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE ANDARRIOS 19"
+		},
+		"location": {
+			"latitude": 40.45528803169302,
+			"longitude": -3.632112763387634
+		},
+		"organization": {
+			"organization-desc": "  Metro: Canillas (Línea 4)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física",
+			"organization-name": "Centro Dato de rehabilitación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155867-centro-exter-personas-enfermedad-mental-centro-dia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155867",
+		"title": "Centro Exter para personas con enfermedad mental, Centro de día",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7bdbaf9c474c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/Valdebernardo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "BULEVAR JOSE PRAT 36"
+		},
+		"location": {
+			"latitude": 40.396633404196365,
+			"longitude": -3.620493665952262
+		},
+		"organization": {
+			"organization-desc": "  Bus: E4, 71, 130  Metro: Valdebernardo (línea 9)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro Exter para personas con enfermedad mental, Centro de día"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11846435-centro-menni-vallecas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11846435",
+		"title": "Centro Menni Vallecas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1e67942ec3574810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/PalomerasSureste"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "AVENIDA ALBUFERA 321"
+		},
+		"location": {
+			"latitude": 40.383588923720616,
+			"longitude": -3.631430614569706
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sierra de Guadalupe (línea 1)  Bus: 103, 142. 143, 58, 54",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con enfermedad mental crónica.",
+			"organization-name": "Centro Menni Vallecas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11527688-centro-ocupacional-cirvite.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11527688",
+		"title": "Centro Ocupacional Cirvite",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7a66c4390973d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Canillejas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "CALLE ESPARTA 19 PLANTA 2"
+		},
+		"location": {
+			"latitude": 40.44876603712921,
+			"longitude": -3.616433914239875
+		},
+		"organization": {
+			"organization-desc": "  Bus: 114, 115, 105, 153  Metro: Canillejas (línea 5)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro Ocupacional Cirvite"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133712-centro-ocupacional-estar-yebenes.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "133712",
+		"title": "Centro Ocupacional Estar Los Yebenes",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=50886da0aa81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/Aluche"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "CALLE LOS YEBENES 241 PLANTA 2"
+		},
+		"location": {
+			"latitude": 40.39119412570655,
+			"longitude": -3.7512714973887014
+		},
+		"organization": {
+			"organization-desc": "  Bus: 31",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro Ocupacional Estar Los Yebenes"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35004-centro-recuperacion-personas-discapacidad-fisica-crmf-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "35004",
+		"title": "Centro de Recuperación de  Personas con Discapacidad Física (CRMF) de Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fc85b3e42751c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Numancia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28038",
+			"street-address": "CAMINO VALDERRIBAS 113"
+		},
+		"location": {
+			"latitude": 40.39473075429985,
+			"longitude": -3.6569615118564247
+		},
+		"organization": {
+			"organization-desc": "El Centro de Recuperación de Personas con Discapacidad Física (CRMF) del Imserso en Madrid, es un centro de servicios sociales público y gratuito para personas con diversidad funcional de todo el territorio español que ofrece a las personas usuarias un apoyo integral mediante Planes Individualizados de Recuperación desde un modelo de atención centrado en la persona, y facilitar así tanto su integración socio laboral como su calidad de vida, tal como establece nuestra carta de servicios.  Metro: Portazgo (línea 1).  Bus: 54, 57, 58, 103, 136, 141, 143  Bicimad: Estación 428 (Avenida de la Albufera, 136)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Servicios y prestaciones:    Fomento de la autonomía personal y social.   Orientación formativa y profesional.   Formación para el empleo y mejora de competencias básicas.   Servicio de integración laboral.   Recuperación médico funcional, incluyendo servicio de enfermería, de Fisioterapia, de logopedia y Terapia Ocupacional.   Servicio de rehabilitación psicológica.   Servicio de trabajo social.   Asistencia Técnica en materia de autonomía personal accesibilidad y nuevas tecnologías.   Actividades de ocio, tiempo libre y espacios de disfrute personal.   Alojamiento (Temporalmente fuera de servicio).   Manutención.  Atención e intervención a distancia. A través de la plataforma Teams y actualmente Cisco Webex, se realizan intervenciones individuales con las personas usuarias que por circunstancias no pueden acudir presencialmente al centro",
+			"organization-name": "Centro de Recuperación de  Personas con Discapacidad Física (CRMF) de Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2022-centro-referencia-estatal-autonomia-personal-ayudas-tecnicas-ceapat-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/ArchivosCentrosDocumentacion",
+		"id": "2022",
+		"title": "Centro de Referencia Estatal de Autonomía Personal y Ayudas Técnicas (CEAPAT)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=afdd1e79ee71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/PalomerasSureste"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28018",
+			"street-address": "CALLE EXTREME&amp;Ntilde;OS 1"
+		},
+		"location": {
+			"latitude": 40.38554368384592,
+			"longitude": -3.6457769875674284
+		},
+		"organization": {
+			"organization-desc": "  Metro: Miguel Hernández (línea 1)  Bus: 10, 57",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Centro de Referencia Estatal de Autonomía Personal y Ayudas Técnicas (CEAPAT)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11285226-centro-atencion-rafael-cattarini.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "11285226",
+		"title": "Centro de atención Rafael Cattarini",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=48cd6755a3156710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/Almenara"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28029",
+			"street-address": "CALLE EMILIA 51"
+		},
+		"location": {
+			"latitude": 40.472056921905434,
+			"longitude": -3.6981904175962454
+		},
+		"organization": {
+			"organization-desc": "  Bus: 177, 42",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Centro de atención Rafael Cattarini"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11285132-centro-atencion-personas-adultas-mayores-afectadas-enfermedad-parkinson.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "11285132",
+		"title": "Centro de atención para personas adultas y mayores afectadas por la enfermedad de Parkinson",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9b176fc5df056710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ANDRES TORREJON 18"
+		},
+		"location": {
+			"latitude": 40.40782981137551,
+			"longitude": -3.6820700568399913
+		},
+		"organization": {
+			"organization-desc": "  Metro: Menéndez Pelayo (línea 1).  Bus: 10, 14, 26, 32, C1, C2.  Bicimad: Estación 281 (Paseo Reina Cristina,6).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física",
+			"organization-name": "Centro de atención para personas adultas y mayores afectadas por la enfermedad de Parkinson"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11524888-centro-dia-ademo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11524888",
+		"title": "Centro de día Ademo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7429fd5e9c82d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/Fontarron"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28030",
+			"street-address": "CALLE LA TACONA 3"
+		},
+		"location": {
+			"latitude": 40.39665181785836,
+			"longitude": -3.641373451931094
+		},
+		"organization": {
+			"organization-desc": "  Bus: 20, 142, 144",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día Ademo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607889-centro-dia-afanias-espacio-abierto.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "10607889",
+		"title": "Centro de día Afanias Espacio Abierto",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bf86ffbd81741610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/Lucero"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28011",
+			"street-address": "CALLE HERVAS 12"
+		},
+		"location": {
+			"latitude": 40.406241800167095,
+			"longitude": -3.743111431397358
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lucero (línea 6)    Bus: 31, 138    Bicimad: estación 349 (Calle Huerta de Catañeda, 26)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día Afanias Espacio Abierto"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77520-centro-dia-arguelles.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "77520",
+		"title": "Centro de día Argüelles",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0c588ed67151c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE ANDRES MELLADO 31"
+		},
+		"location": {
+			"latitude": 40.43364271681343,
+			"longitude": -3.7145658372075636
+		},
+		"organization": {
+			"organization-desc": "  Metro: Moncloa (líneas 3, 6)  Bus: 2, 16, 61  Bicimad: Estación 199 (Calle Fernando el Católico n&amp;ordm; 61)",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad física",
+			"organization-name": "Centro de día Argüelles"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155041-centro-dia-atipadace-ii.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155041",
+		"title": "Centro de día Atipadace II",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7d9f648cbfeb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28035",
+			"street-address": "CALLE MIRADOR DE LA REINA 115"
+		},
+		"location": {
+			"latitude": 40.49074187160651,
+			"longitude": -3.719959549966161
+		},
+		"organization": {
+			"organization-desc": "  Metro: Mirasierra (línea 9)    Bus: 64",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad física.",
+			"organization-name": "Centro de día Atipadace II"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11154976-centro-dia-aucavi-hortaleza.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11154976",
+		"title": "Centro de día Aucavi - Hortaleza",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9ec8648cbfeb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE MACHAQUITO 33"
+		},
+		"location": {
+			"latitude": 40.45780755833256,
+			"longitude": -3.6262076892323165
+		},
+		"organization": {
+			"organization-desc": "  Bus: 112, 122, 153  Bicimad: Estación 537 (Avenida de Machupichu, 23)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día Aucavi - Hortaleza"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155183-centro-dia-chamberi-intress.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155183",
+		"title": "Centro de día Chamberí Intress",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0770fe1d63fb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE BOIX Y MORER 8"
+		},
+		"location": {
+			"latitude": 40.43986202869541,
+			"longitude": -3.706336723557644
+		},
+		"organization": {
+			"organization-desc": "  Bus: 2, 149, 37   Metro: Canal (línea 2, 7), Ríos Rosas (línea 1)   Bicimad: estación 202 (calle Santander esquina con avenida Filipinas) / estación 201 (calle José Abascal frente al número 2)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica",
+			"organization-name": "Centro de día Chamberí Intress"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155167-centro-dia-ciudad-lineal.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155167",
+		"title": "Centro de día Ciudad Lineal",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8d9efe1d63fb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Ventas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28017",
+			"street-address": "CALLE SOR MARIA DE AGREDA 47"
+		},
+		"location": {
+			"latitude": 40.43033820411039,
+			"longitude": -3.647088183295877
+		},
+		"organization": {
+			"organization-desc": "  Metro: Quintana (línea 5)    Bus: 113, 28",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día Ciudad Lineal"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11942-centro-dia-enco.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11942",
+		"title": "Centro de día Enco",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ad3466051361c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Valverde"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28050",
+			"street-address": "CALLE FROMISTA 13"
+		},
+		"location": {
+			"latitude": 40.51040715725058,
+			"longitude": -3.6744305706601446
+		},
+		"organization": {
+			"organization-desc": "  Metro: Las Tablas (línea 10)    Bus: 175, 176",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día Enco"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11529474-centro-dia-fuencarral.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11529474",
+		"title": "Centro de día Fuencarral",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c78db63ecf64d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Valverde"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE HOSPITALET DE LLOBREGAT 2"
+		},
+		"location": {
+			"latitude": 40.494422352403646,
+			"longitude": -3.6930247463417136
+		},
+		"organization": {
+			"organization-desc": "  Metro: Fuencarral (línea 10)    Bus: 137, 66",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día Fuencarral"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133823-centro-dia-funprodami.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "133823",
+		"title": "Centro de día Funprodami",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=32dd15a11a81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/SanDiego"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28018",
+			"street-address": "CALLE GARCIA MIRANDA 4"
+		},
+		"location": {
+			"latitude": 40.38303190435413,
+			"longitude": -3.6641521212637627
+		},
+		"organization": {
+			"organization-desc": "  Bus: 57, 144  Cercanías: Asamblea de Madrid-Entrevías (C2, C7)",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día Funprodami"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155855-centro-dia-grupo-5-arganzuela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155855",
+		"title": "Centro de día Grupo 5 Arganzuela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=190aaf9c474c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE ARGANDA 18"
+		},
+		"location": {
+			"latitude": 40.400654256768846,
+			"longitude": -3.7075737182792587
+		},
+		"organization": {
+			"organization-desc": "  Metro: Pirámides (línea 5)    Bus: 18, 62    Bicimad: Estación 275 (Paseo de Juan Antonio Vallejo Nájera Botas, 28).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica",
+			"organization-name": "Centro de día Grupo 5 Arganzuela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155851-centro-dia-hortaleza.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155851",
+		"title": "Centro de día Hortaleza",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3bc8af9c474c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/PinarRey"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28033",
+			"street-address": "CALLE MAR BALTICO 11"
+		},
+		"location": {
+			"latitude": 40.47265231214954,
+			"longitude": -3.641857122868782
+		},
+		"organization": {
+			"organization-desc": "  Metro: San Lorenzo (línea 4)    Bus: 72, 87",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día Hortaleza"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155221-centro-dia-latina-grupo-5.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155221",
+		"title": "Centro de día La Latina Grupo 5",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba05fe1d63fb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/PuertaAngel"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28011",
+			"street-address": "CALLE JAIME VERA 25"
+		},
+		"location": {
+			"latitude": 40.41073588139989,
+			"longitude": -3.7285148876397805
+		},
+		"organization": {
+			"organization-desc": "  Metro: Puerta del Ángel (línea 6)    Bus: 138    Bicimad: estación 325 (Paseo de los Jesuitas, 4)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día La Latina Grupo 5"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607888-centro-dia-nuestra-senora-camino.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "10607888",
+		"title": "Centro de día Nuestra Señora del Camino",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5e36ffbd81741610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE DIONISIO INCA YUPANQUI 17"
+		},
+		"location": {
+			"latitude": 40.461875888579776,
+			"longitude": -3.6323714862737186
+		},
+		"organization": {
+			"organization-desc": "  Metro: Canillas (línea 4)    Bus: 120, 112, 122, 153",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día Nuestra Señora del Camino"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191698-centro-dia-san-alfonso.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7191698",
+		"title": "Centro de día San Alfonso",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ec7b7006ac072410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Pradolongo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28026",
+			"street-address": "AVENIDA RAFAELA YBARRA 75 PLANTA BAJO"
+		},
+		"location": {
+			"latitude": 40.37846222434239,
+			"longitude": -3.7117800681016506
+		},
+		"organization": {
+			"organization-desc": "  Bus: 131, 6, 60, 116, 78, 81",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día San Alfonso"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156045-centro-dia-soporte-social-distrito-centro-letras.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156045",
+		"title": "Centro de día Soporte social distrito Centro Las Letras",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0f465c10c05c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "COSTANILLA DESAMPARADOS 17"
+		},
+		"location": {
+			"latitude": 40.411897144625414,
+			"longitude": -3.6966340908357855
+		},
+		"organization": {
+			"organization-desc": "  Metro: Antón Martín (línea 1)    Bus: 26, 32, 6",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día Soporte social distrito Centro Las Letras"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155110-centro-dia-walk-gainza.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155110",
+		"title": "Centro de día Walk Gainza",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2de6648cbfeb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Orcasitas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CALLE GAINZA 307"
+		},
+		"location": {
+			"latitude": 40.36586293320146,
+			"longitude": -3.7169516557042277
+		},
+		"organization": {
+			"organization-desc": "  Bus: 6, 60",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día Walk Gainza"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11858420-centro-dia-personas-discapacidad-intelectual-rehabilitacion-fundacion-instituto-san-jose.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11858420",
+		"title": "Centro de día para personas con discapacidad intelectual y rehabilitación Fundación Instituto San José",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d541e5b090cb4810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/CuatroVientos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28054",
+			"street-address": "CALLE PINAR DE SAN JOSE 98"
+		},
+		"location": {
+			"latitude": 40.36209379003986,
+			"longitude": -3.774890979411398
+		},
+		"organization": {
+			"organization-desc": "  Bus: 155, 35, SE832",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día para personas con discapacidad intelectual y rehabilitación Fundación Instituto San José"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11285436-centro-dia-centro-rehabilitacion-fundacion-manantial-personas-trastorno-mental-grave-barajas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11285436",
+		"title": "Centro de día y centro de rehabilitación Fundación Manantial para personas con trastorno mental grave de Barajas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d4e5a178d9156710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/CascoHBarajas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "PLAZA HERMANOS FALCO Y ALVAREZ DE TOLEDO 1"
+		},
+		"location": {
+			"latitude": 40.4735113714068,
+			"longitude": -3.57805132010274
+		},
+		"organization": {
+			"organization-desc": "  Bus: 101, 105, 115",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de día y centro de rehabilitación para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día y centro de rehabilitación Fundación Manantial para personas con trastorno mental grave de Barajas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11851901-centro-dia-centro-rehabilitacion-psicosocial-nuestra-senora-sagrario.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11851901",
+		"title": "Centro de día y centro de rehabilitación psicosocial Nuestra Señora del Sagrario",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eb2ac52a86994810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/VistaAlegre"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28025",
+			"street-address": "CALLE MATILDE HERNANDEZ 97"
+		},
+		"location": {
+			"latitude": 40.38625494158068,
+			"longitude": -3.737565015216509
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vista Alegre (línea 5), Carabanchel (línea 5)  Bus: 34, 35",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día y centro de rehabilitación para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día y centro de rehabilitación psicosocial Nuestra Señora del Sagrario"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1143-centro-dia-centro-ocupacional-manos-tendidas-arganzuela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "1143",
+		"title": "Centro de día y centro ocupacional Manos Tendidas Arganzuela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d9ce1e79ee71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Legazpi"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "CALLE RICARDO DAMAS 3"
+		},
+		"location": {
+			"latitude": 40.387080871048894,
+			"longitude": -3.6946832916098575
+		},
+		"organization": {
+			"organization-desc": "  Metro: Legazpi (línea 3, 6)  Bus: 62, 148, 156, T32  Bicimad: Estación 270 (Calle Teresa López Valcárcel esq. Teniente Coronel Noreña)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día y centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día y centro ocupacional Manos Tendidas Arganzuela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51238-centro-dia-centro-ocupacional-atencion-al-funcionamiento-personas-patologia-dual-pardo-valcarce.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "51238",
+		"title": "Centro de día y centro ocupacional para la atención al funcionamiento de personas con patología dual Pardo Valcarce",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e965598d1351c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE MONASTERIO DE LAS HUELGAS 15"
+		},
+		"location": {
+			"latitude": 40.50212487356608,
+			"longitude": -3.7071987746336155
+		},
+		"organization": {
+			"organization-desc": "  Metro: Paco de Lucía (línea 9)  Bus: 134, 170, 178",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de día y centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día y centro ocupacional para la atención al funcionamiento de personas con patología dual Pardo Valcarce"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11847716-centro-dia-residencia-medinaceli-personas-discapacidad-intelectual.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "11847716",
+		"title": "Centro de día y residencia Medinaceli para personas con discapacidad intelectual",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=609508efba674810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE ESTUDIANTES 3"
+		},
+		"location": {
+			"latitude": 40.44672150500691,
+			"longitude": -3.712527732281532
+		},
+		"organization": {
+			"organization-desc": "  Metro: Guzmán el Bueno (línea 6, 7)  Bus: 45, 2, C1, F, C2, 44",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Residencia y centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día y residencia Medinaceli para personas con discapacidad intelectual"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155178-centro-dia-soporte-social-villaverde.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155178",
+		"title": "Centro de día y soporte social Villaverde",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f40ffe1d63fb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/SanCristobal"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28021",
+			"street-address": "PLAZA PINAZO 6"
+		},
+		"location": {
+			"latitude": 40.34276443083453,
+			"longitude": -3.6903066483625735
+		},
+		"organization": {
+			"organization-desc": "  Bus: 79, 59",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de día y soporte social Villaverde"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192500-centro-dia-centro-ocupacional-centro-rehabilitacion-laboral-fundacion-juan-xxiii-roncalli.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7192500",
+		"title": "Centro de día, centro ocupacional y centro de rehabilitación laboral Fundación Juan XXIII Roncalli",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c6d4085304572410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/Valderrivas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "AVENIDA GRAN VIA DEL ESTE 1 PLANTA BAJO"
+		},
+		"location": {
+			"latitude": 40.403066988507774,
+			"longitude": -3.595441745849985
+		},
+		"organization": {
+			"organization-desc": "  Metro: Puerta de Arganda (línea 9)  Bus: 100, 106, 159, T23, E5, SE718, 71, E3  Renfe: Puerta de Arganda (C2, C7)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día, centro ocupacional y centro de rehabilitación laboral para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día, centro ocupacional y centro de rehabilitación laboral Fundación Juan XXIII Roncalli"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/175151-centro-dia-centro-ocupacional-residencia-apadema.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AsociacionesAccionSocial",
+		"id": "175151",
+		"title": "Centro de día, centro ocupacional y residencia APADEMA",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=901c14c4d661c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE MORALZARZAL 73"
+		},
+		"location": {
+			"latitude": 40.495481283296485,
+			"longitude": -3.7152153401473864
+		},
+		"organization": {
+			"organization-desc": "  Metro: Mirasierra (línea 9)  Bus: 133, 134",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de día, centro ocupacional y residencia para personas con discapacidad intelectual.",
+			"organization-name": "Centro de día, centro ocupacional y residencia APADEMA"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10863039-centro-rehabilitacion-indane.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10863039",
+		"title": "Centro de rehabilitación INDANE",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e7ca40fd4f638610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE VALLEHERMOSO 100 PLANTA BAJA"
+		},
+		"location": {
+			"latitude": 40.43959649590148,
+			"longitude": -3.7080805370600967
+		},
+		"organization": {
+			"organization-desc": "  Metro: Canal (línea 2, 7)  Bus: 2, 12",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Centro de rehabilitación INDANE"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156145-centro-rehabilitacion-neurociencia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "11156145",
+		"title": "Centro de rehabilitación Neurociencia",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f0febc18998c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Aravaca"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28023",
+			"street-address": "AVENIDA OSA MAYOR 2"
+		},
+		"location": {
+			"latitude": 40.46171934729419,
+			"longitude": -3.773283130892027
+		},
+		"organization": {
+			"organization-desc": "  Bus: 160",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Centro de rehabilitación Neurociencia"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11532115-centro-rehabilitacion-orpea-madrid-mirasierra.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11532115",
+		"title": "Centro de rehabilitación Orpea Madrid Mirasierra",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=098353f6a7d4d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28035",
+			"street-address": "AVENIDA VENTISQUERO DE LA CONDESA 46 PLANTA BAJA"
+		},
+		"location": {
+			"latitude": 40.49467303163574,
+			"longitude": -3.7179277349273487
+		},
+		"organization": {
+			"organization-desc": "  Metro: Mirasierra (línea 9)  Bus: 49",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Centro de rehabilitación Orpea Madrid Mirasierra"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608768-centro-rehabilitacion-integral-femm.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "10608768",
+		"title": "Centro de rehabilitación integral de la FEMM",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4a4d3eb6a4c41610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/Almenara"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28029",
+			"street-address": "AVENIDA ASTURIAS 35"
+		},
+		"location": {
+			"latitude": 40.468981171236365,
+			"longitude": -3.6954859236722464
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ventilla (línea 9), Plaza de Castilla (línea 1, 9, 10)  Bus: 42, 177  Bicimad: Estación 296 (Calle de la Costa Verde, 25-23)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física",
+			"organization-name": "Centro de rehabilitación integral de la FEMM"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156234-centro-rehabilitacion-laboral-arganzuela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156234",
+		"title": "Centro de rehabilitación laboral Arganzuela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=45a3a9e48d8c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE ARQUITECTURA 1"
+		},
+		"location": {
+			"latitude": 40.4003293600296,
+			"longitude": -3.7028221528501994
+		},
+		"organization": {
+			"organization-desc": "  Metro: Acacias (línea 5)    Bus: 62",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de rehabilitación laboral Arganzuela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156224-centro-rehabilitacion-laboral-candelita-ciudad-lineal.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156224",
+		"title": "Centro de rehabilitación laboral Candelita Ciudad Lineal",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a422a9e48d8c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/FuenteBerro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28028",
+			"street-address": "CALLE SANCHO DAVILA 19"
+		},
+		"location": {
+			"latitude": 40.42703675725809,
+			"longitude": -3.6617925056983625
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ventas (línea 2 y 5)    Bus: 12",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con enfermedad mental crónica",
+			"organization-name": "Centro de rehabilitación laboral Candelita Ciudad Lineal"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11285291-centro-rehabilitacion-laboral-carabanchel.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11285291",
+		"title": "Centro de rehabilitación laboral Carabanchel",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fcf9506f58156710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/VistaAlegre"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "CAMINO INGENIEROS 13"
+		},
+		"location": {
+			"latitude": 40.386205391513464,
+			"longitude": -3.747372785310797
+		},
+		"organization": {
+			"organization-desc": "  Bus: 17, 35  Metro: Carabanchel (línea 5)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con enfermedad mental crónica",
+			"organization-name": "Centro de rehabilitación laboral Carabanchel"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156184-centro-rehabilitacion-laboral-fuencarral.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156184",
+		"title": "Centro de rehabilitación laboral Fuencarral",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e928a9e48d8c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/LaPaz"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE ALFREDO MARQUERIE 11"
+		},
+		"location": {
+			"latitude": 40.486720067421565,
+			"longitude": -3.6978470161498955
+		},
+		"organization": {
+			"organization-desc": "  Bus: 67, 83, 125, 175, 178, 165, 166  Bicimad: Estación 606 (Calle Fermín Caballero 2)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica",
+			"organization-name": "Centro de rehabilitación laboral Fuencarral"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11857446-centro-rehabilitacion-laboral-intress-tetuan.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11857446",
+		"title": "Centro de rehabilitación laboral Intress Tetuán",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b58f5dbae3ea4810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/BellasVistas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28039",
+			"street-address": "CALLE DOCTOR SANTERO 22"
+		},
+		"location": {
+			"latitude": 40.447698501725654,
+			"longitude": -3.7067503601106604
+		},
+		"organization": {
+			"organization-desc": "  Bus: 127, 45, C1, F, C2, 44  Metro: Cuatro Caminos (líneas 1, 2, 6)  Bicimad: Estación 204 (Calle Doctor Santero, 1)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de rehabilitación laboral Intress Tetuán"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155854-centro-rehabilitacion-laboral-latina-grupo-5.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155854",
+		"title": "Centro de rehabilitación laboral Latina Grupo 5",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f49af9c474c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/PuertaAngel"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28011",
+			"street-address": "CALLE ARCANGEL SAN RAFAEL 1"
+		},
+		"location": {
+			"latitude": 40.40739162548029,
+			"longitude": -3.738273598624469
+		},
+		"organization": {
+			"organization-desc": "  Metro: Alto de Extremadura (línea 6)    Bus: 31, 33, 36, 39, 65",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de rehabilitación laboral Latina Grupo 5"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156165-centro-rehabilitacion-laboral-nueva-vida.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156165",
+		"title": "Centro de rehabilitación laboral Nueva vida",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=40a0bc18998c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Guindalera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28028",
+			"street-address": "CALLE COLOMER 14"
+		},
+		"location": {
+			"latitude": 40.43441973830678,
+			"longitude": -3.664480273941069
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ventas (línea 2 y 5)    Bus: 53, 74, 43, 48",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con enfermedad mental crónica.",
+			"organization-name": "Centro de rehabilitación laboral Nueva vida"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11525792-centro-rehabilitacion-laboral-villaverde.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11525792",
+		"title": "Centro de rehabilitación laboral Villaverde",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7602d5ae3bd2d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/LosAngeles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CALLE ALCOCER 42"
+		},
+		"location": {
+			"latitude": 40.35031859786236,
+			"longitude": -3.7011069209511023
+		},
+		"organization": {
+			"organization-desc": "  Bus: 130, 22, 86  Metro: Villaverde Bajo - Cruce (línea 3)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con enfermedad mental crónica",
+			"organization-name": "Centro de rehabilitación laboral Villaverde"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827714-centro-rehabilitacion-recuperacion-residencia-medinaceli.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "7827714",
+		"title": "Centro de rehabilitación y recuperación y residencia Medinaceli",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b6598e738bdca410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Portazgo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28038",
+			"street-address": "CALLE RAMIREZ TOME 38"
+		},
+		"location": {
+			"latitude": 40.38878570721145,
+			"longitude": -3.646501329650509
+		},
+		"organization": {
+			"organization-desc": "  Metro: Alto del Arenal (línea 1)  Bus: 57, 58, 103, 143",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Residencia y centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Centro de rehabilitación y recuperación y residencia Medinaceli"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608686-centro-servicios-multiples-residencia-lesionado-medular-miguel-angel-garcia-oca.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10608686",
+		"title": "Centro de servicios múltiples y residencia del lesionado medular Miguel Ángel García Oca",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b4a83eb6a4c41610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Numancia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28038",
+			"street-address": "CAMINO VALDERRIBAS 115"
+		},
+		"location": {
+			"latitude": 40.3944778539194,
+			"longitude": -3.6561267016339087
+		},
+		"organization": {
+			"organization-desc": "  Metro: Buenos Aires (línea 1), Portazgo (línea 1)    Bus: 54, 141, 143",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación y residencia para personas con discapacidad física.",
+			"organization-name": "Centro de servicios múltiples y residencia del lesionado medular Miguel Ángel García Oca"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7193047-centro-ocupacional-ademo-ii.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7193047",
+		"title": "Centro ocupacional Ademo II",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e707107d4d572410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/MediaLegua"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28030",
+			"street-address": "CALLE CAMINO DE LOS VINATEROS 59"
+		},
+		"location": {
+			"latitude": 40.41059083170422,
+			"longitude": -3.652661949694097
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vinateros (línea 9)  Bus: 71, 30, 32",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Ademo II"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191610-centro-ocupacional-afade.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7191610",
+		"title": "Centro ocupacional Afade",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8c17c067ba072410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/PalomerasSureste"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28038",
+			"street-address": "AVENIDA RAFAEL ALBERTI 4"
+		},
+		"location": {
+			"latitude": 40.39125175478508,
+			"longitude": -3.6382818521729297
+		},
+		"organization": {
+			"organization-desc": "  Metro: Alto del Arenal (línea 1), Miguel Hernández (línea 1)  Bus: 54, 144",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Afade"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179797-centro-ocupacional-afanias-victorias.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "179797",
+		"title": "Centro ocupacional Afanias las Victorias",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6ecfdef5ab41c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/Valdeacederas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28039",
+			"street-address": "CALLE FRAY JUNIPERO SERRA 27 PLANTA BAJO"
+		},
+		"location": {
+			"latitude": 40.46447885399867,
+			"longitude": -3.7003342953735996
+		},
+		"organization": {
+			"organization-desc": "  Metro: Valdeacederas (línea 1), Tetuán (línea 1)  Bus: 49  Bicimad: estación 301 (Calle Muller, 34)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Afanias las Victorias"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133713-centro-ocupacional-estar-5.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "133713",
+		"title": "Centro ocupacional Estar 5",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=06986da0aa81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/CascoHVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CAMINO HORMIGUERAS 122 PLANTA 4 Q1"
+		},
+		"location": {
+			"latitude": 40.37415200820221,
+			"longitude": -3.644499097070304
+		},
+		"organization": {
+			"organization-desc": "  Bus: 130, T31",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Estar 5"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11841316-centro-ocupacional-fundacion-inclusive.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11841316",
+		"title": "Centro ocupacional Fundación Inclusive",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=10b3d8a63ef44810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/CuatroCaminos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28020",
+			"street-address": "CALLE EDGAR NEVILLE 28"
+		},
+		"location": {
+			"latitude": 40.45139623758831,
+			"longitude": -3.6965098401771623
+		},
+		"organization": {
+			"organization-desc": "  Metro: Santiago Bernabeu (línea 10)  Bus: 149, 5, 43",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Fundación Inclusive"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192542-centro-ocupacional-fundacion-prodis.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7192542",
+		"title": "Centro ocupacional Fundación Prodis",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ce229e3465572410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/Valdebernardo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "BULEVAR INDALECIO PRIETO 2"
+		},
+		"location": {
+			"latitude": 40.40529380046373,
+			"longitude": -3.619628148619535
+		},
+		"organization": {
+			"organization-desc": "  Metro: Valdebernardo (línea 9)  Bus: 71, 130, 8",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Fundación Prodis"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827408-centro-ocupacional-jardines-espana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7827408",
+		"title": "Centro ocupacional Jardines de España",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1a97fb625b9ca410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/Castilla"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28036",
+			"street-address": "AVENIDA BURGOS 1"
+		},
+		"location": {
+			"latitude": 40.46938009662294,
+			"longitude": -3.676895278234155
+		},
+		"organization": {
+			"organization-desc": "  Bus: 173, 174, 176",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual",
+			"organization-name": "Centro ocupacional Jardines de España"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11937-centro-ocupacional-nazaret.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11937",
+		"title": "Centro ocupacional Nazaret",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8a7466051361c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Valdefuentes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28050",
+			"street-address": "AVENIDA MANOTERAS 1"
+		},
+		"location": {
+			"latitude": 40.48894186955553,
+			"longitude": -3.6711180069340204
+		},
+		"organization": {
+			"organization-desc": "  Bus: 174, 150  Renfe: Fuente de la Mora (C1, C10)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Nazaret"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11285521-centro-ocupacional-nuestra-senora-camino-iii.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "11285521",
+		"title": "Centro ocupacional Nuestra Señora del Camino III",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b0fd40d0b156710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28035",
+			"street-address": "CALLE NUEVA CALEDONIA 14"
+		},
+		"location": {
+			"latitude": 40.46212135262279,
+			"longitude": -3.7214188740023237
+		},
+		"organization": {
+			"organization-desc": "  Metro: Valdezarza (línea 7)  Bus: 126, 127, 132, 64",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Nuestra Señora del Camino III"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56940-centro-ocupacional-pintor-rosales.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "56940",
+		"title": "Centro ocupacional Pintor Rosales",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=637a8ed67151c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Arguelles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE MARQUES DE URQUIJO 47"
+		},
+		"location": {
+			"latitude": 40.42890933944999,
+			"longitude": -3.7211158485983127
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arg&amp;uuml;elles (línea 3, 4 y 6), Ventura Rodríguez (línea 3)  Bus: 1, 21, 44, 74, 133, 138",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Pintor Rosales"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608506-centro-ocupacional-ponce-leon.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10608506",
+		"title": "Centro ocupacional Ponce de León",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7a10c0a43fb41610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Orcasur"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CALLE EDUARDO BARREIROS 6"
+		},
+		"location": {
+			"latitude": 40.37240634440121,
+			"longitude": -3.696174835478501
+		},
+		"organization": {
+			"organization-desc": "  Metro: Hospital 12 de octubre (línea 3), San Fermín-Orcasur (línea 3)    Bus: 76, 18, 22, 59, 79, 85, 86, 121, 81",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Ponce de León"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10612875-centro-ocupacional-primer-paso.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10612875",
+		"title": "Centro ocupacional Primer paso",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2b8563dc9e561610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Valdemarin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28023",
+			"street-address": "CALLE TAPIA DE CASARIEGO 13"
+		},
+		"location": {
+			"latitude": 40.464941828201596,
+			"longitude": -3.774080179397656
+		},
+		"organization": {
+			"organization-desc": "  Bus: 161",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional Primer paso"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827380-centro-ocupacional-san-fernando.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7827380",
+		"title": "Centro ocupacional San Fernando",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6fdbfb625b9ca410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Almendrales"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28026",
+			"street-address": "CALLE CRISTO DE LA VICTORIA 1"
+		},
+		"location": {
+			"latitude": 40.38226328626074,
+			"longitude": -3.6997701685582576
+		},
+		"organization": {
+			"organization-desc": "  Metro: Almendrales (línea 3)  Bus: 78, 6, 18, 22, 59, 76, 79, 85, 86",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional San Fernando"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11941-centro-ocupacional-san-pedro-apostol.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11941",
+		"title": "Centro ocupacional San Pedro Apostol",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9bb466051361c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/CascoHBarajas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "PLAZA JUBILADO 7"
+		},
+		"location": {
+			"latitude": 40.47410680699096,
+			"longitude": -3.5769631957725725
+		},
+		"organization": {
+			"organization-desc": "  Metro: Barajas (línea 8)  Bus: 101, 105, 115",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional San Pedro Apostol"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39623-centro-ocupacional-residencia-afanias-canillejas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "39623",
+		"title": "Centro ocupacional y residencia Afanias Canillejas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=712bf0bde551c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Simancas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "AVENIDA CANILLEJAS A VICALVARO 28"
+		},
+		"location": {
+			"latitude": 40.43984483228853,
+			"longitude": -3.614914740430984
+		},
+		"organization": {
+			"organization-desc": "  Metro: Torre Arias (línea 5)  Bus: 28, 140, 153, 165",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional y residencia para personas con discapacidad intelectual",
+			"organization-name": "Centro ocupacional y residencia Afanias Canillejas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133361-centro-ocupacional-residencia-barajas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "133361",
+		"title": "Centro ocupacional y residencia Barajas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ae9715a11a81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "CALLE ZAOREJAS 16"
+		},
+		"location": {
+			"latitude": 40.45133060595076,
+			"longitude": -3.5528289378073095
+		},
+		"organization": {
+			"organization-desc": "  Bus: 222, 223, 224 (desde Avenida de Ámerica)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional y residencia para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional y residencia Barajas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133488-centro-ocupacional-residencia-carabanchel.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "133488",
+		"title": "Centro ocupacional y residencia Carabanchel",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dfd86da0aa81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/PuertaBonita"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28025",
+			"street-address": "CALLE GENERAL RICARDOS 177"
+		},
+		"location": {
+			"latitude": 40.385207193828954,
+			"longitude": -3.7364894865229403
+		},
+		"organization": {
+			"organization-desc": "  Bus: 34, 35",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro ocupacional y residencia para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional y residencia Carabanchel"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133475-centro-ocupacional-residencia-casa-santa-teresa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "133475",
+		"title": "Centro ocupacional y residencia Casa Santa Teresa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=31575f463b81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/Castilla"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28036",
+			"street-address": "CALLE PONIENTE 10"
+		},
+		"location": {
+			"latitude": 40.468105696439416,
+			"longitude": -3.681890331736271
+		},
+		"organization": {
+			"organization-desc": "  Metro: Duque de Pastrana (línea 9)  Bus: 107, 129, 70, 174",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional y residencia para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional y residencia Casa Santa Teresa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133522-centro-ocupacional-residencia-ciudad-lineal.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "133522",
+		"title": "Centro ocupacional y residencia Ciudad Lineal",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e3186da0aa81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/SanPascual"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28027",
+			"street-address": "CALLE JOSEFA VALCARCEL 1"
+		},
+		"location": {
+			"latitude": 40.44812932263149,
+			"longitude": -3.648919167355348
+		},
+		"organization": {
+			"organization-desc": "  Bus: 21, 70, 114, 11",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional y residencia para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional y residencia Ciudad Lineal"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605400-centro-ocupacional-residencia-disma.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10605400",
+		"title": "Centro ocupacional y residencia Disma",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f48af81878231610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Corralejos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "CALLE BAHIA DE POLLENSA 25"
+		},
+		"location": {
+			"latitude": 40.46473190259812,
+			"longitude": -3.5917816026576035
+		},
+		"organization": {
+			"organization-desc": "  Bus: 151, 166",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional y residencia para personas con discapacidad intelectual",
+			"organization-name": "Centro ocupacional y residencia Disma"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605448-centro-ocupacional-residencia-fundacion-alas-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10605448",
+		"title": "Centro ocupacional y residencia Fundación ALAS Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2b6ef81878231610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/Pavones"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28030",
+			"street-address": "CALLE ENCOMIENDA DE PALACIOS 235"
+		},
+		"location": {
+			"latitude": 40.39771732231811,
+			"longitude": -3.635794572225089
+		},
+		"organization": {
+			"organization-desc": "  Metro: Pavones (línea 9)  Bus: 8, 20",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro ocupacional y residencia para personas con discapacidad intelectual.",
+			"organization-name": "Centro ocupacional y residencia Fundación ALAS Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133490-centro-ocupacional-residencia-juan-austria.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "133490",
+		"title": "Centro ocupacional y residencia Juan de Austria",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5a696da0aa81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Quintana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28027",
+			"street-address": "CALLE ARTURO SORIA 12"
+		},
+		"location": {
+			"latitude": 40.43902917486297,
+			"longitude": -3.6385575667891215
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ciudad Lineal (línea 5).  Bus: 48, 70, 104, 109, 113, 4, 77.  Bicimad: Estación 477 (calle Misterios, 1).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional y residencia para personas con discapacidad intelectual",
+			"organization-name": "Centro ocupacional y residencia Juan de Austria"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35179-centro-residencial-san-martin-porres.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "35179",
+		"title": "Centro residencial San Martín de Porres",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=389b444a2951c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/ElPlantio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28023",
+			"street-address": "CALLE WALMAN 17"
+		},
+		"location": {
+			"latitude": 40.47201374593931,
+			"longitude": -3.8242063426385497
+		},
+		"organization": {
+			"organization-desc": "  Bus: 163",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad intelectual.",
+			"organization-name": "Centro residencial San Martín de Porres"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4852632-centro-residencial-san-nicolas-personas-discapacidad-intelectual.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "4852632",
+		"title": "Centro residencial San Nicolás para personas con discapacidad intelectual",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=598ceba6910f8110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/CuatroVientos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28054",
+			"street-address": "CALLE PINAR DE SAN JOSE 98"
+		},
+		"location": {
+			"latitude": 40.36209379003986,
+			"longitude": -3.774890979411398
+		},
+		"organization": {
+			"organization-desc": "  Bus: 35, 155",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad intelectual.",
+			"organization-name": "Centro residencial San Nicolás para personas con discapacidad intelectual"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190391-centro-residencial-centro-dia-centro-ocupacional-fundacion-betesda-gran-via-hortaleza.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7190391",
+		"title": "Centro residencial, centro de día y centro ocupacional Fundación Betesda Gran Vía de Hortaleza",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e4bd0deb6cf62410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/PinarRey"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28033",
+			"street-address": "AVENIDA GRAN VIA DE HORTALEZA 1"
+		},
+		"location": {
+			"latitude": 40.46478428677373,
+			"longitude": -3.659261897269786
+		},
+		"organization": {
+			"organization-desc": "  Metro: Pinar del Rey (línea 8)  Bus: 87",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro residencial, centro de día y centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Centro residencial, centro de día y centro ocupacional Fundación Betesda Gran Vía de Hortaleza"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11154959-cepri-peineta-centro-dia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11154959",
+		"title": "Cepri La Peineta, centro de día",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2de3014bf7eb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Rosas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "CALLE SUECIA 36"
+		},
+		"location": {
+			"latitude": 40.423294337278605,
+			"longitude": -3.6050407955560706
+		},
+		"organization": {
+			"organization-desc": "  Metro: Las Rosas (línea 2)  Bus: 140, 153",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Cepri La Peineta, centro de día"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/108506-cepri-peineta-residencia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "108506",
+		"title": "Cepri La Peineta, residencia",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eb6e15a11a81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Rosas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "CALLE ZURICH 41"
+		},
+		"location": {
+			"latitude": 40.42301448024141,
+			"longitude": -3.6038241150517742
+		},
+		"organization": {
+			"organization-desc": "  Metro: Las Rosas (línea 2)  Bus: 140, 153",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad intelectual.",
+			"organization-name": "Cepri La Peineta, residencia"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605457-conjunto-residencial-fuentes.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "10605457",
+		"title": "Conjunto residencial Las Fuentes",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=74cef81878231610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE VICENTE MORALES 5"
+		},
+		"location": {
+			"latitude": 40.461912532518056,
+			"longitude": -3.636184523065201
+		},
+		"organization": {
+			"organization-desc": "  Metro: Canillas (línea 4)    Bus: 112, 120, 122, 153",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad intelectual.",
+			"organization-name": "Conjunto residencial Las Fuentes"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828344-estudios-sobradiel-residencia-personas-discapacidad.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "7828344",
+		"title": "Estudios Sobradiel Residencia para personas con discapacidad",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1c3a0e4553eca410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "RONDA SOBRADIEL 83"
+		},
+		"location": {
+			"latitude": 40.45332231133247,
+			"longitude": -3.6462949755112546
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arturo Soria (línea 4), Esperanza (línea 4)  Bus: 11, 70, 122",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad física.",
+			"organization-name": "Estudios Sobradiel Residencia para personas con discapacidad"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11529290-frater-madrid-centro-rehabilitacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11529290",
+		"title": "Frater Madrid, Centro de rehabilitación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d7b575541b64d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE MONTSERRAT 30"
+		},
+		"location": {
+			"latitude": 40.42794591553719,
+			"longitude": -3.7092762161228228
+		},
+		"organization": {
+			"organization-desc": "  Bus: 002  Metro: San Bernardo (línea 2 y 4)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Frater Madrid, Centro de rehabilitación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190893-fundacion-sindrome-down-centro-ocupacional-tres-olivos.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "7190893",
+		"title": "Fundación Síndrome de Down, centro ocupacional Tres olivos",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4b4cdffb91072410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Valverde"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE CUEVA DE MONTESINOS 45"
+		},
+		"location": {
+			"latitude": 40.49980074716198,
+			"longitude": -3.692186601368641
+		},
+		"organization": {
+			"organization-desc": "  Metro: Tres Olivos (línea 10)  Bus: 66, 137, SE704",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Fundación Síndrome de Down, centro ocupacional Tres olivos"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11530290-lescer-centro-rehabilitacion-calle-padres-dominicos.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11530290",
+		"title": "Lescer, centro de rehabilitación calle Padres Dominicos",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bad33fce7974d710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Valdefuentes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28050",
+			"street-address": "CALLE PADRES DOMINICOS 5"
+		},
+		"location": {
+			"latitude": 40.50443220893142,
+			"longitude": -3.6568768654381985
+		},
+		"organization": {
+			"organization-desc": "  Bus: 155B",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Lescer, centro de rehabilitación calle Padres Dominicos"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11530802-manantial-rosas-centro-rehabilitacion-laboral.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11530802",
+		"title": "Manantial Las Rosas, Centro de rehabilitación laboral",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=66a1a8ff3a84d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Rosas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "CALLE SOFIA 177"
+		},
+		"location": {
+			"latitude": 40.42188720984669,
+			"longitude": -3.6022458922757497
+		},
+		"organization": {
+			"organization-desc": "  Metro: Las Rosas (línea 2)  Bus: 140, 153",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con enfermedad mental crónica.",
+			"organization-name": "Manantial Las Rosas, Centro de rehabilitación laboral"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11854873-menni-retiro-residencia-centro-rehabilitacion-laboral.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11854873",
+		"title": "Menni Retiro, residencia y centro de rehabilitación laboral",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=047d5f96344a4810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/Estrella"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28007",
+			"street-address": "CALLE SAMARIA 3"
+		},
+		"location": {
+			"latitude": 40.41745444975348,
+			"longitude": -3.668232544894511
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sáinz de Baranda (línea 6, 9)  Bus: 143, 156, 30, 56, 20",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia  y centro de rehabilitación laboral para personas con enfermedad mental crónica.",
+			"organization-name": "Menni Retiro, residencia y centro de rehabilitación laboral"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156189-menni-retiro-residencia-centro-dia-centro-rehabilitacion-soporte-social.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156189",
+		"title": "Menni Retiro, residencia, centro de día y centro de rehabilitación y soporte social",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8c8aa9e48d8c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/NinoJesus"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "CALLE SAMARIA 3"
+		},
+		"location": {
+			"latitude": 40.413104183537925,
+			"longitude": -3.6703600801595697
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sáinz de Baranda (línea 6, 9)  Bus: 143, 156, 30, 56, 20",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia, centro de día y centro de rehabilitación y soporte social para personas con enfermedad mental crónica.",
+			"organization-name": "Menni Retiro, residencia, centro de día y centro de rehabilitación y soporte social"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11854753-numen-centro-atencion-integral.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11854753",
+		"title": "Numen centro de atención integral",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5ca56dddfe3a4810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/ElSalvador"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28027",
+			"street-address": "CALLE TABATINGA 11 PLANTA BAJA"
+		},
+		"location": {
+			"latitude": 40.44417122224278,
+			"longitude": -3.632878961676391
+		},
+		"organization": {
+			"organization-desc": "  Bus: 146  Metro: Suanzes (línea 5)",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de recuperación para personas con discapacidad física.",
+			"organization-name": "Numen centro de atención integral"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11602107-oficina-municipal-vida-independiente-personas-discapacidad-intelectual-desarrollo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "11602107",
+		"title": "Oficina Municipal de Vida Independiente para personas con discapacidad intelectual o del desarrollo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0beeb8914c70f710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/Aluche"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "CALLE VALMOJADO 177 Parque Aluche, entrada a la altura de la calle Valmojado, 177."
+		},
+		"location": {
+			"latitude": 40.389860989670794,
+			"longitude": -3.7581965426520747
+		},
+		"organization": {
+			"organization-desc": "La Oficina Municipal de Vida Independiente ofrece información, orientación y apoyo personalizado para personas con discapacidad intelectual y/o del desarrollo, sus familias, entidades y ciudadanía en general.Complementa a los demás recursos sociosanitarios de la ciudad de Madrid mediante la figura del asistente personal. Presta información, orientación y apoyo a las personas con discapacidad intelectual y/o del desarrollo, sus familias, entidades y a toda la ciudadanía.Su objetivo es conseguir una vida independiente fomentando la autonomía personal, la autodeterminación, la inclusión y el ejercicio de sus derechos en igualdad de condiciones que el resto de las madrileñas y madrileños.  Bus: 25, 121, 131 y 138Metro: Aluche (L-5)Cercanías Renfe: Aluche (C-5)",
+			"accesibility": "1",
+			"schedule": "Presencial, de lunes a viernes de 10:00 a 14:00 horas y de 16:00 a 18:00 horas.Asistencia personal, se prestará los 365 días del año.Se puede solicitar atención con cita previa.",
+			"services": "Los trabajadores sociales de la oficina prestan los siguientes servicios: 1.- Información, orientación y asesoramiento en materia de recursos, servicios y prestaciones a los que pueden acceder las personas con discapacidad intelectual. 2.- Elaboración de un Plan Individual de Vida Independiente por parte del/la profesional, previa propuesta del usuario/a sobre el apoyo que requiere. 3.- Puesta a disposición de las personas con discapacidad intelectual de una 'bolsa de horas' de apoyo personal, en función de sus necesidades y demandas. 4.- Fomentar la participación inclusiva de las personas con discapacidad intelectual en actividades de la comunidad tales como ocio, cultura, deportes, espacios vecinales, etc. 5.- Apoyo en la búsqueda de vivienda independiente y en las actividades de la vida diaria para facilitar su normalización en cuanto a reglas, hábitos de trabajo o convivencia. 6.- Impulsar la autonomía personal y el desarrollo de recursos propios, participando en experiencias sociales, deportivas, culturales y la adquisición de las habilidades para la vida cotidiana. 7.- Orientar y acercar a las familias al conocimiento y la reflexión sobre la discapacidad intelectual, tanto a nivel particular como en aspectos comunes y/o compartidos, así como en materia de Vida Independiente. 8.- Derivación y coordinación con los servicios públicos de protección y/o servicios sociales, o atención primaria.  Personal:  1 coordinador/a  1 trabajador/a social Técnicos/as superiores de integración social / Educador/a.",
+			"organization-name": "Oficina Municipal de Vida Independiente para personas con discapacidad intelectual o del desarrollo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608714-parkinson-madrid-centro-integral-madrid-retiro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10608714",
+		"title": "Parkinson Madrid, centro integral Madrid Retiro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9c2a3eb6a4c41610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE POETA ESTEBAN DE VILLEGAS 12 4"
+		},
+		"location": {
+			"latitude": 40.40814835842319,
+			"longitude": -3.6804515927774135
+		},
+		"organization": {
+			"organization-desc": "  Bus: 152, 26, C1, 10, 14, 32, 152, C2, 63",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con discapacidad física.",
+			"organization-name": "Parkinson Madrid, centro integral Madrid Retiro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608702-polibea-centro-rehabilitacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "10608702",
+		"title": "Polibea, centro de rehabilitación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=46793eb6a4c41610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "RONDA SOBRADIEL 36"
+		},
+		"location": {
+			"latitude": 40.45331397647663,
+			"longitude": -3.6376082547182045
+		},
+		"organization": {
+			"organization-desc": "  Metro: Esperanza (línea 4)  Bus: 11, 70, 122",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de recuperación para personas con discapacidad física.",
+			"organization-name": "Polibea, centro de rehabilitación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10863273-psico-ballet-maite-leon.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "10863273",
+		"title": "Psico - Ballet Maite León",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=be9949c526738610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Quintana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28027",
+			"street-address": "CALLE VIZCONDE DE LOS ASILOS 5"
+		},
+		"location": {
+			"latitude": 40.44055445124285,
+			"longitude": -3.638206237827177
+		},
+		"organization": {
+			"organization-desc": "  Metro:  Ciudad Lineal (línea 5)    Bus: 70, 48",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Centro de formación escénica y artística para personas con discapacidad física, intelectual, del desarrollo, orgánica y sensorial. Escuela de Arte Inclusiva y formación profesional.",
+			"organization-name": "Psico - Ballet Maite León"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6818168-residencia-belisana-para-personas-discapacidad-intelectual-no-gravemente-afectados.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "6818168",
+		"title": "Residencia Belisana para para personas con discapacidad intelectual no gravemente afectados",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=54e1f6ac0b2dc310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE BELISANA 22"
+		},
+		"location": {
+			"latitude": 40.45817645163984,
+			"longitude": -3.653202420315872
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arturo Soria (línea 4)  Bus: 120, 122",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad intelectual",
+			"organization-name": "Residencia Belisana para para personas con discapacidad intelectual no gravemente afectados"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11919-residencia-centro-servicios-cocemfe.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "11919",
+		"title": "Residencia Centro de servicios COCEMFE",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f88072081661c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/Prosperidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28002",
+			"street-address": "CALLE EUGENIO SALAZAR 2"
+		},
+		"location": {
+			"latitude": 40.44435496792805,
+			"longitude": -3.6728916691982363
+		},
+		"organization": {
+			"organization-desc": "  Metro: Prosperidad (línea 4), Cruz del Rayo (línea 9)  Bus: 73, 9, 1",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad física.",
+			"organization-name": "Residencia Centro de servicios COCEMFE"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827516-residencia-estudios-asura.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "7827516",
+		"title": "Residencia Estudios Asura",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=44cc7c8c2e9ca410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Piovera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE ASURA 74"
+		},
+		"location": {
+			"latitude": 40.45596001748207,
+			"longitude": -3.653241575113162
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arturo Soria (línea 4)  Bus: 120,122",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad física",
+			"organization-name": "Residencia Estudios Asura"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11532098-residencia-grupo-5-avenida-america.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11532098",
+		"title": "Residencia Grupo 5 Avenida de América",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f1153f6a7d4d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/Prosperidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28002",
+			"street-address": "CALLE QUINTILIANO 19"
+		},
+		"location": {
+			"latitude": 40.44034828600933,
+			"longitude": -3.6752424786492996
+		},
+		"organization": {
+			"organization-desc": "  Bus: 1, 72  Metro: Cartagena (línea 7)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con enfermedad mental crónica y discapacidad intelectual.",
+			"organization-name": "Residencia Grupo 5 Avenida de América"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11285538-residencia-grupo-5-canillejas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11285538",
+		"title": "Residencia Grupo 5 Canillejas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3002d40d0b156710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Canillejas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "CALLE SUAREZ GARCIA 19"
+		},
+		"location": {
+			"latitude": 40.44689628539865,
+			"longitude": -3.616488292271352
+		},
+		"organization": {
+			"organization-desc": "  Bus: 77, 105, 140, 153, 165  Metro: Torre Arias, Canillejas (línea 5)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia Grupo 5 Canillejas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11285549-residencia-grupo-5-mirasierra.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11285549",
+		"title": "Residencia Grupo 5 Mirasierra",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e03d40d0b156710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE PAN DE AZUCAR 4"
+		},
+		"location": {
+			"latitude": 40.49165490440411,
+			"longitude": -3.7069606964643778
+		},
+		"organization": {
+			"organization-desc": "  Bus: 133",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia Grupo 5 Mirasierra"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11285558-residencia-manuel-gomez-latina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11285558",
+		"title": "Residencia Manuel Gómez - Latina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c3a3d40d0b156710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/PuertaAngel"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28011",
+			"street-address": "CALLE ARCANGEL SAN RAFAEL 3"
+		},
+		"location": {
+			"latitude": 40.4072064344459,
+			"longitude": -3.738352775600738
+		},
+		"organization": {
+			"organization-desc": "  Bus: 31, 33, 36, 39, 65  Metro: Alto de Extremadura (línea 6)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia Manuel Gómez - Latina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11532159-residencia-medinamar-simancas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11532159",
+		"title": "Residencia Medinamar Simancas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=52bbb813cf05d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Simancas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28037",
+			"street-address": "CALLE CASTILLO DE SIMANCAS 2"
+		},
+		"location": {
+			"latitude": 40.427528169273984,
+			"longitude": -3.627131940654409
+		},
+		"organization": {
+			"organization-desc": "  Metro: Simancas (línea 7)  Bus: 109, 38, 4, 48, 70",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia Medinamar Simancas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133640-residencia-mirasierra-personas-discapacidad-intelectual-gravemente-afectadas-centro-dia-camp-mirasierra.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "133640",
+		"title": "Residencia Mirasierra para personas con discapacidad intelectual gravemente afectadas y centro de día CAMP Mirasierra",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=551015a11a81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE LA MASO 40"
+		},
+		"location": {
+			"latitude": 40.48892405001379,
+			"longitude": -3.7141662389685877
+		},
+		"organization": {
+			"organization-desc": "  Metro: Mirasierra (línea 9)  Bus: 49, 134",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Residencia y centro de día para personas con discapacidad intelectual gravemente afectadas.",
+			"organization-name": "Residencia Mirasierra para personas con discapacidad intelectual gravemente afectadas y centro de día CAMP Mirasierra"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156246-residencia-san-juan-bautista.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156246",
+		"title": "Residencia San Juan Bautista",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f565a9e48d8c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Colina"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28033",
+			"street-address": "CALLE NAVARRO AMANDI 2"
+		},
+		"location": {
+			"latitude": 40.46048102170562,
+			"longitude": -3.6602463125093845
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arturo Soria (línea 4)  Bus: 72, 73, 9, 87, 11, 70, 7",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia San Juan Bautista"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11859072-residencia-sear-personas-discapacidad-fisica.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11859072",
+		"title": "Residencia Sear para personas con discapacidad física",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3ca5fe86c4db4810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Distrito"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CARRETERA COLMENAR VIEJO 13.6"
+		},
+		"location": {
+			"latitude": 40.56299317375062,
+			"longitude": -3.7140517146418874
+		},
+		"organization": {
+			"organization-desc": "  Bus: 712, 713, 714, 716",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad física.",
+			"organization-name": "Residencia Sear para personas con discapacidad física"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11286110-residencia-tetuan.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11286110",
+		"title": "Residencia Tetuán",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a986f6bf5b066710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/Valdeacederas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28029",
+			"street-address": "CALLE PINOS BAJA 88"
+		},
+		"location": {
+			"latitude": 40.47015231433826,
+			"longitude": -3.7009627558279243
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ventilla (línea 9)  Bus: 177, 49",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia Tetuán"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133674-residencia-minusvalidos-san-vicente.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+		"id": "133674",
+		"title": "Residencia de minusválidos San Vicente",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=30ff15a11a81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Pradolongo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28026",
+			"street-address": "AVENIDA RAFAELA YBARRA 75"
+		},
+		"location": {
+			"latitude": 40.37846222434239,
+			"longitude": -3.7117800681016506
+		},
+		"organization": {
+			"organization-desc": "  Bus: 131, 6, 60, 116, 81, 78",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia para personas con discapacidad intelectual.",
+			"organization-name": "Residencia de minusválidos San Vicente"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133636-residencia-personas-discapacidad-intelectual-gravemente-afectadas-centro-dia-dos-mayo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "133636",
+		"title": "Residencia para personas con discapacidad intelectual gravemente afectadas y centro de día Dos de Mayo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e7e15a11a81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Valdefuentes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28050",
+			"street-address": "CALLE O&amp;Ntilde;A 1"
+		},
+		"location": {
+			"latitude": 40.48870660405748,
+			"longitude": -3.669245434425141
+		},
+		"organization": {
+			"organization-desc": "  Bus: 150, 174  Cercanías: Fuente de la Mora (C1, C10)",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Residencia y centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Residencia para personas con discapacidad intelectual gravemente afectadas y centro de día Dos de Mayo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605428-residencia-centro-dia-carmen-sevilla.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "10605428",
+		"title": "Residencia y centro de día Carmen Sevilla",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=944bf81878231610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/PuebloNuevo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28017",
+			"street-address": "CALLE GABRIEL MONTERO 1"
+		},
+		"location": {
+			"latitude": 40.4245996910244,
+			"longitude": -3.631038633473549
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Almudena (línea 2), García Noblejas (línea 7)    Bus: 70, 109    Bicimad: estación 490 (Calle Hermanos García Nobleza (esquina Plaza del Reloj Solar))",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Residencia y centro de día para personas con discapacidad intelectual.",
+			"organization-name": "Residencia y centro de día Carmen Sevilla"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156062-residencia-centro-dia-nuestra-senora-valvanera.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156062",
+		"title": "Residencia y centro de día Nuestra Señora de Valvanera",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bd19bc18998c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/SanDiego"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28053",
+			"street-address": "CALLE FELISA MENDEZ 3"
+		},
+		"location": {
+			"latitude": 40.39332090550943,
+			"longitude": -3.670139580262466
+		},
+		"organization": {
+			"organization-desc": "  Bus: 10, 24, 111, 310, 102",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia y centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia y centro de día Nuestra Señora de Valvanera"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4849820-residencia-centro-rehabilitacion-duques-lugo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+		"id": "4849820",
+		"title": "Residencia y centro de rehabilitación Duques de Lugo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=775b92b6b4ae8110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/LasAguilas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28024",
+			"street-address": "CALLE ADONIS 1"
+		},
+		"location": {
+			"latitude": 40.386624062061955,
+			"longitude": -3.7738989126760094
+		},
+		"organization": {
+			"organization-desc": "  Bus: 39, 139.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Sector: personas con discapacidad física",
+			"organization-name": "Residencia y centro de rehabilitación Duques de Lugo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11532166-residencia-centro-rehabilitacion-san-miguel-hermanas-hospitalarias.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11532166",
+		"title": "Residencia y centro de rehabilitación San Miguel Hermanas Hospitalarias",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=795eb813cf05d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Colina"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE ARTURO SORIA 204"
+		},
+		"location": {
+			"latitude": 40.45984108333044,
+			"longitude": -3.660488085693163
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arturo Soria (línea 4)  Bus: 11, 70, 72, 73, 9, 53, 87  Bicimad: Estación 480 (Calle Vicente Muzas, 13)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia y centro de rehabilitación para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia y centro de rehabilitación San Miguel Hermanas Hospitalarias"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156240-residencia-centro-rehabilitacion-laboral-hortaleza-fundacion-independiente-manantial.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11156240",
+		"title": "Residencia y centro de rehabilitación laboral de Hortaleza de la Fundación independiente Manantial",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4da4a9e48d8c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Palomas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "AVENIDA ARROYO DEL SANTO 12"
+		},
+		"location": {
+			"latitude": 40.45207234467039,
+			"longitude": -3.620525808309078
+		},
+		"organization": {
+			"organization-desc": "  Bus: 153",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia y centro de rehabilitación para personas con enfermedad mental crónica",
+			"organization-name": "Residencia y centro de rehabilitación laboral de Hortaleza de la Fundación independiente Manantial"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11531388-residencia-centro-ocupacional-nuestra-senora-camino.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "11531388",
+		"title": "Residencia y centro ocupacional Nuestra Señora del Camino",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e6424101a5c4d710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE COLLADO DE TIROBARRA 8"
+		},
+		"location": {
+			"latitude": 40.49501934128508,
+			"longitude": -3.7163005779581755
+		},
+		"organization": {
+			"organization-desc": "  Metro: Mirasierra (línea 9)  Bus: 49",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro ocupacional para personas con discapacidad intelectual",
+			"organization-name": "Residencia y centro ocupacional Nuestra Señora del Camino"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133523-residencia-centro-dia-centro-ocupacional-angel-guarda.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+		"id": "133523",
+		"title": "Residencia, centro de día y centro ocupacional Ángel de la Guarda",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0db615a11a81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Ventas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28017",
+			"street-address": "AVENIDA DAROCA 60"
+		},
+		"location": {
+			"latitude": 40.4292488150886,
+			"longitude": -3.652508653842869
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Elipa (línea 2), El Carmen (línea 5)  Bus: 106  Bicimad: estación 483 (Calle Marcelino Álvarez, 31)",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Residencia, centro de día y centro ocupacional para personas con discapacidad intelectual.",
+			"organization-name": "Residencia, centro de día y centro ocupacional Ángel de la Guarda"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155334-residencia-centro-dia-soporte-social-aravaca.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155334",
+		"title": "Residencia, centro de día y soporte social Aravaca",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=efcfb48876fb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Valdemarin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28023",
+			"street-address": "CALLE ARENAS Y NAVARRO 7"
+		},
+		"location": {
+			"latitude": 40.467563236176424,
+			"longitude": -3.796596022935098
+		},
+		"organization": {
+			"organization-desc": "  Bus: 162",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Residencia y centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Residencia, centro de día y soporte social Aravaca"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156057-sajonia-fundacion-manantial-centro-dia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156057",
+		"title": "Sajonia Fundación Manantial, Centro de día",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c7c75c10c05c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Rosas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "CALLE SAJONIA 23"
+		},
+		"location": {
+			"latitude": 40.421393764449846,
+			"longitude": -3.6059393260417494
+		},
+		"organization": {
+			"organization-desc": "  Metro: Las rosas (línea 2)    Bus: 140, 153",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Sajonia Fundación Manantial, Centro de día"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11155335-vallecas-grupo-exter-centro-dia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11155335",
+		"title": "Vallecas grupo Exter, Centro de día",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=00f0b48876fb0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/CascoHVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CALLE SAN JAIME 6"
+		},
+		"location": {
+			"latitude": 40.37769539007225,
+			"longitude": -3.6293220708599687
+		},
+		"organization": {
+			"organization-desc": "  Bus: 130, T31, 103, 142, 143, 54, 58, H1  Metro: Villa de Vallecas (línea 1)  Bicimad: Estación 437 (C Sierra de Guadalupe, 11).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de día para personas con enfermedad mental crónica.",
+			"organization-name": "Vallecas grupo Exter, Centro de día"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11156172-walk-usera-centro-rehabilitacion-laboral.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+		"id": "11156172",
+		"title": "Walk Usera, Centro de rehabilitación laboral",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa53bc18998c0710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Orcasitas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CALLE BEASAIN 25"
+		},
+		"location": {
+			"latitude": 40.366885859751314,
+			"longitude": -3.7159576914372203
+		},
+		"organization": {
+			"organization-desc": "  Bus: 6, 60",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Centro de rehabilitación para personas con enfermedad mental crónica",
+			"organization-name": "Walk Usera, Centro de rehabilitación laboral"
+		}
+	}	  
+  ]
+}
+

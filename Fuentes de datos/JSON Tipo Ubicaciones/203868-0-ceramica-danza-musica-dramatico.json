@@ -1,0 +1,485 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81780-escuela-municipal-arte-dramatico.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "81780",
+		"title": "Escuela Municipal de Arte Dramático",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5b184291ae91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE MEJIA LEQUERICA 21"
+		},
+		"location": {
+			"latitude": 40.4280399538175,
+			"longitude": -3.699501702258276
+		},
+		"organization": {
+			"organization-desc": " Enseñanzas:   Alevín (único curso): Juego escénico  Infantil (1&amp;ordm; y 2&amp;ordm;): Interpretación infantil  Junior (1&amp;ordm;, 2&amp;ordm; y 3&amp;ordm;): Interpretación - Voz - Expresión corporal  Senior (1&amp;ordm;, 2&amp;ordm; y 3&amp;ordm;): Interpretación - Voz - Expresión corporal - Puesta en escena  Superior (1&amp;ordm;, 2&amp;ordm; y 3&amp;ordm;): Interpretación - Voz - Expresión corporal - Análisis de texto - Canto - Teatro clásico - Taller de escenografía - Taller de vestuario  Adultos (1&amp;ordm;, 2&amp;ordm; y 3&amp;ordm;): Interpretación - Voz - Expresión corporal - Puesta en escena    Requisitos de edad:   Alevín: de 6 a 8 años   Infantil: de 9 a 11 años   Junior: de 12 a 14 años   Senior: de 15 años en adelante   Superior: de 15 años en adelante   Adultos: a partir de los 20 años     Más información en:   Escuela Municipal de Arte Dramático Metro: Bilbao , Alonso Martínez , TribunalBus: 3 , 21 , 37 , 40 , 147 , 149",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 10 a 14 h y de 16 h a 20:30 h",
+			"services": "Es un centro de enseñanza no reglada para personas interesadas en las artes escénicas a partir de 6 años y sin límite de edad.",
+			"organization-name": "Escuela Municipal de Arte Dramático"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6690-escuela-ceramica-moncloa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "6690",
+		"title": "Escuela de Cerámica de la Moncloa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=009fa4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE FRANCISCO Y JACINTO ALCÁNTARA 2"
+		},
+		"location": {
+			"latitude": 40.42670719570918,
+			"longitude": -3.7242795119747836
+		},
+		"organization": {
+			"organization-desc": " REQUISITOS DE ACCESO:   Bases de Enseñanza Cerámica (BEC)   1&amp;ordm; BEC: Título de Graduado en ESO, FP o equivalente.  2&amp;ordm; BEC (acceso directo): Tener 1&amp;ordm; BEC.    Talleres de Libre Creación (TLC)  Acceso directo con 2&amp;ordm; BEC. Prueba de acceso específico para cada taller.    Cursos Monográficos  Prueba de acceso: Entrevista personal (Curriculum Vitae).     Más información en:   Escuela de Cerámica de la Moncloa Metro: Príncipe Pío Bus: 74 , 21 , 41 , 46 , 75, 62",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 9 a 14 horas (atención al público).",
+			"services": "Biblioteca - Sala de exposiciones - Salón de actos",
+			"organization-name": "Escuela de Cerámica de la Moncloa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6031698-escuela-municipal-musica-capricho-barajas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "6031698",
+		"title": "Escuela municipal de música  El Capricho (Barajas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3e524bc86474f210VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/AlamedaOsuna"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "CALLE DE LA RAMBLA 31"
+		},
+		"location": {
+			"latitude": 40.4585390582089,
+			"longitude": -3.5970304480275286
+		},
+		"organization": {
+			"organization-desc": "  BUS: 101 , 105, 151 METRO: El Capricho",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música  El Capricho (Barajas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4569173-escuela-municipal-musica-almudena-cano-arganzuela-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "4569173",
+		"title": "Escuela municipal de música Almudena Cano (Arganzuela)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e943e9343652110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosMoguer"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "PASAJE TORTOSA 4"
+		},
+		"location": {
+			"latitude": 40.405760767674415,
+			"longitude": -3.6926515865606193
+		},
+		"organization": {
+			"organization-desc": " Características de la escuela  La capacidad máxima es de 420 plazas. Cuenta con 10 aulas, de las que 3 se dedican a asignaturas teóricas y 7 a instrumentales. Tiene, asimismo, un Salón de Actos con capacidad para, aproximadamente, 150  personas.    Más información detallada  aquí METRO: Estación del Arte BUS: 19, 27, 34, 45, 47, 55, 247",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Almudena Cano (Arganzuela)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6698-escuela-municipal-musica-antonio-machado-san-blas-canillejas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "6698",
+		"title": "Escuela municipal de música Antonio Machado (San Blas-Canillejas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3fefa4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Arcos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28037",
+			"street-address": "CALLE SAN ROMAN DEL VALLE 8"
+		},
+		"location": {
+			"latitude": 40.42027705095574,
+			"longitude": -3.621741078700336
+		},
+		"organization": {
+			"organization-desc": "  Bus: 4 , 106, 140   Metro: Alsacia",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Antonio Machado (San Blas-Canillejas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6685-escuela-municipal-musica-anton-garcia-abril-villaverde-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "6685",
+		"title": "Escuela municipal de música Antón García Abril (Villaverde)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e8cfa4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/SanAndres"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28021",
+			"street-address": "CALLE DOCTOR MARTIN AREVALO 2"
+		},
+		"location": {
+			"latitude": 40.34636268334182,
+			"longitude": -3.708524395897377
+		},
+		"organization": {
+			"organization-desc": "  Bus: 86 , 22 , 79 , 130 , 131",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Antón García Abril (Villaverde)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/125019-escuela-municipal-musica-carmelo-alonso-bernaola-fuencarral-pardo-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "125019",
+		"title": "Escuela municipal de música Carmelo Alonso Bernaola (Fuencarral-El Pardo)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9f368899fc81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Valverde"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "AVENIDA SOTO PALACIOS 7"
+		},
+		"location": {
+			"latitude": 40.48876867947374,
+			"longitude": -3.6845918447368597
+		},
+		"organization": {
+			"organization-desc": "  Metro: Begoña Bus: 66 , 124 ,137",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Carmelo Alonso Bernaola (Fuencarral-El Pardo)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6687-escuela-municipal-musica-federico-chueca-hortaleza-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "6687",
+		"title": "Escuela municipal de música Federico Chueca (Hortaleza)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=db30a4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE BENITA AVILA 23"
+		},
+		"location": {
+			"latitude": 40.46550570624769,
+			"longitude": -3.650596897631368
+		},
+		"organization": {
+			"organization-desc": "  Metro: Pinar del ReyBus: 73, 87",
+			"accesibility": "0",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Federico Chueca (Hortaleza)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953904-escuela-municipal-musica-isaac-albeniz-carabanchel-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "4953904",
+		"title": "Escuela municipal de música Isaac Albéniz (Carabanchel)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c048bfcfa63ea110VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/Buenavista"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28054",
+			"street-address": "CALLE LONJA DE LA SEDA 4"
+		},
+		"location": {
+			"latitude": 40.366012559408354,
+			"longitude": -3.7553478337291613
+		},
+		"organization": {
+			"organization-desc": "  Metro: La PesetaBus: 35, 47",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Isaac Albéniz (Carabanchel)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6683-escuela-municipal-musica-maestro-barbieri-usera-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "6683",
+		"title": "Escuela municipal de música Maestro Barbieri (Usera)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2260a4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Orcasitas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CALLE CESTONA 3"
+		},
+		"location": {
+			"latitude": 40.372710384742504,
+			"longitude": -3.7135708871039514
+		},
+		"organization": {
+			"organization-desc": "Instagram  Bus: 6 , 60 , 78 , 81 , 116 , 121 , 131",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Maestro Barbieri (Usera)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/141421-escuela-municipal-musica-manuel-vazquez-montalban-tetuan-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "141421",
+		"title": "Escuela municipal de música Manuel Vázquez Montalbán (Tetuán)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ff34ba61e681c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/BellasVistas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28039",
+			"street-address": "CALLE FRANCOS RODRIGUEZ 67"
+		},
+		"location": {
+			"latitude": 40.45749513485957,
+			"longitude": -3.710539712535917
+		},
+		"organization": {
+			"organization-desc": "  Metro: Francos RodríguezBus: 44 , 64 , 126, 127 , 128 , 132",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Manuel Vázquez Montalbán (Tetuán)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6699-escuela-municipal-musica-maria-rodrigo-chamartin-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "6699",
+		"title": "Escuela municipal de música María Rodrigo (Chamartín)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7880a4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/CiudadJardin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28002",
+			"street-address": "CALLE MANTUANO 51"
+		},
+		"location": {
+			"latitude": 40.44810636195716,
+			"longitude": -3.6762309620097398
+		},
+		"organization": {
+			"organization-desc": "  Metro: Concha Espina y ProsperidadBus: 9, 73, 16, 19, 29, 52",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música María Rodrigo (Chamartín)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80435-escuela-municipal-musica-villa-vallecas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "80435",
+		"title": "Escuela municipal de música Villa de Vallecas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=00ee8ed67151c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/SantaEugenia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CALLE AGUSTIN GARCIA MALLA 4"
+		},
+		"location": {
+			"latitude": 40.38198119326615,
+			"longitude": -3.616358398702118
+		},
+		"organization": {
+			"organization-desc": "  Metro: Villa de VallecasBus: 54 , 58 , 63, 103 , 142",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música Villa de Vallecas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190712-escuela-municipal-musica-vicalvaro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "190712",
+		"title": "Escuela municipal de música de Vicálvaro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fa838300a3a30110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "BULEVAR INDALECIO PRIETO 16"
+		},
+		"location": {
+			"latitude": 40.40207320657617,
+			"longitude": -3.621090403479105
+		},
+		"organization": {
+			"organization-desc": "  Metro: ValdebernardoBus: 8 , 71 , 130",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música de Vicálvaro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953973-escuela-municipal-musica-danza-placido-domingo-retiro-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+		"id": "4953973",
+		"title": "Escuela municipal de música y danza Plácido Domingo (Retiro)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c833bfcfa63ea110VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/Pacifico"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28007",
+			"street-address": "CALLE TELLEZ 31"
+		},
+		"location": {
+			"latitude": 40.401299659267984,
+			"longitude": -3.678578804960757
+		},
+		"organization": {
+			"organization-desc": "  Metro: PacíficoBus: 24, 37, 54, 57, 141",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 17 a 20 horas. Durante el mes de agosto la Escuela de Música permanecerá cerrada.",
+			"services": "",
+			"organization-name": "Escuela municipal de música y danza Plácido Domingo (Retiro)"
+		}
+	}	  
+  ]
+}
+

@@ -1,0 +1,4014 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6408-centro-ensenanza-superior-cardenal-cisneros.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "6408",
+		"title": "Centro de Enseñanza Superior Cardenal Cisneros",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ea1cf3216571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Lista"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28006",
+			"street-address": "CALLE GENERAL DIAZ PORLIER 58"
+		},
+		"location": {
+			"latitude": 40.430655746270524,
+			"longitude": -3.676645132506573
+		},
+		"organization": {
+			"organization-desc": " Titulaciones   Psicología. Derecho. Administración y Dirección de Empresas.  Másteres y posgrados. Metro: Lista (línea 4), Núñez de Balboa (líneas 5 y 9), Diego de León (líneas 4, 5 y 6).  Bus: 1, 74, 26, 61.  Bicimad: Estaciones 144 (calle Juan Bravo, 50), 186 (calle General Pardiñas, 56).  Aparcamiento: Marqués de Salamanca (25), plaza Marqués de Salamanca.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Centro de Enseñanza Superior Cardenal Cisneros"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6368-centro-ensenanza-superior-humanidades-ciencias-educacion-don-bosco.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "6368",
+		"title": "Centro de Enseñanza Superior en Humanidades y Ciencias de la Educación Don Bosco",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cff8ae10c471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE MARIA AUXILIADORA 9"
+		},
+		"location": {
+			"latitude": 40.4578663330372,
+			"longitude": -3.7154022232737973
+		},
+		"organization": {
+			"organization-desc": " Titulaciones   Grado de Maestro en Educación Primaria. Grado de Maestro en Educación Infantil. Grado en Educación Social. Grado en Pedagogía.   Másteres y postgrados. Metro: Francos Rodríguez (línea 7).  Bus: 64, 44.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Centro de Enseñanza Superior en Humanidades y Ciencias de la Educación Don Bosco"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7029862-centro-ensenanza-superior-villanueva.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "7029862",
+		"title": "Centro de Enseñanza Superior Villanueva",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d4d1e0ecb9eaf310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE COSTA BRAVA 2 y 6"
+		},
+		"location": {
+			"latitude": 40.49594165711777,
+			"longitude": -3.702048289834191
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Administración y Dirección de Empresas. Derecho. Marketing. Periodismo. Publicidad y Relaciones Públicas Comunicación Audiovisual. Psicología. Educación Infantil. Educación Primaria.  Másteres y postgrados. Metro: Paco de Lucía (línea 9).  Bus: 178.  Cercanías Renfe: Mirasierra-Paco de Lucía (líneas C3a, C7, C8 y Regional).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Centro de Enseñanza Superior Villanueva"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6696-centro-superior-diseno-moda-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "6696",
+		"title": "Centro Superior de Diseño y Moda de Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=16c17b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/Fontarron"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28030",
+			"street-address": "CARRETERA VALENCIA 7 Bloque I"
+		},
+		"location": {
+			"latitude": 40.388857066045915,
+			"longitude": -3.6286523028588005
+		},
+		"organization": {
+			"organization-desc": "Centro adscrito a la Universidad Politécnica de Madrid. Grado en Diseño de Moda. Metro: Sierra de Guadalupe (línea 1).  Bus: E, 145, 63.  Cercanías Renfe: Vallecas (líneas C2, C7 y Regional).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Centro Superior de Diseño y Moda de Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6383-centro-superior-estudios-universitarios-salle.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6383",
+		"title": "Centro Superior de Estudios Universitarios La Salle",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5289ae10c471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Valdemarin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28023",
+			"street-address": "CALLE LA SALLE 10"
+		},
+		"location": {
+			"latitude": 40.46627682124755,
+			"longitude": -3.7820191806815187
+		},
+		"organization": {
+			"organization-desc": "  Bus: 161",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Estudios:   Educación y Ciencias Sociales   Grados Universitarios en Educación. Grados Universitarios en CC Sociales. Grados Universitarios en Transmedia. Posgrados. Ciclos Formativos.   Salud   Grados Universitarios en Ciencias de la Salud. Postgrados. Ciclos Formativos.   Religión   Grados Universitarios en Ciencias Religiosas. Posgrados.",
+			"organization-name": "Centro Superior de Estudios Universitarios La Salle"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6533-colegio-mayor-africa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6533",
+		"title": "Colegio Mayor África",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=938b79262ef5d010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE RAMIRO DE MAEZTU 2"
+		},
+		"location": {
+			"latitude": 40.44925799673555,
+			"longitude": -3.7171006978828465
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6).  Bus: 132, F y Circular",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor África"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10297377-colegio-mayor-alcala.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10297377",
+		"title": "Colegio Mayor Alcalá",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=93179fc26c5fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE DON RAMON MENENDEZ PIDAL 2"
+		},
+		"location": {
+			"latitude": 40.44764820463789,
+			"longitude": -3.719503495059197
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6).  Bus: F, 132, C2, C1.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Alcalá"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10297407-colegio-mayor-alcor.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10297407",
+		"title": "Colegio Mayor Alcor",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0b19849d706fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE GENERAL AMPUDIA 7"
+		},
+		"location": {
+			"latitude": 40.443245742864015,
+			"longitude": -3.715255918766616
+		},
+		"organization": {
+			"organization-desc": "  Metro: Metropolitano (línea 6), Guzmán el Bueno (línea 6 y 7).  Bus: 2, 45, Circular y F  Bicimad: Estación 203 (calle General Ampudia, 2).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Alcor"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6507-colegio-mayor-antonio-nebrija.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6507",
+		"title": "Colegio Mayor Antonio de Nebrija",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=77453b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA SENECA 8"
+		},
+		"location": {
+			"latitude": 40.43571333918665,
+			"longitude": -3.7284677239467596
+		},
+		"organization": {
+			"organization-desc": "  Bus: 46, 160, 161, U, A Metro: Ciudad Universitaria (línea 6)  Bicimad: Estación 237 (avenida Juan de Herrera frente a la calle Paul Guinard).",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Antonio de Nebrija"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6548-colegio-mayor-aquinas-santo-tomas-aquino-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6548",
+		"title": "Colegio Mayor Aquinas (Santo Tomás de Aquino)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b3e73b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE LEONARDO PRIETO CASTRO 6"
+		},
+		"location": {
+			"latitude": 40.45204759324346,
+			"longitude": -3.7218395787782304
+		},
+		"organization": {
+			"organization-desc": "  Metro: Estación Vicente Aleixandre (línea 6), Ciudad Universitaria (línea 6) y Francos Rodríguez (línea 7) Bus: 82, 132, U, F, G.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Aquinas (Santo Tomás de Aquino)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10297432-colegio-mayor-argentino-nuestra-senora-lujan.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10297432",
+		"title": "Colegio Mayor Argentino Nuestra Señora de Luján",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=341d849d706fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE MARTIN FIERRO 3"
+		},
+		"location": {
+			"latitude": 40.43610678975899,
+			"longitude": -3.731701576349752
+		},
+		"organization": {
+			"organization-desc": "  Bus: 46, 160, 161, 46, U, A.  Metro: Moncloa (línea 6) Ciudad Universitaria (línea 6)  Bicimad: Estación 257 (avenida Juan de Herrera frente a la calle Paul Guinard).",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Argentino Nuestra Señora de Luján"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10297437-colegio-mayor-barberan-collar.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10297437",
+		"title": "Colegio Mayor Barberán y Collar",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=20cd849d706fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA SENECA 16"
+		},
+		"location": {
+			"latitude": 40.434545397562495,
+			"longitude": -3.7331585246591557
+		},
+		"organization": {
+			"organization-desc": "  Bus: 160, 161, A, 46.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Barberán y Collar"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10297474-colegio-mayor-casa-do-brasil.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10297474",
+		"title": "Colegio Mayor Casa Do Brasil",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d8b0849d706fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA MEMORIA 3"
+		},
+		"location": {
+			"latitude": 40.43853583084271,
+			"longitude": -3.7252915757655174
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ciudad Universitaria (línea 6).  Bus: 132, 133, 162, 46, 82, 83, G, U, 160, 161, A.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Casa Do Brasil"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10297556-colegio-mayor-chaminade.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10297556",
+		"title": "Colegio Mayor Chaminade",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fce1849d706fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PASEO JUAN XXIII 9"
+		},
+		"location": {
+			"latitude": 40.44734637151868,
+			"longitude": -3.7177116209853853
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6), Guzmán el Bueno (línea 6 y 7).  Bus: 132, F, C2, C1.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Chaminade"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10297714-colegio-mayor-diego-covarrubias.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10297714",
+		"title": "Colegio Mayor Diego de Covarrubias",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8f15849d706fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA SENECA 10"
+		},
+		"location": {
+			"latitude": 40.43543488509487,
+			"longitude": -3.7297224981364576
+		},
+		"organization": {
+			"organization-desc": "  Bus: U, 46, 160, 161, A.  Metro: Moncloa (Línea 6), Ciudad Universitaria (Línea 6)  Bicimad: Estación 257 (avenida Juan de Herrera frente a la calle Paul Guinard).",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Diego de Covarrubias"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10297748-colegio-mayor-elias-ahuja.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10297748",
+		"title": "Colegio Mayor Elías Ahúja",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba16849d706fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE RECTOR ROYO-VILLANOVA 4"
+		},
+		"location": {
+			"latitude": 40.45084427289562,
+			"longitude": -3.7153019237576634
+		},
+		"organization": {
+			"organization-desc": "  Bus: 132, F, Circular Metro: Guzman el Bueno (Línea 6)",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Elías Ahúja"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6522-colegio-mayor-fundacion-sepi.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6522",
+		"title": "Colegio Mayor Fundación SEPI",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a3163b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA GREGORIO DEL AMO 2"
+		},
+		"location": {
+			"latitude": 40.446907485706866,
+			"longitude": -3.7188228498669362
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6).  Bus: F, C2, 132, C1.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Fundación SEPI"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6520-colegio-mayor-jaime-amo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6520",
+		"title": "Colegio Mayor Jaime del Amo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ed563b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA GREGORIO DEL AMO 5"
+		},
+		"location": {
+			"latitude": 40.44582638073112,
+			"longitude": -3.72226686792607
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6),   Bus: 132, F. Circular",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Jaime del Amo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6521-colegio-mayor-jorge-juan.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6521",
+		"title": "Colegio Mayor Jorge Juan",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=70763b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA SENECA 14"
+		},
+		"location": {
+			"latitude": 40.4349249042721,
+			"longitude": -3.7317433524081887
+		},
+		"organization": {
+			"organization-desc": "  Bus: 160, 161, A, 46, U.  Metro: Moncloa (línea 6) y Ciudad Universitaria (línea 6)",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Jorge Juan"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6523-colegio-mayor-juan-luis-vives.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6523",
+		"title": "Colegio Mayor Juan Luis Vives",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=03863b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/NuevaEspana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28036",
+			"street-address": "CALLE FRANCISCO SUAREZ 7"
+		},
+		"location": {
+			"latitude": 40.46502029145429,
+			"longitude": -3.6845899986944497
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de Castilla (líneas 1, 9 y 10).  Bus: 5, 14, 16, 27, 29, 49, 66, 70, 80, 107, 124, 135, 147, 150.   Bicimad: Estación 255 (calle General López Pozas, 2).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Juan Luis Vives"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6524-colegio-mayor-juan-xxiii-roncalli.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6524",
+		"title": "Colegio Mayor Juan XXIII Roncalli",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e808a4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE RAMIRO DE MAEZTU 3"
+		},
+		"location": {
+			"latitude": 40.44903948047641,
+			"longitude": -3.7180373012857046
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6), Guzmán el Bueno (línea 6), Ciudad Universitaria (línea 6)  Bus: 132, F, C2.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Juan XXIII Roncalli"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6527-colegio-mayor-loyola.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6527",
+		"title": "Colegio Mayor Loyola",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=95963b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PASEO JUAN XXIII 17"
+		},
+		"location": {
+			"latitude": 40.45000544910973,
+			"longitude": -3.7153887868377877
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6), Guzmán el Bueno (líneas 6 y 7).  Bus: 132, F, Circular",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Loyola"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6528-colegio-mayor-mara.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6528",
+		"title": "Colegio Mayor Mara",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=28a63b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PASEO JUAN XXIII 15"
+		},
+		"location": {
+			"latitude": 40.44958307800659,
+			"longitude": -3.7160919870624136
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6), Guzmán el Bueno (líneas 6 y 7).  Bus: 132, F, C2.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Mara"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6529-colegio-mayor-marques-ensenada.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6529",
+		"title": "Colegio Mayor Marqués de la Ensenada",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bab63b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA SENECA 18"
+		},
+		"location": {
+			"latitude": 40.43444043139228,
+			"longitude": -3.733543743924688
+		},
+		"organization": {
+			"organization-desc": "  Bus: 46, 160, 161, A.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Marqués de la Ensenada"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11955027-colegio-mayor-mater-salvatoris.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "11955027",
+		"title": "Colegio Mayor Mater Salvatoris",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0b3d29b0795c6810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Valdemarin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28023",
+			"street-address": "CALLE VALDESQUI 3"
+		},
+		"location": {
+			"latitude": 40.46404258469897,
+			"longitude": -3.7710701028693103
+		},
+		"organization": {
+			"organization-desc": "  Bus: 161.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Mater Salvatoris"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6530-colegio-mayor-mendel.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6530",
+		"title": "Colegio Mayor Méndel",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4dc63b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE RECTOR ROYO-VILLANOVA 6"
+		},
+		"location": {
+			"latitude": 40.450938406912854,
+			"longitude": -3.716699793684652
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6).  Bus: 132, F, C2.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Méndel"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6531-colegio-mayor-moncloa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6531",
+		"title": "Colegio Mayor Moncloa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dfd63b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "AVENIDA MONCLOA 3"
+		},
+		"location": {
+			"latitude": 40.44587627267912,
+			"longitude": -3.715446297968531
+		},
+		"organization": {
+			"organization-desc": "  Metro: Guzmán el Bueno (línea 6 y 7), Vicente Aleixandre (línea 6).  Bus: 45, 2, C1, F, C2.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Moncloa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6532-colegio-mayor-montalban.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6532",
+		"title": "Colegio Mayor Montalbán",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=62f63b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Castellana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28006",
+			"street-address": "CALLE DIEGO DE LEON 14"
+		},
+		"location": {
+			"latitude": 40.434842602381124,
+			"longitude": -3.684160626397251
+		},
+		"organization": {
+			"organization-desc": "  Metro:  Núñez de Balboa (líneas 5 y 9).  Bus: 61, 19, 51, 9.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Montalbán"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11955131-colegio-mayor-nuestra-senora-africa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "11955131",
+		"title": "Colegio Mayor Nuestra Señora de África",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=390029b0795c6810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE RAMIRO DE MAEZTU 8"
+		},
+		"location": {
+			"latitude": 40.44834777034175,
+			"longitude": -3.721755062437034
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6).  Bus: 132, F.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Nuestra Señora de África"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6534-colegio-mayor-nuestra-senora-guadalupe.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6534",
+		"title": "Colegio Mayor Nuestra Señora de Guadalupe",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=36263b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA SENECA 4"
+		},
+		"location": {
+			"latitude": 40.4365837060789,
+			"longitude": -3.7255298689626724
+		},
+		"organization": {
+			"organization-desc": "  Metro: Moncloa (líneas 3 y 6).  Bus: 160, 161, A, 132, 133, 162, 46, 82, 83, G, U.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Nuestra Señora de Guadalupe"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6538-colegio-mayor-padre-poveda.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6538",
+		"title": "Colegio Mayor Padre Poveda",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1a273b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE ISAAC PERAL 60"
+		},
+		"location": {
+			"latitude": 40.442963646266804,
+			"longitude": -3.7190211475612625
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6), Gúzman el Bueno (líneas 6 y 7).  Bus: C1, C2.  Bicimad: Estación 244 (calle Isaac Peral, 44).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Padre Poveda"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10298280-colegio-mayor-pio-xii.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "10298280",
+		"title": "Colegio Mayor Pío XII",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5b721beab56fa510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PASEO JUAN XXIII 3"
+		},
+		"location": {
+			"latitude": 40.44491451422515,
+			"longitude": -3.7200680644720574
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6).  Bus: C1, C2, 132, F.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Pío XII"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6545-colegio-mayor-santa-maria-europa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6545",
+		"title": "Colegio Mayor Santa María de Europa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e6873b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE CEA BERMUDEZ 17"
+		},
+		"location": {
+			"latitude": 40.438685506832634,
+			"longitude": -3.7091237782947606
+		},
+		"organization": {
+			"organization-desc": "  Metro: Islas Filipinas (línea 7), Canal (líneas 2 y 7).  Bus: 12, 132, 44, 83",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Santa María de Europa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6544-colegio-mayor-santa-maria-pino.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6544",
+		"title": "Colegio Mayor Santa María del Pino",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0ca73b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "PASEO SAN FRANCISCO DE SALES 13"
+		},
+		"location": {
+			"latitude": 40.44040601048909,
+			"longitude": -3.7162462206445745
+		},
+		"organization": {
+			"organization-desc": "  Metro: Islas Filipinas (línea 7).  Bus: 1, 2, 12, 44, C",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Santa María del Pino"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6546-colegio-mayor-santa-monica.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6546",
+		"title": "Colegio Mayor Santa Mónica",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9eb73b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PASEO JUAN XXIII 19"
+		},
+		"location": {
+			"latitude": 40.45035239946326,
+			"longitude": -3.7146291167019014
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6), Guzmán el Bueno (líneas 6 y 7).  Bus: 132, C2, F.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Santa Mónica"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/46080-colegio-mayor-santa-teresa-jesus.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "46080",
+		"title": "Colegio Mayor Santa Teresa de Jesús",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a147598d1351c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA SENECA 12"
+		},
+		"location": {
+			"latitude": 40.43522158947955,
+			"longitude": -3.730558119606541
+		},
+		"organization": {
+			"organization-desc": "  Bus: 160, 161, A, U, 46.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Santa Teresa de Jesús"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6552-colegio-mayor-somosierra.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6552",
+		"title": "Colegio Mayor Somosierra",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=46f73b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/Hispanoamerica"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28016",
+			"street-address": "CALLE VICTOR DE LA SERNA 13"
+		},
+		"location": {
+			"latitude": 40.45338463229645,
+			"longitude": -3.672607650534373
+		},
+		"organization": {
+			"organization-desc": "  Metro: Concha Espina (línea 9), Colombia (líneas 8 y 9).  Bus: 52, 120, 43.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Somosierra"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6519-colegio-mayor-universitario-isabel-espana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6519",
+		"title": "Colegio Mayor Universitario Isabel de España",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5b463b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE DON RAMON MENENDEZ PIDAL 5"
+		},
+		"location": {
+			"latitude": 40.44841681111204,
+			"longitude": -3.7199730138128735
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6).  Bus: 132, F.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Universitario Isabel de España"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6540-colegio-mayor-universitario-san-agustin.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6540",
+		"title": "Colegio Mayor Universitario San Agustín",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f473b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "TRAVESIA ANTONIO NEBRIJA 4"
+		},
+		"location": {
+			"latitude": 40.43672037843154,
+			"longitude": -3.7276073977792428
+		},
+		"organization": {
+			"organization-desc": "  Bus: U.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Universitario San Agustín"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6542-colegio-mayor-universitario-san-pablo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6542",
+		"title": "Colegio Mayor Universitario San Pablo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=54773b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE ISAAC PERAL 58"
+		},
+		"location": {
+			"latitude": 40.442163372591814,
+			"longitude": -3.7186016905372776
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6), Islas Filipinas (línea 7).  Bus: C2, C1.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Universitario San Pablo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6549-colegio-mayor-universitario-santillana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6549",
+		"title": "Colegio Mayor Universitario Santillana",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=21d73b54d771c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE MARBELLA 60"
+		},
+		"location": {
+			"latitude": 40.49465964836949,
+			"longitude": -3.7062096187224456
+		},
+		"organization": {
+			"organization-desc": "  Bus: 133, 134, 178.  Metro: Paco de lucía (línea 9)  Cercanías Renfe: Mirasierra-Paco de Lucia (líneas C3a, C7, C8 y Regional).",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo masculina.",
+			"organization-name": "Colegio Mayor Universitario Santillana"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6553-colegio-mayor-vedruna.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6553",
+		"title": "Colegio Mayor Vedruna",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b18a4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "GLORIETA PRESIDENTE GARCIA MORENO 2"
+		},
+		"location": {
+			"latitude": 40.445605369642564,
+			"longitude": -3.714995329761434
+		},
+		"organization": {
+			"organization-desc": "  Metro: Guzmán El Bueno (línea 6 y 7), Vicente Aleixandre (línea 6).  Bus: 45, 2, C1, F, C2.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo femenina.",
+			"organization-name": "Colegio Mayor Vedruna"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6525-colegio-mayor-ximenez-cisneros.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6525",
+		"title": "Colegio Mayor Ximénez de Cisneros",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e28a4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA SENECA 8"
+		},
+		"location": {
+			"latitude": 40.43571333918665,
+			"longitude": -3.7284677239467596
+		},
+		"organization": {
+			"organization-desc": "  Bus: 46, 160, 161, U, A.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Colegio Mayor Ximénez de Cisneros"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6554-colegio-mayor-zurbaran.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6554",
+		"title": "Colegio Mayor Zurbarán",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9048a4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/Hispanoamerica"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28016",
+			"street-address": "CALLE VICTOR DE LA SERNA 13"
+		},
+		"location": {
+			"latitude": 40.45338463229645,
+			"longitude": -3.672607650534373
+		},
+		"organization": {
+			"organization-desc": "  Metro: Concha Espina (línea 9), Colombia (líneas 8 y 9).  Bus: 52, 120, 43.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo Femenina.",
+			"organization-name": "Colegio Mayor Zurbarán"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6407-colegio-universitario-estudios-financieros.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "6407",
+		"title": "Colegio Universitario de Estudios Financieros",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=004cf3216571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE PIRINEOS 55"
+		},
+		"location": {
+			"latitude": 40.45357920636982,
+			"longitude": -3.718717277671818
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Administración y Dirección de Empresas.  Derecho y Administración y Dirección de Empresas.  Derecho. Economía.  Másteres y postgrados. Metro: Francos Rodríguez (línea 7).  Bus: 132.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Colegio Universitario de Estudios Financieros"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6498-escuela-practica-juridica.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "6498",
+		"title": "Escuela de Práctica Jurídica",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=32c07b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE AMANIEL 2"
+		},
+		"location": {
+			"latitude": 40.42503902541332,
+			"longitude": -3.7091208409661056
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (línea 2), Plaza de España (línea 3 y 10).  Bus: 002, 147, 3, 39, 25.  Bicimad: Estaciones 15 (calle San Vicente Ferrer, 64), 116b (calle Princesa, 5), 13 (calle Conde Duque, 22).  Aparcamiento: Plaza de España (53).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Escuela de Práctica Jurídica"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6677-escuela-superior-diseno.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "6677",
+		"title": "Escuela Superior de Diseño",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=492ba4ea6871c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/Marroquina"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28030",
+			"street-address": "CALLE CAMINO DE LOS VINATEROS 106"
+		},
+		"location": {
+			"latitude": 40.409090881121266,
+			"longitude": -3.6488257296912585
+		},
+		"organization": {
+			"organization-desc": " Enseñanzas artísticas:   Diseño gráfico, Diseño de producto, Diseño de interiores, Diseño de moda, Diseño de espacios comerciales, Diseño interactivo. Metro: Vinateros (línea 9)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Escuela Superior de Diseño"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6373-escuela-universitaria-enfermeria-fundacion-jimenez-diaz.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6373",
+		"title": "Escuela Universitaria de Enfermería. Fundación Jiménez Díaz",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=27dec05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA REYES CATOLICOS 2"
+		},
+		"location": {
+			"latitude": 40.43856720968711,
+			"longitude": -3.718883399803211
+		},
+		"organization": {
+			"organization-desc": "  Metro: Islas Filipinas (línea 7), Moncloa (línea 3 y 6)  Bus: 132, 82, 1, 44, C2, 138, 62, C1  Bicimad: Estación 244 (calle Isaac Peral, 44)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:  Grado en enfermería Postgrado",
+			"organization-name": "Escuela Universitaria de Enfermería. Fundación Jiménez Díaz"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6369-escuela-universitaria-magisterio-escuni.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6369",
+		"title": "Escuela Universitaria de Magisterio ESCUNI",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=612fc05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/VistaAlegre"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "AVENIDA NUESTRA SEÑORA DE FATIMA 102"
+		},
+		"location": {
+			"latitude": 40.378328008655004,
+			"longitude": -3.7488801858007923
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:    Maestro Educación Infantil. Maestro Educación Primaria. Pedagogía. Educación Social.  Másteres y postgrados. Bus: 35, 34.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Escuela Universitaria de Magisterio ESCUNI"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/29971-eserp-madrid-business-school.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEducacion/CentrosFormacionProfesionalPrivadosConcertados",
+		"id": "29971",
+		"title": "ESERP Madrid Business School",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e902059cb751c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/NuevaEspana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28016",
+			"street-address": "CALLE COSTA RICA 9"
+		},
+		"location": {
+			"latitude": 40.45873666000346,
+			"longitude": -3.674947232210818
+		},
+		"organization": {
+			"organization-desc": "  Metro: Colombia (líneas 8, 9).  Bus: 52, 11, 40, 7, 87, 16, 29, 51.  Bicimad: Estaciones 160 (calle Colombia, 7), 254 (avenida Pío XII, 3).  Aparcamiento: República Dominicana (61), Plaza República Dominicana, calle Costa Rica y calle Alberto Alcocer.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "ESERP Madrid Business School"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61612-iade-escuela-diseno.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "61612",
+		"title": "IADE Escuela de Diseño",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d4ed8ed67151c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Recoletos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28001",
+			"street-address": "CALLE CLAUDIO COELLO 48"
+		},
+		"location": {
+			"latitude": 40.427176334657716,
+			"longitude": -3.686188531537097
+		},
+		"organization": {
+			"organization-desc": "  Metro: Serrano (línea 4).  Bus: 1, 19, 51, 74, 9.  Cercanías Renfe: Recoletos (líneas C1, C2, C7, C10 y Regional).  Bicimad: Estaciones 92 (calle Claudio Coello, 45) y 105 (calle Serrano, 54).  Aparcamientos: Serrano II (39), calle Serrano entre Ortega y Gasset y Hermosilla; Velázquez Ayala (42), calle Velázquez y calle Ayala.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Diseño de interiores. Diseño de moda Másteres.",
+			"organization-name": "IADE Escuela de Diseño"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/109174-instituto-estudios-bursatiles-ieb-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "109174",
+		"title": "Instituto de Estudios Bursátiles (IEB)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=19e215a11a81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ALFONSO XI 6"
+		},
+		"location": {
+			"latitude": 40.418666903378885,
+			"longitude": -3.690642533944984
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Derecho. Administración y dirección de empresas.  Másteres y postgrados. Metro: Banco de España (línea 2).  Bus: 19, 203, E1, 14, 27, 37, 45, C03.  Bicimad: Estaciones 86 (plaza de Cibeles), 60 (plaza de la Independencia, 6), 65 (calle Antonio Maura, 15).  Aparcamiento: Montalbán (49), calle Montalbán entre calle Alfonso XI y paseo del Prado).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Instituto de Estudios Bursátiles (IEB)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/97192-instituto-salud-carlos-iii-escuela-nacional-medicina-trabajo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "97192",
+		"title": "Instituto de Salud Carlos III. Escuela Nacional de Medicina del Trabajo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=56e94f36ff81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/LaPaz"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28029",
+			"street-address": "CALLE SINESIO DELGADO 8"
+		},
+		"location": {
+			"latitude": 40.47467830039234,
+			"longitude": -3.693859963015047
+		},
+		"organization": {
+			"organization-desc": "  Metro: Begoña (línea 10)  Bus: 147, 177",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Instituto de Salud Carlos III. Escuela Nacional de Medicina del Trabajo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11954914-residencia-estudiantes-ciudad-escolar-comunidad-madrid-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "11954914",
+		"title": "Residencia de Estudiantes Ciudad Escolar. Comunidad de Madrid.",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e94b29b0795c6810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Distrito"
+			},
+			"locality": "MADRID",			
+			"postal-code": "",
+			"street-address": "CARRETERA COLMENAR VIEJO  Km. 12,800"
+		},
+		"location": {
+			"latitude": 40.52514591809954,
+			"longitude": -3.6853908329744214
+		},
+		"organization": {
+			"organization-desc": "  Bus: 712, 713, 714, 716, 717, 721, 722, 725.    Cercanias RENFE: Ramón y Cajal (líneas C10, C8-A, C8-B)",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia de Estudiantes Ciudad Escolar. Comunidad de Madrid."
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11163416-residencia-estudiantes-palacio-barradas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "11163416",
+		"title": "Residencia de estudiantes Palacio de Barradas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ac266736b3f41710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE SAN BERNARDO 63"
+		},
+		"location": {
+			"latitude": 40.42645825034476,
+			"longitude": -3.706923606244769
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (líneas 2, 3 y 10), San Bernardo (líneas 2 y 4).  Bus: 147, 3, 2.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia de estudiantes Palacio de Barradas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55233-residencia-universitaria-augustinus-nebrija.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "55233",
+		"title": "Residencia Universitaria Augustinus Nebrija",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d0ae444a2951c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE CEA BERMUDEZ 59"
+		},
+		"location": {
+			"latitude": 40.43894007585974,
+			"longitude": -3.715531702478502
+		},
+		"organization": {
+			"organization-desc": "  Metro: Islas Filipinas (línea 7) y Moncloa (líneas 3 y 6).  Bus: 2, 12, 44, 1, 132, 138, 62, 82, C1.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia Universitaria Augustinus Nebrija"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168328-residencia-universitaria-erasmo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "168328",
+		"title": "Residencia Universitaria Erasmo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=333629ea9281c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE ERASMO DE ROTTERDAM 5 y 7"
+		},
+		"location": {
+			"latitude": 40.548027795931425,
+			"longitude": -3.6989970922329403
+		},
+		"organization": {
+			"organization-desc": "  Bus:  827, 827A.  Cercanías Renfe: Cantoblanco Universidad (líneas C4a y C4b).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia Universitaria Erasmo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185968-residencia-universitaria-gomez-pardo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "185968",
+		"title": "Residencia Universitaria Gómez Pardo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7c26af5e2775e010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/RiosRosas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE CRISTOBAL BORDIU 30 BIS"
+		},
+		"location": {
+			"latitude": 40.443040030471,
+			"longitude": -3.7009070820260876
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ríos Rosas (línea 1), Cuatro Caminos (líneas 1, 2 y 6).  Bus: 3, 12, 37, 45 y 149",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia Universitaria Gómez Pardo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7614004-residencia-universitaria-jose-perez-vargas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "7614004",
+		"title": "Residencia Universitaria José Pérez de Vargas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f15b16621fc08410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "AVENIDA DAROCA 321"
+		},
+		"location": {
+			"latitude": 40.406276896821566,
+			"longitude": -3.6127600502928536
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicálvaro (línea 9).  Bus: 100, 106, 130, 4.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia Universitaria José Pérez de Vargas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6461002-residencia-universitaria-nebrija-chamberi.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "6461002",
+		"title": "Residencia Universitaria Nebrija Chamberí",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1f67e1925e0c7310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE NICASIO GALLEGO 12"
+		},
+		"location": {
+			"latitude": 40.42942134889185,
+			"longitude": -3.698902512090178
+		},
+		"organization": {
+			"organization-desc": "  Metro: Bilbao (líneas 1 y 4), Alonso Martínez (líneas 4, 5 y 10).  Bus: 37, 40, 21, C03, 147..",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia Universitaria Nebrija Chamberí"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8154142-residencia-universitaria-nebrija-corazonistas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "8154142",
+		"title": "Residencia Universitaria Nebrija - Corazonistas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=107861ffd35be410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Arguelles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE TUTOR 36"
+		},
+		"location": {
+			"latitude": 40.42951144473094,
+			"longitude": -3.7166919067720485
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arg&amp;uuml;elles (líneas 3, 4 y 6), Moncloa (líneas 3 y 6)  Bus: 1,21, 44, 62, 74, 133 y C2",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia Universitaria Nebrija - Corazonistas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11954900-residencia-universitaria-tagaste.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/ColegiosMayores",
+		"id": "11954900",
+		"title": "Residencia Universitaria Tagaste",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=605929b0795c6810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Goya"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28001",
+			"street-address": "CALLE GENERAL PARDI&amp;Ntilde;AS 34 BIS"
+		},
+		"location": {
+			"latitude": 40.42668459434315,
+			"longitude": -3.6784079436749755
+		},
+		"organization": {
+			"organization-desc": "  Metro: Goya (líneas 2 y 4).  Bus: 29, 52.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Tipo mixta.",
+			"organization-name": "Residencia Universitaria Tagaste"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6296-saint-louis-university-madrid-campus.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "6296",
+		"title": "Saint Louis University Madrid Campus",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5e6b578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "AVENIDA VALLE 34"
+		},
+		"location": {
+			"latitude": 40.443618892912994,
+			"longitude": -3.7174660906866817
+		},
+		"organization": {
+			"organization-desc": " Titulaciones de grado y postgrado. Metro: Vicente Aleixandre (línea 6), Guzmán el Bueno (líneas 6 y 7).  Bus: C1, C2.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Saint Louis University Madrid Campus"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6293-schiller-international-university-madrid-campus.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "6293",
+		"title": "Schiller International University Madrid Campus",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=98bb578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "PASEO RECOLETOS 35"
+		},
+		"location": {
+			"latitude": 40.4240226588365,
+			"longitude": -3.691521424899909
+		},
+		"organization": {
+			"organization-desc": "  Metro: Colón (línea 4).  Bus: 14, 150, 27, 45, 5, 53, C03, 37, 21.  Cercanías Renfe: Recoletos (líneas C1, C2, C7, C10 y Regional).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Schiller International University Madrid Campus"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6302-suffolk-university-madrid-campus.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "6302",
+		"title": "Suffolk University Madrid Campus",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=609f578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE VIÑA 3"
+		},
+		"location": {
+			"latitude": 40.444012178441184,
+			"longitude": -3.7186194926544465
+		},
+		"organization": {
+			"organization-desc": "  Metro: Vicente Aleixandre (línea 6), Guzmán el Bueno (líneas 6 y 7).  Bus: C1, C2.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Suffolk University Madrid Campus"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/54154-universidad-abierta-cataluna-universitat-oberta-catalunya-uoc-sede-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "54154",
+		"title": "Universidad Abierta de Cataluña (Universitat Oberta de Catalunya). UOC. Sede de Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1737f0bde551c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE LUCHANA 23 PLANTA 6"
+		},
+		"location": {
+			"latitude": 40.43111177402823,
+			"longitude": -3.6998006857674284
+		},
+		"organization": {
+			"organization-desc": "  Metro: Bilbao (líneas 1 y 4).  Bus: 147, 37, 40.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Abierta de Cataluña (Universitat Oberta de Catalunya). UOC. Sede de Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10109167-universidad-antonio-nebrija-campus-madrid-princesa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "10109167",
+		"title": "Universidad Antonio de Nebrija. Campus de Madrid-Princesa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0de0e821b78e5510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE SANTA CRUZ DE MARCENADO 27"
+		},
+		"location": {
+			"latitude": 40.42953569046731,
+			"longitude": -3.7129892993492413
+		},
+		"organization": {
+			"organization-desc": " Titulaciones de grado y posgrado. Metro: Arg&amp;uuml;elles (líneas 3, 4 y 6), Ventura Rodríguez (línea 3).  Bus: 002, 21, C03, 2, 001, 1, 133, 138, 44, C1.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Antonio de Nebrija. Campus de Madrid-Princesa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11652695-universidad-antonio-nebrija-edificio-joaquin-maria-lopez.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "11652695",
+		"title": "Universidad Antonio de Nebrija. Edificio Joaquín María López",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c05125d502eff710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE JOAQUIN MARIA LOPEZ 62"
+		},
+		"location": {
+			"latitude": 40.43787436557181,
+			"longitude": -3.716177496227913
+		},
+		"organization": {
+			"organization-desc": " Ciclos formativos de Grado Superior. Metro: Islas Filipinas (línea 7).  Bus: 1, 132, 138, 44, 62, 82, C1, C2, 12",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Antonio de Nebrija. Edificio Joaquín María López"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/32179-universidad-autonoma-madrid-escuela-politecnica-superior.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "32179",
+		"title": "Universidad Autónoma de Madrid. Escuela Politécnica Superior",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f6f96545f951c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE FRANCISCO TOMAS Y VALIENTE 11"
+		},
+		"location": {
+			"latitude": 40.54694594124175,
+			"longitude": -3.6915841963667
+		},
+		"organization": {
+			"organization-desc": "  ",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Estudios de grado:    Grado en Ingeniería Biomédica   Grado en Ciencia e Ingeniería de Datos  Grado en Ingeniería Informática  Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación    Másteres y postgrados.",
+			"organization-name": "Universidad Autónoma de Madrid. Escuela Politécnica Superior"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6403-universidad-autonoma-madrid-escuela-universitaria-enfermeria-cruz-roja.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6403",
+		"title": "Universidad Autónoma de Madrid. Escuela Universitaria de Enfermería de la Cruz Roja",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4cfec05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "AVENIDA REINA VICTORIA 28"
+		},
+		"location": {
+			"latitude": 40.447245864225934,
+			"longitude": -3.7096954577510513
+		},
+		"organization": {
+			"organization-desc": "  Metro: Guzmán el Bueno (líneas 6 y 7), Cuatro Caminos (líneas 1, 2 y 6)  Bus:   44,   45, C2, F, 127, C1",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:   Grado en enfermería",
+			"organization-name": "Universidad Autónoma de Madrid. Escuela Universitaria de Enfermería de la Cruz Roja"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6374-universidad-autonoma-madrid-escuela-universitaria-fisioterapia-once.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6374",
+		"title": "Universidad Autónoma de Madrid. Escuela Universitaria de Fisioterapia de la ONCE",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=af96c05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Mirasierra"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE NURIA 42"
+		},
+		"location": {
+			"latitude": 40.493908768303584,
+			"longitude": -3.708268358490922
+		},
+		"organization": {
+			"organization-desc": "  Bus: 133, 134",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:   Grado en Fisioterapia Postgrado",
+			"organization-name": "Universidad Autónoma de Madrid. Escuela Universitaria de Fisioterapia de la ONCE"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6352-universidad-autonoma-madrid-facultad-ciencias.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6352",
+		"title": "Universidad Autónoma de Madrid. Facultad de Ciencias",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3c47c05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE FRANCISCO TOMAS Y VALIENTE 7"
+		},
+		"location": {
+			"latitude": 40.54537941407227,
+			"longitude": -3.6951833197962536
+		},
+		"organization": {
+			"organization-desc": "  Cercanías Renfe: Cantoblanco Universidad (línea C4)    Bus: líneas 714, 827, 827 A, 828",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Estudios de grado:   Biología. Bioquímica. Ciencia y Tecnología de los Alimentos. Ciencia, Tecnología y Humanidades. Ciencias. Ciencias Ambientales. Ciencias Ambientales y Geografía y Ordenación del Territorio. Física. Ingeniería Biomédica. Ingeniería Informática y Matemáticas. Ingeniería Química. Matemáticas. Nutrición Humana y Dietética. Nutrición Humana y Dietética y Ciencia y Tecnología de los Alimentos. Química.   Másteres y postgrados.",
+			"organization-name": "Universidad Autónoma de Madrid. Facultad de Ciencias"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6353-universidad-autonoma-madrid-facultad-ciencias-economicas-empresariales.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6353",
+		"title": "Universidad Autónoma de Madrid. Facultad de Ciencias Económicas y Empresariales",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a937c05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE FRANCISCO TOMAS Y VALIENTE 5"
+		},
+		"location": {
+			"latitude": 40.54487238078954,
+			"longitude": -3.6966067777305702
+		},
+		"organization": {
+			"organization-desc": "  Cercanías Renfe: Cantoblanco Universidad (línea C4)  Bus: líneas 714, 827, 827 A, 828",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones de grado:   Grado en Administración y Dirección de Empresas. Grado en Análisis de Datos en la Empresa (biling&amp;uuml;e). Doble Grado en Derecho y Administración y Dirección de Empresas. Grado en Economía. Grado en Economía y Finanzas (biling&amp;uuml;e). Grado en Filosofía, Política y Economía. Grado en Gestión Aeronáutica. Grado en Turismo.   Másteres y postgrados.",
+			"organization-name": "Universidad Autónoma de Madrid. Facultad de Ciencias Económicas y Empresariales"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6354-universidad-autonoma-madrid-facultad-derecho.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6354",
+		"title": "Universidad Autónoma de Madrid. Facultad de Derecho",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ce57c05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE KELSEN 1"
+		},
+		"location": {
+			"latitude": 40.541584341026066,
+			"longitude": -3.6911146791930514
+		},
+		"organization": {
+			"organization-desc": "  ",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones de grado  Grado en Derecho Grado en Ciencia Política y Administración Pública Doble Grado en Derecho y en Administración y Dirección de Empresas Doble Grado en Derecho y en Ciencia Política y Administración Pública Grado en Filosofía, Política y Economía Programas Internacionales de Doble Titulación   Másteres y postgrados.",
+			"organization-name": "Universidad Autónoma de Madrid. Facultad de Derecho"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6355-universidad-autonoma-madrid-facultad-filosofia-letras.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6355",
+		"title": "Universidad Autónoma de Madrid. Facultad de Filosofía y Letras",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5177c05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE FRANCISCO TOMAS Y VALIENTE 1"
+		},
+		"location": {
+			"latitude": 40.544325916954385,
+			"longitude": -3.698365543129191
+		},
+		"organization": {
+			"organization-desc": "  Cercanías Renfe: Cantoblanco Universidad (línea C4)    Bus: líneas 714, 827, 827 A, 828",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Grados y Dobles Grados:  Grado en Antropología Social y Cultural Grado en Ciencias y Lenguas de la Antig&amp;uuml;edad Grado en Estudios de Asia y África: Árabe, Chino y Japonés Grado en Estudios Hispánicos Grado en Estudios Ingleses Grado en Estudios Internacionales. Grado en Filosofía Grado en Geografía y Ordenación del Territorio Grado en Historia Grado en Historia del Arte Grado en Historia y Ciencias de la Música y Tecnología Musical Grado en Lenguas Modernas, Cultura y Comunicación Grado en Traducción e Interpretación Doble Grado en Ciencias Ambientales y Geografía y Ordenación del Territorio Doble Grado Filosofía - Historia y Ciencias de la Música y Tecnología Musical Doble Grado en Historia del Arte y Ciencias y Lenguas de la Antig&amp;uuml;edad Doble Grado en Historia y Estudios Internacionales Doble Grado en Traducción e Interpretación y Lenguas Modernas Cultura y Comunicación   Másteres y postgrados.",
+			"organization-name": "Universidad Autónoma de Madrid. Facultad de Filosofía y Letras"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6360-universidad-autonoma-madrid-facultad-formacion-profesorado-educacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6360",
+		"title": "Universidad Autónoma de Madrid. Facultad de Formación de Profesorado y Educación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e387c05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE FRANCISCO TOMAS Y VALIENTE 3"
+		},
+		"location": {
+			"latitude": 40.54451020545557,
+			"longitude": -3.697774510862534
+		},
+		"organization": {
+			"organization-desc": "  Cercanías Renfe: Cantoblanco Universidad (línea C4)    Bus: 714, 827, 827A, 828",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Estudios de grado:     Ciencias de la Actividad Física y del Deporte. Maestro/a en Educación Infantil. Maestro/a en Educación Primaria. Doble Grado en Maestro/a en Educación Infantil y Maestro/a en Educación Primaria.   Másteres y postgrados.",
+			"organization-name": "Universidad Autónoma de Madrid. Facultad de Formación de Profesorado y Educación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6357-universidad-autonoma-madrid-facultad-medicina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6357",
+		"title": "Universidad Autónoma de Madrid. Facultad de Medicina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7697c05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/LaPaz"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28029",
+			"street-address": "CALLE ARZOBISPO MORCILLO 4"
+		},
+		"location": {
+			"latitude": 40.4808908842711,
+			"longitude": -3.6909106726884695
+		},
+		"organization": {
+			"organization-desc": "  Metro: Begoña (línea 10)  Bus: 132, 67, 124, 135, 137, 175, 178  Bicimad: Estación 217 (calle Pedro Rico, 4)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones de grado:    Grado en Medicina. Grado en Enfermería. Grado en Ingeniería Biomédica. Grado en Nutrición Humana y Dietética. Doble Grado en Nutrición Humana y Dietética y Ciencia y Tecnología de los Alimentos. Grado en Bioquímica.   Másteres y postgrados.",
+			"organization-name": "Universidad Autónoma de Madrid. Facultad de Medicina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6356-universidad-autonoma-madrid-facultad-psicologia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6356",
+		"title": "Universidad Autónoma de Madrid. Facultad de Psicología",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=09a7c05ef571c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE IVAN PAVLOV 6"
+		},
+		"location": {
+			"latitude": 40.543827683418954,
+			"longitude": -3.6924908365072424
+		},
+		"organization": {
+			"organization-desc": "  Cercanías Renfe: Cantoblanco Universidad (línea C4)  Bus: 714, 827, 827A, 828",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Grado en psicología.  Másteres y postgrados.",
+			"organization-name": "Universidad Autónoma de Madrid. Facultad de Psicología"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5741367-universidad-camilo-jose-cela-campus-almagro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "5741367",
+		"title": "Universidad Camilo José Cela Campus Almagro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1bb27fe67b289210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Almagro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE ALMAGRO 5"
+		},
+		"location": {
+			"latitude": 40.4285833900725,
+			"longitude": -3.694977051764264
+		},
+		"organization": {
+			"organization-desc": " Grados, Postgrados y Ciclos Formativos. Metro Alonso Martínez (líneas 4, 5 y 10)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Grados, Postgrados y Ciclos Formativos.",
+			"organization-name": "Universidad Camilo José Cela Campus Almagro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12007239-universidad-camilo-jose-cela-campus-castellana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "12007239",
+		"title": "Universidad Camilo José Cela Campus Castellana",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=52fee124c5af7810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/NuevaEspana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28036",
+			"street-address": "CALLE JUAN HURTADO DE MENDOZA 4"
+		},
+		"location": {
+			"latitude": 40.460387720713776,
+			"longitude": -3.6887258017247517
+		},
+		"organization": {
+			"organization-desc": "  Metro Cuzco (línea 10)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Grados, Postgrados y Ciclos Formativos.",
+			"organization-name": "Universidad Camilo José Cela Campus Castellana"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6337-universidad-ceu-san-pablo-campus-moncloa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6337",
+		"title": "Universidad CEU San Pablo. Campus de Moncloa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=012f578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE JULIAN ROMEA 23"
+		},
+		"location": {
+			"latitude": 40.4426848456701,
+			"longitude": -3.717392603409244
+		},
+		"organization": {
+			"organization-desc": "  Metro:  Islas Filipinas (línea 7); Vicente Aleixandre (línea 6), Guzmán el Bueno (líneas 6 y 7)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Facultades:   Humanidades y ciencias de la comunicación. Ciencias económicas y empresariales. Derecho.",
+			"organization-name": "Universidad CEU San Pablo. Campus de Moncloa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5321256-universidad-complutense-madrid-centro-complutense-ensenanza-espanol.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "5321256",
+		"title": "Universidad Complutense de Madrid. Centro Complutense para la Enseñanza del Español",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a414ad4ae5b01210VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "S/N - 28040",
+			"street-address": "PLAZA MENÉNDEZ PELAYO "
+		},
+		"location": {
+			"latitude": 40.44898329648031,
+			"longitude": -3.730509235855083
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ciudad Universitaria (línea 6).  Bus: 82, F, G, U.  Bicimad: Estación 261 (avenida Complutense, 23).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Centro Complutense para la Enseñanza del Español"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5412137-universidad-complutense-madrid-centro-superior-idiomas-modernos.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "5412137",
+		"title": "Universidad Complutense de Madrid. Centro Superior de Idiomas Modernos",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0f66c3665e393210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "",
+			"street-address": "CALLE PROFESOR ARANGUREN  Edificio Multiusos 2ª planta"
+		},
+		"location": {
+			"latitude": 40.449963578914904,
+			"longitude": -3.732775678645041
+		},
+		"organization": {
+			"organization-desc": "  Bus: F, G.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Centro Superior de Idiomas Modernos"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6492-universidad-complutense-madrid-escuela-profesional-medicina-legal-forense.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "6492",
+		"title": "Universidad Complutense de Madrid. Escuela Profesional de Medicina Legal y Forense",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=afa07b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "S/N - 28040",
+			"street-address": "AVENIDA COMPLUTENSE "
+		},
+		"location": {
+			"latitude": 40.444209689370524,
+			"longitude": -3.724525000209294
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ciudad Universitaria (línea 6).  Bus: 132, 82, G, U.  Bicimad: Estaciones 258 y 259 (metro Ciudad Universitaria).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Escuela Profesional de Medicina Legal y Forense"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6501-universidad-complutense-madrid-escuela-profesional-relaciones-laborales.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios",
+		"id": "6501",
+		"title": "Universidad Complutense de Madrid. Escuela Profesional de Relaciones Laborales",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c4d07b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE SAN BERNARDO 49"
+		},
+		"location": {
+			"latitude": 40.424857288787685,
+			"longitude": -3.7075073443351645
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (línea 2).  Bus: 147, 3, 002.  Bicimad: Estacionesn 15 (calle San Vicente Ferrer, 64), 16 (calle San Bernardo, 22).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Escuela Profesional de Relaciones Laborales"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6320-universidad-complutense-madrid-facultad-bellas-artes.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6320",
+		"title": "Universidad Complutense de Madrid. Facultad de Bellas Artes",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b268578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE PINTOR EL GRECO 2"
+		},
+		"location": {
+			"latitude": 40.43924887699439,
+			"longitude": -3.7339441902245993
+		},
+		"organization": {
+			"organization-desc": " Titulaciones   Bellas Artes. Conservación y Restauración del Patrimonio Cultural. Diseño.  Másteres y postgrados. Bus: 46, U, 160, 161.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Bellas Artes"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6306-universidad-complutense-madrid-facultad-ciencias-biologicas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6306",
+		"title": "Universidad Complutense de Madrid. Facultad de Ciencias Biológicas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4578578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE JOSE ANTONIO NOVAIS 12"
+		},
+		"location": {
+			"latitude": 40.44860689706268,
+			"longitude": -3.7257076188100315
+		},
+		"organization": {
+			"organization-desc": " Titulación:   Grado de Biología.  Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 132, F, 82, G, U.  Bicimad: Estación 260 (calle José Antonio Novais frente al número 12).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Ciencias Biológicas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6385-universidad-complutense-madrid-facultad-ciencias-documentacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6385",
+		"title": "Universidad Complutense de Madrid. Facultad de Ciencias de la Documentación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e508578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE SANTISIMA TRINIDAD 37"
+		},
+		"location": {
+			"latitude": 40.438157283286685,
+			"longitude": -3.701196886214348
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Información y Documentación. Musicología.  Másteres y postgrados. Metro: Alonso Cano (línea 7), Canal (líneas 2 y 7), Rios Rosas (línea 1).  Bus: 149, 12, 3, 37.  Bicimad: Estación 201 (calle José Abascal, 2).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Ciencias de la Documentación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6319-universidad-complutense-madrid-facultad-ciencias-informacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6319",
+		"title": "Universidad Complutense de Madrid. Facultad de Ciencias de la Información",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d788578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA COMPLUTENSE 3"
+		},
+		"location": {
+			"latitude": 40.44565281311891,
+			"longitude": -3.7278198653957086
+		},
+		"organization": {
+			"organization-desc": " Titulaciones     Comunicación Audiovisual. Periodismo. Publicidad y Relaciones Públicas.  Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 132, 82, G, U.  Bicimad: Estaciones 258 y 259 (avenida de la Complutense, metro Ciudad Universitaria).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Ciencias de la Información"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6307-universidad-complutense-madrid-facultad-ciencias-fisicas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6307",
+		"title": "Universidad Complutense de Madrid. Facultad de Ciencias Físicas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fca8578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA CIENCIAS 1"
+		},
+		"location": {
+			"latitude": 40.450777002534814,
+			"longitude": -3.7260915899587603
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Física (ofrece un grupo en inglés). Ingeniería de Materiales. Ingeniería Electrónica de Comunicaciones. Matemáticas - Física (ofrece un grupo en inglés).  Másteres y postgrados. Bus: 82, F, G, U.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Ciencias Físicas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6305-universidad-complutense-madrid-facultad-ciencias-geologicas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6305",
+		"title": "Universidad Complutense de Madrid. Facultad de Ciencias Geológicas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8fb8578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE JOSE ANTONIO NOVAIS 12"
+		},
+		"location": {
+			"latitude": 40.44860689706268,
+			"longitude": -3.7257076188100315
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:    Geología. Ingeniería Geológica.  Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 132, F, 82, G, U.  Bicimad: Estación 260 (calle José Antonio Novais frente al número 12).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Ciencias Geológicas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6313-universidad-complutense-madrid-facultad-ciencias-matematicas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6313",
+		"title": "Universidad Complutense de Madrid. Facultad de Ciencias Matemáticas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=12d8578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA CIENCIAS 3"
+		},
+		"location": {
+			"latitude": 40.44945850908754,
+			"longitude": -3.7259383636708434
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:    Economía - Matemáticas y Ciencia de Datos. Economía - Matemáticas y Estadística Plan 2019 (plan a extinguir). Economía - Matemáticas y Estadística (plan a extinguir). Ingeniería Informática - Matemáticas Plan 2019. Ingeniería Matemática. Matemáticas. Matemáticas - Física (ofrece un grupo en inglés) plan 2019. Matemáticas y Ciencia de Datos. Matemáticas y Estadística Plan 2019 (plan a extinguir). Matemáticas y Estadística (plan a extinguir).  Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 132, F, 82, G, U.  Bicimad: Estación 260 (calle José Antonio Novais, 12).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Ciencias Matemáticas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6308-universidad-complutense-madrid-facultad-ciencias-quimicas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6308",
+		"title": "Universidad Complutense de Madrid. Facultad de Ciencias Químicas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=37f8578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA CIENCIAS 2"
+		},
+		"location": {
+			"latitude": 40.450293078267315,
+			"longitude": -3.7249357757330084
+		},
+		"organization": {
+			"organization-desc": " Titulaciones    Química. Ingeniería Química. Bioquímica. Doble grado en Química y Bioquímica.  Másteres y postgrados. Bus: 82, F, G, U.    Bicimad: Estación 260 (calle José Antonio Novais frente al número 12).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Ciencias Químicas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/44824-universidad-complutense-madrid-facultad-comercio-turismo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "44824",
+		"title": "Universidad Complutense de Madrid. Facultad de Comercio y Turismo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bd982c798651c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Vallehermoso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "AVENIDA FILIPINAS 3"
+		},
+		"location": {
+			"latitude": 40.43972279736298,
+			"longitude": -3.7115000631943875
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Comercio. Doble Título Interuniversitario de Grado en Diseño de Moda y de Grado en Comercio, por la Universidad Politécnica de Madrid y la Universidad Ccomplutense de Madrid. Programa Integrado Grado y Máster en Turismo (con la Universidad Sorbona). Turismo. Turismo y Comercio.   Másteres y postgrados. Metro: Islas Filipinas (línea 7).  Bus: 12, 2.  Bicimad: Estaciones 203 (calle General Ampudia, 2) y 202 (calle Santander esquina Avenida Filipinas), 128 (calle Cea Bermúdez, 59).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Comercio y Turismo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6316-universidad-complutense-madrid-facultad-derecho.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6316",
+		"title": "Universidad Complutense de Madrid. Facultad de Derecho",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c909578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA MENENDEZ PELAYO 4"
+		},
+		"location": {
+			"latitude": 40.45029942937783,
+			"longitude": -3.7307676043691123
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ciudad Universitaria (línea 6).  Bus: 82, F, G, U.  Bicimad: Estación 261 (avenida Complutense, 23).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Derecho"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6340-universidad-complutense-madrid-facultad-educacion-centro-formacion-profesorado.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6340",
+		"title": "Universidad Complutense de Madrid. Facultad de Educación - Centro de Formación del Profesorado",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5c19578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE RECTOR ROYO-VILLANOVA 1"
+		},
+		"location": {
+			"latitude": 40.45009595969183,
+			"longitude": -3.7173415690104594
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Declaración Eclesiástica de Competencia Académica (DECA). Educación Social. Maestro en Educación Infantil. Maestro en Educación Infantil y Maestro en Educación Primaria. Maestro en Educación Infantil y Pedagogía. Maestro en Educación Primaria (ofrece un grupo biling&amp;uuml;e español - inglés). Maestro en Educación Primaria y Pedagogía. Musicología. Pedagogía.  Másteres y postgrados. Metro: Vicente Aleixandre (línea 6).  Bus: 132, F, C2.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Educación - Centro de Formación del Profesorado"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6366-universidad-complutense-madrid-facultad-enfermeria-fisioterapia-podologia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6366",
+		"title": "Universidad Complutense de Madrid. Facultad de Enfermería, Fisioterapia y Podología",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7818578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA RAMON Y CAJAL 3"
+		},
+		"location": {
+			"latitude": 40.44388989111186,
+			"longitude": -3.725275188293443
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:    Enfermería. Farmacia y Nutrición Humana y Dietética.  Fisioterapia.   Nutrición Humana y Dietética.  Podología.  Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 132, 82, G, U.  Bicimad: Estaciones 258 y 259 (avenida de la Complutense, metro Ciudad Universitaria).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Enfermería, Fisioterapia y Podología"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6365-universidad-complutense-madrid-facultad-estudios-estadisticos.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6365",
+		"title": "Universidad Complutense de Madrid. Facultad de Estudios Estadísticos",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0b28578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA PUERTA DE HIERRO "
+		},
+		"location": {
+			"latitude": 40.44710921445564,
+			"longitude": -3.736030211293149
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Grado en Estadística Aplicada.  Másteres y postgrados. Bus: 133, 162, 83, F, G.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Estudios Estadísticos"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6303-universidad-complutense-madrid-facultad-farmacia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6303",
+		"title": "Universidad Complutense de Madrid. Facultad de Farmacia",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee29578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA RAMÓN Y CAJAL "
+		},
+		"location": {
+			"latitude": 40.445377687821406,
+			"longitude": -3.726162822313488
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Bioquímica. Ciencia y Tecnología de los alimentos. Farmacia. Farmacia y Nutrición Humana y Dietética. Nutrición Humana y Dietética.  Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 132, 82, G, U.  Bicimad: Estaciones 258 y 259 (avenida de la Complutense, metro Ciudad Universitaria).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Farmacia"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6312-universidad-complutense-madrid-facultad-filologia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6312",
+		"title": "Universidad Complutense de Madrid. Facultad de Filología",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7149578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA MENÉNDEZ PELAYO "
+		},
+		"location": {
+			"latitude": 40.44902725572588,
+			"longitude": -3.7299122889709473
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ciudad Universitaria (línea 6).  Bus: 82, F, G, U.  Bicimad: Estaciones 261 (avenida Complutense, 23) y 260 (calle José Antonio Novais, 12).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Filología"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6310-universidad-complutense-madrid-facultad-filosofia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6310",
+		"title": "Universidad Complutense de Madrid. Facultad de Filosofía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0459578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Distrito"
+			},
+			"locality": "MADRID",			
+			"postal-code": "",
+			"street-address": "PLAZA MENÉNDEZ PELAYO "
+		},
+		"location": {
+			"latitude": 40.44898643338138,
+			"longitude": -3.7304165442551764
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Arqueología. Asignaturas para la Docencia en Centros Privados y Concertados - Filosofía. Ciencias de las Religiones. Ciencias Políticas - Filosofía. Derecho y Filosofía Plan 2020. Derecho y Filosofía. (Plan a extinguir). Doble Titulación Grado en Filosofía UCM y Licenciado en Filosofía (UNAM). Filosofía. Historia. Historia del Arte. Musicología.   Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 82, F, G, U.  Bicimad: Estaciones 261 (avenida Complutense, 23) y 260 (calle José Antonio Novais, 12).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Filosofía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6309-universidad-complutense-madrid-facultad-geografia-historia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6309",
+		"title": "Universidad Complutense de Madrid. Facultad de Geografía e Historia",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9669578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE PROFESOR ARANGUREN  CIUDAD UNIVERSITARIA"
+		},
+		"location": {
+			"latitude": 40.44950567301685,
+			"longitude": -3.7338667546817264
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:   Arqueología. Asignaturas para la Docencia en Centros Privados y Concertados - Geografía e Historia. Ciencias de las Religiones. Geografía y Ordenación del Territorio. Historia. Historia - Filología Clásica. Historia del Arte. Musicología.   Másteres y postgrados. Bus: F, G, 133, 162, 83.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Geografía e Historia"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/54821-universidad-complutense-madrid-facultad-informatica.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "54821",
+		"title": "Universidad Complutense de Madrid. Facultad de Informática",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b5da6545f951c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE PROFESOR JOSE GARCIA SANTESMASES 9"
+		},
+		"location": {
+			"latitude": 40.453077067733574,
+			"longitude": -3.733826683733914
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:    Administración y Dirección de Empresas - Ingeniería Informática Plan 2019. Desarrollo de Videojuegos Plan 2019. Ingeniería de Computadores Plan 2019. Ingeniería de Computadores. (Plan a extinguir). Ingeniería de Datos e Inteligencia Artificial. Ingeniería del Software Plan 2019. Ingeniería del Software. (Plan a extinguir). Ingeniería Informática - Matemáticas Plan 2019. Ingeniería Informática (ofrece un grupo en inglés) Plan 2019. Ingeniería Informática (ofrece un grupo en inglés). (Plan a extinguir).   Másteres y postgrados. Bus: U.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Informática"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6304-universidad-complutense-madrid-facultad-medicina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6304",
+		"title": "Universidad Complutense de Madrid. Facultad de Medicina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2979578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "S/N - 28040",
+			"street-address": "PLAZA RAMÓN Y CAJAL "
+		},
+		"location": {
+			"latitude": 40.44405495942567,
+			"longitude": -3.724220903045646
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:    Medicina. Nutrición Humana y Dietética. Terapia Ocupacional.  Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 132, 82, G, U.  Bicimad: Estaciones 258 y 259 (metro Ciudad Universitaria).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Medicina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6315-universidad-complutense-madrid-facultad-odontologia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6315",
+		"title": "Universidad Complutense de Madrid. Facultad de Odontología",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bb89578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA RAMON Y CAJAL "
+		},
+		"location": {
+			"latitude": 40.44388989111186,
+			"longitude": -3.725275188293443
+		},
+		"organization": {
+			"organization-desc": " Titulación:   Odontología.  Másteres y postgrados. Metro: Ciudad Universitaria (línea 6).  Bus: 132, 82, G, U.  Bicimad: Estaciones 258 y 259 (avenida de la Complutense, metro Ciudad Universitaria).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Odontología"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6364-universidad-complutense-madrid-facultad-optica-optometria.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6364",
+		"title": "Universidad Complutense de Madrid. Facultad de Óptica y Optometría",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9d38578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Arcos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28037",
+			"street-address": "CALLE ARCOS DE JALON 118"
+		},
+		"location": {
+			"latitude": 40.42597819309277,
+			"longitude": -3.6140011950615656
+		},
+		"organization": {
+			"organization-desc": " Titulación:   Grado en Óptica y Optometría  Másteres y postgrados. Metro: San Blas (línea 7), Avenida de Guadalajara (línea 2).  Bus: 153, 4.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Óptica y Optometría"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6314-universidad-complutense-madrid-facultad-veterinaria.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6314",
+		"title": "Universidad Complutense de Madrid. Facultad de Veterinaria",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d0b9578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA PUERTA DE HIERRO  sin número"
+		},
+		"location": {
+			"latitude": 40.44959367195723,
+			"longitude": -3.7383172430653935
+		},
+		"organization": {
+			"organization-desc": " Titulaciones:    Bioquímica. Ciencia y Tecnología de los Alimentos. Farmacia y Nutrición Humana y Dietética Plan 2019. Farmacia y Nutrición Humana y Dietética (plan a extinguir). Farmacia plan 2019. Farmacia (plan a extinguir). Nutrición Humana y Dietética. Veterinaria.  Másteres y postgrados. Bus: 133, 162, 83.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense de Madrid. Facultad de Veterinaria"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/135620-universidad-complutense-hospital-clinico-veterinario.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/ClinicasCentrosVeterinarios",
+		"id": "135620",
+		"title": "Universidad Complutense. Hospital Clínico Veterinario",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=802a5f463b81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "SN - 28040",
+			"street-address": "AVENIDA PUERTA DE HIERRO  FACULTAD DE VETERINARIA"
+		},
+		"location": {
+			"latitude": 40.45021458286808,
+			"longitude": -3.7400222312945473
+		},
+		"organization": {
+			"organization-desc": "  Bus: 83, 133, 162.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Complutense. Hospital Clínico Veterinario"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178101-universidad-nacional-educacion-distancia-uned-centro-asociado-madrid-escuelas-pias.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "178101",
+		"title": "Universidad Nacional de Educación a Distancia (UNED). Centro Asociado Madrid - Escuelas Pías",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2fed224e0d61c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE TRIBULETE 14"
+		},
+		"location": {
+			"latitude": 40.4077959539866,
+			"longitude": -3.7025893902054015
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lavapiés (línea 3);.  Bus: M1.  Cercanías Renfe: Embajadores (línea C5).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Títulos de grado:   Grado en Derecho. Grado en Trabajo Social. Grado en Ciencias Jurídicas de las Administraciones Públicas.  Idiomas CUID. Inglés, francés y japonés. UNED Senior. Curso de acceso a la universidad.",
+			"organization-name": "Universidad Nacional de Educación a Distancia (UNED). Centro Asociado Madrid - Escuelas Pías"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45202-universidad-nacional-educacion-distancia-uned-centro-asociado-madrid-gregorio-maranon.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "45202",
+		"title": "Universidad Nacional de Educación a Distancia (UNED). Centro Asociado Madrid - Gregorio Marañón",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=67792c798651c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE ARGUMOSA 3"
+		},
+		"location": {
+			"latitude": 40.408447184626155,
+			"longitude": -3.7001742404603184
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lavapiés (línea 3).  Bus: M1.  Cercanías Renfe: Embajadores (línea C5).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:  Grado en Geografía e Historia. Grado en Historia del Arte. Grado en Estudios Ingleses. Grado en Lengua y Literaturas Españolas. Grado en Filosofía. Grado en Antropología Social y Cultural.  Curso de acceso a la universidad. Idiomas CUID. Inglés, francés, alemán, árabe, italiano, portugués. UNED Senior.",
+			"organization-name": "Universidad Nacional de Educación a Distancia (UNED). Centro Asociado Madrid - Gregorio Marañón"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/53998-universidad-nacional-educacion-distancia-uned-centro-asociado-madrid-jacinto-verdaguer.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "53998",
+		"title": "Universidad Nacional de Educación a Distancia (UNED). Centro Asociado Madrid - Jacinto Verdaguer",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f9892c798651c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/LasAguilas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28024",
+			"street-address": "CALLE FUENTE DE LIMA 22"
+		},
+		"location": {
+			"latitude": 40.38278645640315,
+			"longitude": -3.7824021083869606
+		},
+		"organization": {
+			"organization-desc": "  Metro: Aviación Española (línea 10).  Bus: 17, 39.  Cercanías Renfe: Las Águilas (línea C5).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Estudios:  Grado en Ciencia Política y de la Administración. Grado en Criminología. Grado en Educación Social. Grado en Pedagogía. Grado en Psicología. Grado en Sociología. Grado en Educación Infantil (1.&amp;ordm; y 2.&amp;ordm;). Idiomas CUID. Inglés. Curso de acceso a la Universidad. UNED Senior.",
+			"organization-name": "Universidad Nacional de Educación a Distancia (UNED). Centro Asociado Madrid - Jacinto Verdaguer"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6177184-universidad-nacional-educacion-distancia-uned-centro-asociado-madrid-tablas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6177184",
+		"title": "Universidad Nacional de Educación a Distancia (UNED). Centro Asociado Madrid - Las Tablas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a8e4a30c0c582310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Valverde"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28050",
+			"street-address": "AVENIDA SANTO DOMINGO DE LA CALZADA 9"
+		},
+		"location": {
+			"latitude": 40.504821065488,
+			"longitude": -3.6658596724706185
+		},
+		"organization": {
+			"organization-desc": "  Metro: Las Tablas (línea 10), Palas de Rey (línea ML1).  Bus: 170, T61, 175, 176.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Estudios:   Grado en Física. Grado en Química. Grado en Matemáticas. Grado en Ciencias Ambientales. Grado en Ingeniería Eléctrica. Grado en Ingeniería Electrónica Industrial y Automática. Grado en Ingeniería Mecánica. Grado en Ingeniería en Tecnologías Industriales. Grado en Ingeniería Informática. Grado en Ingeniería en Tecnologías de la Información. Grado en Administración y Dirección de Empresas. Grado en Economía. Grado en Turismo. Grado en Ingeniería de la Energía (1.&amp;ordm; y 2.&amp;ordm;). Curso de Acceso a la Universidad. Idiomas CUID. Inglés. UNED Senior.",
+			"organization-name": "Universidad Nacional de Educación a Distancia (UNED). Centro Asociado Madrid - Las Tablas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7599405-universidad-nacional-educacion-distancia-uned-centro-universitario-idiomas-distancia-cuid-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "7599405",
+		"title": "Universidad Nacional de Educación a Distancia (UNED). Centro Universitario de Idiomas a Distancia (CUID)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=67161ebc40c87410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE TRIBULETE 14 PLANTA segunda"
+		},
+		"location": {
+			"latitude": 40.4077959539866,
+			"longitude": -3.7025893902054015
+		},
+		"organization": {
+			"organization-desc": "Secretaría del CUID.  ",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Nacional de Educación a Distancia (UNED). Centro Universitario de Idiomas a Distancia (CUID)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6376-universidad-politecnica-madrid-escuela-politecnica-ensenanza-superior.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6376",
+		"title": "Universidad Politécnica de Madrid. Escuela Politécnica de Enseñanza Superior",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3b9d578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PASEO JUAN XXIII 11"
+		},
+		"location": {
+			"latitude": 40.44793793568313,
+			"longitude": -3.717285250885199
+		},
+		"organization": {
+			"organization-desc": " Titulaciones de grado:   Grado en Administración y Dirección de Empresas. Doble Grado en Edificaición y en Administración y Dirección de Empresas. Doble Grado en Ingeniería Informática y en Administración y Dirección de Empresas. Doble Grado en Ingeniería Civil y Territorial y en Administración y Dirección de Empresas. Grado en matemáticas   Titulaciones de postgrado. Metro: Vicente Aleixandre (línea 6).  Bus: C1, 132, F., C2",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Politécnica de Enseñanza Superior"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6424-universidad-politecnica-madrid-escuela-tecnica-superior-arquitectura.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6424",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Arquitectura",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e9ac578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA JUAN DE HERRERA 4"
+		},
+		"location": {
+			"latitude": 40.43959650623064,
+			"longitude": -3.731162126785864
+		},
+		"organization": {
+			"organization-desc": " Estudios de Grado:   Grado en Fundamentos de la Arquitectura. Grado en Diseño de Interiores.   Titulaciones de postgrado. Metro: Ciudad Universitaria (línea 6).  Bus: 160, 161, 46, U.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Arquitectura"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6381-universidad-politecnica-madrid-escuela-tecnica-superior-edificacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6381",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Edificación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f05d578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA JUAN DE HERRERA 6"
+		},
+		"location": {
+			"latitude": 40.439061141330214,
+			"longitude": -3.7317253526397614
+		},
+		"organization": {
+			"organization-desc": " Estudios de Grado:   Doble grado en Edificación y Administración y Dirección de Empresas. Grado en Edificación. Grado Inmobiliario.   Titulaciones de postgrado. Metro: Ciudad Universitaria (línea 6).  Bus: 133, 161, 46, U, G.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Edificación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6418-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieria-aeronautica-espacio.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6418",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7cbc578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "PLAZA CARDENAL CISNEROS 3"
+		},
+		"location": {
+			"latitude": 40.44098319331987,
+			"longitude": -3.7246487290907204
+		},
+		"organization": {
+			"organization-desc": " Estudios de Grado:   Grado en Ingeniería en Tecnologías Aeroespaciales. Grado en ingeniería Aeroespacial Grado en Gestión y Operaciones del Transporte Aéreo.    Titulaciones de postgrado. Metro: Ciudad Universitaria (línea 6).  Bus: 132, 82, G, U, 133, 160, 161, 162, 83, 46, 865",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6419-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieria-agronomica-alimentaria-biosistemas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6419",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0fcc578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA PUERTA DE HIERRO 2"
+		},
+		"location": {
+			"latitude": 40.440899945359334,
+			"longitude": -3.728076234171524
+		},
+		"organization": {
+			"organization-desc": " Estudios de Grado:   Grado en Ingeniería Alimentaria. Grado en Ingeniería Agroambiental. Grado en Biotecnología. Grado en Ciencias Agrarias y Bioeconomía. Grado en Ingeniería Agrícola. Grado en Matemáticas.   Titulaciones de postgrado Metro: Ciudad Universitaria (línea 6).  Bus: 133, 162, 83, 132, 82, G, I, U.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6422-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieria-montes-forestal-medio-natural.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6422",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería de Montes, Forestal y del Medio Natural",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b60d578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE JOSE ANTONIO NOVAIS 10"
+		},
+		"location": {
+			"latitude": 40.448485414321894,
+			"longitude": -3.724507841206364
+		},
+		"organization": {
+			"organization-desc": " Estudios de Grado:   Grado en Ingeniería Forestal. Grado en Ingeniería de Tecnologías Ambientales. Grado en Ingeniería del Medio Natural.   Titulaciones de postgrado. Metro: Vicente Aleixandre (línea 6).  Bus: 132, F, G, 82",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería de Montes, Forestal y del Medio Natural"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6379-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieria-sistemas-informaticos.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6379",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería de Sistemas Informáticos",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=836d578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/PalomerasSureste"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CALLE ALAN TURING 1"
+		},
+		"location": {
+			"latitude": 40.39037030758324,
+			"longitude": -3.626968215943057
+		},
+		"organization": {
+			"organization-desc": " Estudios de grado:    Grado en Ciencia de Datos e Inteligencia Artificial. Grado en Ingeniería de Computadores. Grado en Ingeniería del software Grado en Sistemas de Información. Grado en Tecnologías para la Sociedad de la Información. Doble Grado en Ingeniería de Computadores y en Tecnologías para la Sociedad de la Información. Doble Grado en Ingeniería del Software y en Tecnologías para la Sociedad de la Información.   Titulaciones de postgrado. Metro: Sierra de Guadalupe (línea 1).  Bus: E, 145, 63.  Cercanías Renfe: Vallecas (líneas C2, C7 y Regional).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería de Sistemas Informáticos"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6387-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieria-diseno-industrial.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6387",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería y Diseño Industrial",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e2dd578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosFrontera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "RONDA VALENCIA 3"
+		},
+		"location": {
+			"latitude": 40.405420030666505,
+			"longitude": -3.7005940001153337
+		},
+		"organization": {
+			"organization-desc": " Estudios de grado:   Grado en Ingeniería Eléctrica. Grado en Ingeniería Electrónica Industrial y Automática. Grado en Ingeniería Mecánica. Grado en Ingeniería Química. Grado en Ingeniería en Diseño Industrial y Desarrollo de Producto. Doble Grado en Ingeniería en Diseño Industrial y en Ingeniería Mecánica. Doble Grado en Ingeniería Eléctrica y en Ingeniería Electrónica.   Titulaciones de postgrado. Metro: Embajadores (línea 3).  Bus: 119, 34, 36, 41, C1, C2, 27, 148, 60, M1, E1, 116, 118,   Cercanías Renfe: Embajadores  (línea C5).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería y Diseño Industrial"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6417-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieria-sistemas-telecomunicacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6417",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=db2d578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Distrito"
+			},
+			"locality": "MADRID",			
+			"postal-code": "",
+			"street-address": "CALLE NIKOLA TESLA "
+		},
+		"location": {
+			"latitude": 40.38879475945981,
+			"longitude": -3.629147669595368
+		},
+		"organization": {
+			"organization-desc": " Estudios de grado:    Grado en Ingeniería y Sistemas de Datos.  Grado en Ingeniería de Telecomunicación. Doble Grado en Ingeniería Electrónica de Comunicaciones e Ingeniería Telemática Doble Grado en Ingeniería y Sistemas de Datos e Ingeniería Telemática   Titulaciones de posgrado. Metro: Sierra de Guadalupe (línea 1).  Bus: E, 145, 63.  Cercanías Renfe: Vallecas (líneas C2, C7 y Regional).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6420-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieros-caminos-canales-puertos.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6420",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=91ec578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE PROFESOR ARANGUREN 3"
+		},
+		"location": {
+			"latitude": 40.448738163014994,
+			"longitude": -3.7332871485158043
+		},
+		"organization": {
+			"organization-desc": " Estudios de Grado:   Grado en Ingeniería Civil y Territorial. Doble grado en Ingeniería civil y Territorial y Administración y Dirección de Empresas. Grado en Ingeniería de Materiales.   Titulaciones de postgrado. Metro: Ciudad Universitaria (línea 6).  Bus: F, G.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11999975-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieros-caminos-canales-puertos-edificio-retiro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "11999975",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos. Edificio Retiro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=78f8bf4f5a1c7810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ALFONSO XII 3"
+		},
+		"location": {
+			"latitude": 40.4094661942901,
+			"longitude": -3.688412783499902
+		},
+		"organization": {
+			"organization-desc": " Estudios de Grado:   Grado en Ingeniería Civil y Territorial. Doble grado en Ingeniería civil y Territorial y Administración y Dirección de Empresas. Grado en Ingeniería de Materiales.   Titulaciones de postgrado. Metro: Estación del Arte (línea 1).  Bus: 19, C1, 26, 32, 37, 001, 10, 14, 59, 102, 24, 54, 57, 68, 69, 85, 86, 40, 141.  Cercanías Renfe: Atcoha (líneas C1, C2, C3, C4, C4B, C5, C7 y C10).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos. Edificio Retiro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6421-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieros-minas-energia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6421",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros de Minas y Energía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=24fc578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/RiosRosas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE RIOS ROSAS 21"
+		},
+		"location": {
+			"latitude": 40.44209227424258,
+			"longitude": -3.7003734646151534
+		},
+		"organization": {
+			"organization-desc": "Integra una Biblioteca con mobiliario histórico que cuenta con más de 7.000 ejemplares de que van de los siglos XVI al XVIII y un gran volumen de obras del siglo XIX, además de publicaciones periódicas y mapas cartográficos. Estudios de grado:   Grado en Ingeniería en Tecnología Minera. Grado en Ingeniería Geológica. Grado en Ingeniería de los Recursos Energéticos, Combustibles y Explosivos. Grado en Ingeniería de la Energía.   Titulaciones de postgrado. Metro: Ríos Rosas (línea 1).  Bus: 12, 45, 3.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros de Minas y Energía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6375-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieros-telecomunicacion.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6375",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros de Telecomunicación",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cdad578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA COMPLUTENSE 30"
+		},
+		"location": {
+			"latitude": 40.453018384890925,
+			"longitude": -3.726745005476224
+		},
+		"organization": {
+			"organization-desc": " Estudios de grado:   Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación. Grado en Ingeniería Biomédica. Grado en Ingeniería y Sistemas de Datos.   Titulaciones de postgrado. Bus: 82, F, G, U.     Metro: Ciudad Universitaria (línea 6)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros de Telecomunicación"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6380-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieros-topografia-geodesia-cartografia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6380",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros en Topografía, Geodesia y Cartografía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=75ed578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/PalomerasSureste"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CALLE ARBOLEDA 1"
+		},
+		"location": {
+			"latitude": 40.3850312955634,
+			"longitude": -3.6262428071808612
+		},
+		"organization": {
+			"organization-desc": " Estudios de grado:   Grado en Ingeniería Geomática. Grado en Ingeniería de las Tecnologías de la Información Geoespacial. Grado en Ingeniería Geomática y Topografía.   Titulaciones de postgrado. Metro: Sierra de Guadalupe (línea 1).  Bus: E, 145, 63, 54, 58, 103, 142, 143  Cercanías Renfe: Vallecas (líneas C2, C7 y Regional).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros en Topografía, Geodesia y Cartografía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6427-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieros-industriales.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6427",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros Industriales",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e3d578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/ElViso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28006",
+			"street-address": "CALLE JOSE GUTIERREZ ABASCAL 2"
+		},
+		"location": {
+			"latitude": 40.44042600324054,
+			"longitude": -3.690212174964136
+		},
+		"organization": {
+			"organization-desc": "Integra la Biblioteca  María Moliner , fundada en 1850 para el Real Instituto Industrial. Cuenta con más de 35.000 ejemplares, entre los que se encuentra un valiosísimo fondo histórico en el campo de la ciencia y de la técnica, constituido en su mayor parte por obras del siglo XIX. Estudios de grado:     Grado en Ingeniería en Tecnologías Industriales. Grado en Ingeniería de Organización. Grado en Ingeniería Química. Grado en Ingeniería de la Energía.   Titulaciones de postgrado. Metro: Gregorio Marañón (líneas 7, 10).  Bus: 12, 45, 14, 147, 150, 27, 40, 7.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros Industriales"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6423-universidad-politecnica-madrid-escuela-tecnica-superior-ingenieros-navales.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6423",
+		"title": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros Navales",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=491d578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA MEMORIA 4"
+		},
+		"location": {
+			"latitude": 40.4388050819418,
+			"longitude": -3.724433976834532
+		},
+		"organization": {
+			"organization-desc": " Estudios de grado:   Grado en Arquitectura Naval. Grado en Ingeniería Marítima.   Titulaciones de postgrado. Metro: Moncloa (líneas 3 y 6), Ciudad Universitaria (línea 6).  Bus: 132, 133, 162, 46, 82, 83, G, U, 160, 161.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Escuela Técnica Superior de Ingenieros Navales"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6446-universidad-politecnica-madrid-facultad-ciencias-actividad-fisica-deporte-inef-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6446",
+		"title": "Universidad Politécnica de Madrid. Facultad de Ciencias de la Actividad Física y del Deporte (INEF)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=08fd578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE MARTIN FIERRO 7"
+		},
+		"location": {
+			"latitude": 40.4381730352489,
+			"longitude": -3.7325360017630174
+		},
+		"organization": {
+			"organization-desc": " Estudios de grado:   Grado en Ciencias de la Actividad Física y el Deporte.   Titulaciones de postgrado. Bus: 46, U,  Metro: Ciudad Universitaria (linea 6)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Universidad Politécnica de Madrid. Facultad de Ciencias de la Actividad Física y del Deporte (INEF)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6429-universidad-pontificia-comillas-escuela-tecnica-superior-ingenieria.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/EscuelasUniversitarias",
+		"id": "6429",
+		"title": "Universidad Pontificia Comillas. Escuela Técnica Superior de Ingeniería",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=424e578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE ALBERTO AGUILERA 25"
+		},
+		"location": {
+			"latitude": 40.43012986083875,
+			"longitude": -3.7126929434719336
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arg&amp;uuml;elles (líneas 3, 4 y 6), San Bernardo (líneas 2 y 4).  Bus: 21, C03, 2, 002.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:   Doble Grado en Ingeniería en Tecnologías de Telecomunicación, y Análisis de Negocios / Business Analytics (GITT-BA) Doble Grado en Ingeniería en Tecnologías Industriales, y Administración y Dirección de Empresas [GITI+ADE] Doble Grado en Ingeniería en Tecnologías de Telecomunicación, y Análisis de Negocios /Business Analytics (GITT+BA) Grado en Ingeniería en Tecnologías de Telecomunicación (GITT) Grado en Ingeniería en Tecnologías Industriales (GITI) Grado en Ingeniería Matemática e Inteligencia Artificial (iMAT) Másteres y postgrados.",
+			"organization-name": "Universidad Pontificia Comillas. Escuela Técnica Superior de Ingeniería"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6346-universidad-pontificia-comillas-facultad-ciencias-humanas-sociales.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6346",
+		"title": "Universidad Pontificia Comillas. Facultad de Ciencias Humanas y Sociales",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=676e578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE UNIVERSIDAD DE COMILLAS 3"
+		},
+		"location": {
+			"latitude": 40.552125920224775,
+			"longitude": -3.682802161256006
+		},
+		"organization": {
+			"organization-desc": "  Cercanías Renfe: Universidad Pontificia Comillas (Línea C4a).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:   Doble Grado en Ciencias de la Actividad Física y del Deporte, y Educación Primaria Doble Grado en Criminología y Trabajo Social Doble Grado en Educación Primaria y Educación Infantil, con Menciones en Lengua Extranjera [Inglés] y en Pedagogía Terapéutica Doble Grado en Filosofía y Filosofía, Política y Economía. Interuniversitario Comillas, Deusto y La Salle Doble Grado en Psicología y Criminología Doble Grado en Psicología y en Administración y Dirección de Empresas Doble Grado en Relaciones Internacionales (Biling&amp;uuml;e) y Comunicación Internacional / Bachelor in Global Communication Doble Grado en Traducción e Interpretación y Comunicación Internacional/Bachelor in Global Communication. Doble Grado en Traducción, Interpretación y Tecnologías del Lenguaje y Comunicación Internacional/ Grado en Educación Infantil, con Mención en Lengua Extranjera Grado en Educación Primaria, con Mención en Lengua Extranjera Grado en Filosofía Grado en Filosofía, Política y Economía Grado en Psicología Grado en Trabajo Social Grado en Traducción e Interpretación Grado en Traducción e Interpretación y Tecnologías del Lenguaje",
+			"organization-name": "Universidad Pontificia Comillas. Facultad de Ciencias Humanas y Sociales"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6349-universidad-pontificia-comillas-facultad-derecho-canonico.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6349",
+		"title": "Universidad Pontificia Comillas. Facultad de Derecho Canónico",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8c8e578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE ALBERTO AGUILERA 23"
+		},
+		"location": {
+			"latitude": 40.42997959570519,
+			"longitude": -3.711258490151281
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arg&amp;uuml;elles (líneas 3, 4 y 6), San Bernardo (líneas 2 y 4).  Bus: 21, C03, 2, 002.",
+			"accesibility": "3",
+			"schedule": "Titulaciones:  Licenciatura en Derecho Canónico Doctorado en Derecho Canónico Másteres",
+			"services": "",
+			"organization-name": "Universidad Pontificia Comillas. Facultad de Derecho Canónico"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6348-universidad-pontificia-comillas-facultad-teologia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6348",
+		"title": "Universidad Pontificia Comillas. Facultad de Teología",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1f9e578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElGoloso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28049",
+			"street-address": "CALLE UNIVERSIDAD DE COMILLAS 3"
+		},
+		"location": {
+			"latitude": 40.552125920224775,
+			"longitude": -3.682802161256006
+		},
+		"organization": {
+			"organization-desc": "  Cercanías Renfe: Universidad Pontificia Comillas (Línea C4a).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:   Grado en Teología. Másteres y posgrados.",
+			"organization-name": "Universidad Pontificia Comillas. Facultad de Teología"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11392787-universidad-pontificia-comillas-facultad-ciencias-economicas-empresariales.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "11392787",
+		"title": "Universidad Pontificia de Comillas. Facultad de Ciencias Económicas y Empresariales",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=862c3b563a979710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE ALBERTO AGUILERA 23"
+		},
+		"location": {
+			"latitude": 40.42997959570519,
+			"longitude": -3.711258490151281
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arg&amp;uuml;elles (líneas 3, 4 y 6), San Bernardo (líneas 2 y 4).  Bus: 21, C03, 2, 002.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:   Bachelor in Business Analytics. Doble Grado en Administración y Dirección de Empresas [ADE], y Análisis de Negocios/ Business Analytics. Doble Grado en Administración y Dirección de Empresas [ADE], y Relaciones Internacionales. Doble Grado en Análisis de Negocios/Business Analytics y Relaciones Internacionales. Grado en Administración y Dirección de Empresas. Grado en Administración y Dirección de Empresas / Bachelor&amp;rsquo;s Degree in Business Administration and Management. Grado en Administración y Dirección de Empresas, con Mención Internacional. Másteres y postgrados.",
+			"organization-name": "Universidad Pontificia de Comillas. Facultad de Ciencias Económicas y Empresariales"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6345-universidad-pontificia-comillas-facultad-derecho.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades/Facultades",
+		"id": "6345",
+		"title": "Universidad Pontificia de Comillas. Facultad de Derecho",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f97e578b9671c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE ALBERTO AGUILERA 23"
+		},
+		"location": {
+			"latitude": 40.42997959570519,
+			"longitude": -3.711258490151281
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arg&amp;uuml;elles (líneas 3, 4 y 6), San Bernardo (líneas 2 y 4).  Bus: 21, C03, 2, 002.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:   Doble Grado en Administración y Dirección de Empresas y Derecho. Doble Grado en Análisis de Negocios / Business Analytics y Derecho. Doble Grado en Derecho y en Filosofía, Política y Economía. Doble Grado en Derecho y Relaciones Internacionales. Grado en Derecho.",
+			"organization-name": "Universidad Pontificia de Comillas. Facultad de Derecho"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961029-universidad-pontificia-salamanca-campus-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+		"id": "4961029",
+		"title": "Universidad Pontificia de Salamanca. Campus de Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b854a220362b110VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE GAZTAMBIDE 12"
+		},
+		"location": {
+			"latitude": 40.4320681305,
+			"longitude": -3.7155984461035705
+		},
+		"organization": {
+			"organization-desc": "  Metro: Arg&amp;uuml;elles (líneas 3, 4 y 6)  Bus: 001, 1, 133, 138, 44, C1, 21, C2, C03, 002",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "Titulaciones:   Grado en Enfermería Grado en Fisioterapia Grado en nutrición humana y dietética Titulaciones de posgrado",
+			"organization-name": "Universidad Pontificia de Salamanca. Campus de Madrid"
+		}
+	}	  
+  ]
+}
+

@@ -1,0 +1,794 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433767-centro-atencion-integral-mujeres-concepcion-arenal.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "5433767",
+		"title": "Centro de atención integral a mujeres Concepción Arenal",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=26c2a65f73424210VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/Opanel"
+			},
+			"locality": "Madrid",			
+			"postal-code": "28019",
+			"street-address": "CALLE ANTONIA LANCHA 50 PLANTA bajo"
+		},
+		"location": {
+			"latitude": 40.38595596214686,
+			"longitude": -3.7221732498114686
+		},
+		"organization": {
+			"organization-desc": "Dispositivo municipal de atención integral a mujeres víctimas de trata con fines de explotación sexual y en contextos de prostitución. Junto a la Unidad Móvil de Atención Integral (teléfono 671 060 292; correo electrónico arenal.movil@trabe.org.es), el Centro de Emergencia para Víctimas de Trata Mariana Pineda y los alojamientos protegidos, forma parte de la red municipal de dispositivos de respuesta especializada. Acceso - Directamente, por propia iniciativa de las mujeres víctimas de trata y otros abusos de derechos humanos en contextos de prostitución- Derivadas por Centros de Servicios Sociales, asociaciones y organizaciones especializadas  y/o cualquier otro recurso/servicio público o del tejido social de la ciudad de Madrid. Metro: Opañel    Bus: 47, 55, 81, 108, 247, N17",
+			"accesibility": "1,4",
+			"schedule": "Lunes a viernes, de 10 a 19 horas.",
+			"services": "Atención psicológica Atención social Asesoria jurídica Mejora de la empleabilidad y apoyo al emprendimiento",
+			"organization-name": "Centro de atención integral a mujeres Concepción Arenal"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11952990-centro-atencion-integral-violencia-sexual-benita-pastrana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres",
+		"id": "11952990",
+		"title": "Centro de atención integral contra la violencia sexual Benita Pastrana",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=51d6e5f8940c6810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "(Madrid)",			
+			"postal-code": "28015",
+			"street-address": "CALLE BLASCO DE GARAY 69 Local 409"
+		},
+		"location": {
+			"latitude": 40.43858300343256,
+			"longitude": -3.7112470436569844
+		},
+		"organization": {
+			"organization-desc": "Presta apoyo a mujeres víctimas de violencia sexual pasada o no reciente, que no requieran de atención urgente y/o inmediata, complementando el trabajo desarrollado por el Centro de Crisis 24h Pilar Estébanez. Atención específica a las secuelas (psicológicas, jurídicas o sociales) a medio y largo plazo, derivadas de la situación de violencia pasada sufrida. Atención a familiares y personas del entorno cercano de las víctimas con el fin de asesorar, informar y facilitar el acompañamiento, evitando su revictimización. El servicio cuenta con un equipo profesional especializado, de carácter multidisciplinar, integrado por profesionales del ámbito social, psicológico y jurídico, además de soporte administrativo, interpretación telefónica/presencial y servicio de mediación intercultural. Acceso:  Por iniciativa de la mujer. Por derivación del Centro de Crisis 24h Pilar Estébanez  Por derivación de cualquier recurso público o privado, general o especializado.  Adaptado a personas con movilidad reducida y/o en silla de ruedas. No se precisa haber interpuesto denuncia ni tener voluntad de hacerlo.   Población beneficiaria:   Mujeres víctimas de violencia sexual pasada o no reciente, que tengan como mínimo la mayoría de edad sanitaria, residentes en el municipio de Madrid, independientemente de cuál sea su situación administrativa, y que no requieran una atención urgente y/o inmediata. Metro: Islas Filipinas (Línea 7)  Bus: 2,12  BICIMAD: Estación n&amp;ordm; 128 (C/ Cea Bermúdez n&amp;ordm; 59)",
+			"accesibility": "1,4",
+			"schedule": "De lunes a viernes, en horario de 9 a 20h (los días 24 y 31 de diciembre, de 9 a 15h) Cerrado festivos.",
+			"services": "Acogida y atención especializada de carácter ambulatorio a mujeres víctimas de violencia sexual pasada o no reciente, residentes en el municipio de Madrid.  Información sobre los derechos que asisten a las víctimas de violencia sexual y la forma de ejercerlos. Atención integral, acompañamiento emocional y asesoramiento para el proceso de toma de decisiones y recuperación de las secuelas derivadas de la violencia sexual sufrida. Información, asesoramiento y acompañamiento a los familiares y personas del entorno cercano de las víctimas para orientarles y facilitarles apoyo.  Concienciación ciudadana sobre las causas, manifestaciones y consecuencias de la violencia sexual, así como de los procesos y recursos de atención necesaria y reparadora existentes. Abordar la intervención comunitaria contra la violencia sexual, incidiendo especialmente en la prevención y sensibilización mediante el desarrollo de iniciativas y/o actuaciones destinadas a este fin. En la atención a mujeres no hispanohablantes se cuenta con el apoyo del servicio de interpretación telefónica y presencial en diferentes idiomas.",
+			"organization-name": "Centro de atención integral contra la violencia sexual Benita Pastrana"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11089192-centro-crisis-24h-violencia-sexual-pilar-estebanez.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "11089192",
+		"title": "Centro de crisis 24h contra la violencia sexual Pilar Estébanez",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=057d98993e81f610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"locality": "(Madrid)",			
+			"postal-code": "",
+			"street-address": "RESERVADA. Por razones de seguridad no se facilita la localización del centro "
+		},
+		"organization": {
+			"organization-desc": "Servicio de  atención especializada a mujeres que hayan vivido un intento o una situación de violencia sexual reciente, o que se encuentren en situación de criris derivada de la violencia sexual sufrida.   El servicio cuenta con un equipo profesional especializado, de carácter multidisciplinar, integrado por profesionales del ámbito social, psicológico y jurídico, además de soporte administrativo y servicio de mediación intercultural.    Atención de emergencia en casos de violencia sexual  Acompañamiento emocional y asesoramiento para el proceso de toma de decisiones  Acompañamiento físico a recursos sanitarios y dependencias policiales  Atención al entorno familiar de la víctima para orientar el apoyo que puedan prestar Vías de acceso:  Por  iniciativa de la mujer , sin necesidad de concertar cita previa. Por d erivación de cualquier recurso público o privado (incluido servicio 016).   Accesibilidad física:    Adaptado a personas con  movilidad reducida y en silla de ruedas. ",
+			"accesibility": "1,4",
+			"schedule": "Servicio ininterrumpido 24 horas los 365 días del año",
+			"services": "Acogida y atención inmediata de emergencia en casos de violencia sexual.   Información telefónica y presencial (24 h) sobre alternativas y recursos existentes, así como sobre los derechos que asisten a las víctimas de violencia sexual y la forma de ejercerlos.  Atención integral, acompañamiento emocional y asesoramiento para el proceso de toma de decisiones.   Acompañamiento físico a recursos sanitarios y dependencias policiales, orientado a garantizar el ejercicio de los derechos de la víctima de violencia sexual y evitar su revictimización Atención a las demandas del entorno familiar de la víctima para orientar el apoyo y acompañamiento que puedan prestarle.   Información y concienciación a la población en general sobre las causas, manifestaciones y consecuencias de la violencia sexual, así como de los procesos y recursos de atención reparadora existentes.",
+			"organization-name": "Centro de crisis 24h contra la violencia sexual Pilar Estébanez"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184260-consejo-mujeres-municipio-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OtrasEntidadesAdministrativasAyto",
+		"id": "184260",
+		"title": "Consejo de las Mujeres del municipio de Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2536007f8441f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE SEÑORES DE LUZON 3 PLANTA 2ª"
+		},
+		"location": {
+			"latitude": 40.41582782687927,
+			"longitude": -3.710643390632205
+		},
+		"organization": {
+			"organization-desc": "El Consejo de las Mujeres se constituye como un Consejo Sectorial de carácter consultivo, desarrollando funciones de estudios, informes y propuestas con relación a las iniciativas municipales de impulso y desarrollo del principio de igualdad de oportunidades entre mujeres y hombres en todos los ámbitos de la vida política, económica y social del municipio de Madrid Otro correo electrónico de contacto:   ejecutiva@consejomujeresmadrid.org Metro: Sol (líneas 1, 2 y 3), Callao (líneas 3 y 5)    Bus: 5, 15, 20, 51, 52, 150    Bicimad: Estación 9 (Plaza de San Miguel)",
+			"accesibility": "2",
+			"schedule": "De lunes a jueves, de 10 a 15 y de 17 a 19 horas. Viernes de 10 a 15 horas",
+			"services": "- Información a asociaciones y entidades- Talleres de sensibilización a asociaciones y mujeres particulares",
+			"organization-name": "Consejo de las Mujeres del municipio de Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11257829-espacio-igualdad-ana-orantes-barajas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "11257829",
+		"title": "Espacio de Igualdad Ana Orantes. Barajas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=229425eae8975710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Timon"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "CALLE PLAYA DE SAN JUAN 6"
+		},
+		"location": {
+			"latitude": 40.473659104975354,
+			"longitude": -3.592395079190456
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Ana Orantes forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Facebook del Espacio de Igualdad Ana Orantes   X (antiguo Twitter) del Espacio de Igualdad Ana Orantes   Instagram del Espacio de Igualdad Ana Orantes Metro: Barajas (Línea 8)    Bus: 151, 166, 105",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 horas y de 16:30 a 20:30 horas En el mes de agosto, el horario es de 8 a 16 horas",
+			"services": "Servicios de atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.    Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.    Actividades grupales de empoderamiento dirigidas a mujeres.    Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas y espacio de coworking)",
+			"organization-name": "Espacio de Igualdad Ana Orantes. Barajas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10679975-espacio-igualdad-berta-caceres-usera.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "10679975",
+		"title": "Espacio de Igualdad Berta Cáceres. Usera",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6a38fb412e9a2610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Orcasitas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CALLE GRAN AVENIDA 14 bloque 422"
+		},
+		"location": {
+			"latitude": 40.36902428128397,
+			"longitude": -3.710212677306876
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Berta Cáceres forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Berta Cáceres.  X (antiguo Twitter) del Espacio de Igualdad Berta Cáceres.   Instagram del Espacio de Igualdad Berta Cáceres Bus: 6, 60, 78, 81, 116  Cercanías Renfe: Orcasitas (Línea C5)  Bicimad: Estación 396 (Gran Avenida, 27)",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14:30 y de 16 a 19:30 h En el mes de agosto, de 8 a 16 h Los días 24 y 31 de diciembre el Espacio de Igualdad permanecerá cerrado.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas)",
+			"organization-name": "Espacio de Igualdad Berta Cáceres. Usera"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10759229-espacio-igualdad-carme-chacon-hortaleza.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "10759229",
+		"title": "Espacio de Igualdad Carme Chacón. Hortaleza",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a3ab855a64315610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE MATAPOZUELOS 2"
+		},
+		"location": {
+			"latitude": 40.46155641637237,
+			"longitude": -3.6501714580414126
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Carme Chacón forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Facebook del Espacio de Igualdad Carme Chacón   Instagram del Espacio de Igualdad Carme Chacón   X (antiguo Twitter) del Espacio de Igualdad Carme Chacón   Youtube del Espacio de Igualdad Carme Chacón Metro: Esperanza (Línea 4)  Bus: 73  Bicimad: Estación 523 (calle de la Carretera de Canillas, 40)",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 y de 16 a 20h. En el mes de agosto el horario es de 8 a 16h. Los días 24 y 31 de diciembre el Espacio de Igualdad permanecerá cerrado.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas, espacio de coworking y biblioteca de préstamo gratuito)",
+			"organization-name": "Espacio de Igualdad Carme Chacón. Hortaleza"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4524868-espacio-igualdad-clara-campoamor-villaverde.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "4524868",
+		"title": "Espacio de Igualdad Clara Campoamor. Villaverde",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8b8896d2d8ed0110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/LosRosales"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28021",
+			"street-address": "CALLE MARIA MARTINEZ OVIOL 12"
+		},
+		"location": {
+			"latitude": 40.35087114162283,
+			"longitude": -3.691508909255186
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Clara Campoamor forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Clara Campoamor   X (antiguo Twitter) del Espacio de Igualdad Clara Campoamor   Canal en Youtube del Espacio de Igualdad Clara Campoamor   Instagram del Espacio de Igualdad Clara Campoamor Metro: Villaverde Bajo, El Cruce (Línea 3)    Bus: 18, 59, 79, 85, 116, 123, 411, 412, 414, 415, 419, 421, 422, 423, 424, 426, 427, 429, 432 y 447.",
+			"accesibility": "1",
+			"schedule": "Lunes a viernes de 10 a 14 horas y de 16 a 20 horas.En el mes de agosto permanecerá cerrado.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas y biblioteca de préstamo gratuito)",
+			"organization-name": "Espacio de Igualdad Clara Campoamor. Villaverde"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon-villaverde.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "4525098",
+		"title": "Espacio de Igualdad Dulce Chacón. Villaverde",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=82986a073fed0110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/SanAndres"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28021",
+			"street-address": "CALLE MAREAS 34"
+		},
+		"location": {
+			"latitude": 40.3497106325215,
+			"longitude": -3.7149416291006703
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Dulce Chacón forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Dulce Chacón   Perfil X (antiguo Twitter) del Espacio de Igualdad Dulce Chacón   Perfil Instagram del Espacio de Igualdad Dulce Chacón Bus: 76",
+			"accesibility": "0",
+			"schedule": "De lunes a viernes, de 9 a 14 horas y de 15 a 18h Durante el mes de agosto el horario es de 8 a 16h",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas.",
+			"organization-name": "Espacio de Igualdad Dulce Chacón. Villaverde"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10662957-espacio-igualdad-elena-arnedo-soriano-retiro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "10662957",
+		"title": "Espacio de Igualdad Elena Arnedo Soriano. Retiro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cb3655d1b6742610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/Adelfas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28007",
+			"street-address": "CALLE ARREGUI Y ARUEJ 31"
+		},
+		"location": {
+			"latitude": 40.40254931370529,
+			"longitude": -3.668092320219012
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Elena Arnedo forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Elena Arnedo Soriano   X (antiguo Twitter) del Espacio de Igualdad Elena Arnedo Soriano   Instagram del Espacio de Igualdad Elena Arnedo Soriano   Canal en YouTube del Espacio de Igualdad Elena Arnedo Soriano Metro: Pacífico y Puente de Vallecas (Línea 1), Conde Casal (Línea 6)    Bus: 113 y 148    Bicimad: Estación 84 (calle Doctor Esquerdo 191)",
+			"accesibility": "1",
+			"schedule": "Lunes a viernes, de 10 a 14 horas  y de 16 a 20 horas. Durante el mes de agosto el horario será 8 a 16 horas.  Los días 24 y 31 de diciembre el Espacio de Igualdad permanecerá cerrado.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas, biblioteca de préstamo gratuito, aula abierta para el uso de ordenadores)",
+			"organization-name": "Espacio de Igualdad Elena Arnedo Soriano. Retiro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11257851-espacio-igualdad-emilia-pardo-bazan-ciudad-lineal.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "11257851",
+		"title": "Espacio de Igualdad Emilia Pardo Bazán. Ciudad Lineal",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=048525eae8975710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/SanPascual"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28027",
+			"street-address": "AVENIDA BADAJOZ 60"
+		},
+		"location": {
+			"latitude": 40.442311100791215,
+			"longitude": -3.6534806246311913
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Emilia Pardo Bazán forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Facebook del Espacio de Igualdad Emilia Pardo Bazán   Instagram del Espacio de Igualdad Emilia Pardo Bazán Metro: Barrio de la Concepción    Bus: 53 y 122    Bicimad: Estación 230 (calle Carlota Oneil 32)",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 horas y de 16 a 20 horas En el mes de agosto, de 8 a 16 horas",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas y biblioteca de préstamo gratuito)",
+			"organization-name": "Espacio de Igualdad Emilia Pardo Bazán. Ciudad Lineal"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10260516-espacio-igualdad-gloria-fuertes-vicalvaro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "10260516",
+		"title": "Espacio de Igualdad Gloria Fuertes. Vicálvaro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5e46dfffe772a510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "AVENIDA REAL 14"
+		},
+		"location": {
+			"latitude": 40.40274516135535,
+			"longitude": -3.6072257008596313
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Gloria Fuertes forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista.  &amp;iquest;Quieres conocer algo más sobre el Espacio de Igualdad Gloria Fuertes? Echa un vistazo al vídeo El Espacio de Igualdad se encuentra en la primera planta del Centro Social Polivalente de Vicálvaro    Página Facebook del Espacio de Igualdad Gloria Fuertes   Perfil X (antiguo Twitter) del Espacio de Igualdad Gloria Fuertes   Perfil Instagram del Espacio de Igualdad Gloria Fuertes Metro: Vicalvaro (Línea 9)    Bus: E3",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 y de 16 a 20h En el mes de agosto, de lunes a viernes, de 8 a 16h",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas.",
+			"organization-name": "Espacio de Igualdad Gloria Fuertes. Vicálvaro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal-tetuan.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "6621710",
+		"title": "Espacio de Igualdad Hermanas Mirabal. Tetuán",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=689c8c0000c9a310VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/BellasVistas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28039",
+			"street-address": "CALLE BRAVO MURILLO 133"
+		},
+		"location": {
+			"latitude": 40.45012255255781,
+			"longitude": -3.7037047897267947
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Hermanas Mirabal forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Hermanas Mirabal   Cuenta Instagram del Espacio de Igualdad Hermanas Mirabal   Perfil X (antiguo Twitter) del Espacio de Igualdad Hermanas Mirabal   Canal de Youtube del Espacio de Igualdad Hermanas Mirabal Metro: Alvarado (Línea 1)    Bus: 3, 64, 66, 124, 128, N22, L1    Bicimad: Estación 204 (calle Doctor Santero, 1)Estación 205 (calle Navarra, 1)",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes de 10 a 14 horas y de 16 a 20 horas. En agosto, de 8 a 16 horas.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas, biblioteca de préstamo gratuito, espacio de coworking).",
+			"organization-name": "Espacio de Igualdad Hermanas Mirabal. Tetuán"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10210808-espacio-igualdad-juana-dona-arganzuela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "10210808",
+		"title": "Espacio de Igualdad Juana Doña. Arganzuela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d51e3f875c2f8510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Chopera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "PASEO CHOPERA 10"
+		},
+		"location": {
+			"latitude": 40.39307289237465,
+			"longitude": -3.699005654074825
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Juana Doña forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Juana Doña   Canal en YouTube del Espacio de Igualdad Juana Doña   Instagram del Espacio de Igualdad Juana Doña Metro: Legazpi (Líneas 3 y 6)    Bus: 6, 18, 62, 78, 148    Bicimad: Estación 165 (Entrada Matadero)",
+			"accesibility": "2",
+			"schedule": "De lunes a viernes de 10 a 14 horas y de 16 a 20h Durante el mes de agosto, de 8 a 16h",
+			"services": "Atención individual a mujeres en el area psicológica y jurídica.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (biblioteca de préstamo gratuito).",
+			"organization-name": "Espacio de Igualdad Juana Doña. Arganzuela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4664906-espacio-igualdad-lourdes-hernandez-carabanchel.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "4664906",
+		"title": "Espacio de Igualdad Lourdes Hernández. Carabanchel",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=63431203d9e85110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/SanIsidro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28019",
+			"street-address": "CALLE COMANDANTE FONTANES 8"
+		},
+		"location": {
+			"latitude": 40.395326406887946,
+			"longitude": -3.721622686264932
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Lourdes Hernández forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Lourdes Hernández   Perfil X (antiguo Twitter) del Espacio de Igualdad Lourdes Hernández   Instagram del Espacio de Igualdad Lourdes Hernández Metro: Marqués de Vadillo y Urgel (Línea 5)    Bus: 34, 35, 118 y 119    Bicimad: Estación 351 (calle Comandante Fontanes, 1)",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 horas y de 16:30 a 20:30 horas. En el mes de agosto, de lunes a viernes, de 8 a 16 horas.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas.",
+			"organization-name": "Espacio de Igualdad Lourdes Hernández. Carabanchel"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10681863-espacio-igualdad-lucrecia-perez-fuencarral-pardo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "10681863",
+		"title": "Espacio de Igualdad Lucrecia Pérez. Fuencarral-El Pardo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b6882025c4b2610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Valverde"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE MANRESA 1 B"
+		},
+		"location": {
+			"latitude": 40.49120609425076,
+			"longitude": -3.6916379633219116
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Lucrecia Pérez forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Lucrecia Pérez   Perfil de X (antiguo Twitter) del Espacio de Igualdad Lucrecia Pérez   Instagram del Espacio de Igualdad Lucrecia Pérez   YouTube del Espacio de Igualdad Lucrecia Pérez Metro: Fuencarral (Línea 10)    Bus: 66, 124 y 137",
+			"accesibility": "1",
+			"schedule": "Lunes a viernes, de 10 a 14 horas  y de 16 a 20 horas Durante el mes de agosto, de 8 a 16 horas. Los días 24 y 31 de diciembre el Espacio de Igualdad permanecerá cerrado.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas y biblioteca de préstamo gratuito).",
+			"organization-name": "Espacio de Igualdad Lucrecia Pérez. Fuencarral-El Pardo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10953750-espacio-igualdad-lucia-sanchez-saornil-san-blas-canillejas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "10953750",
+		"title": "Espacio de Igualdad Lucía Sánchez Saornil. San Blas-Canillejas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1f6bb3c7035da610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Canillejas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "PLAZA EURIPIDES 1 bloque 422"
+		},
+		"location": {
+			"latitude": 40.449003967549075,
+			"longitude": -3.6069161377213526
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Lucía Sánchez Saornil forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad Lucía Sánchez Saornil   Perfil X (antiguo Twitter) del Espacio de Igualdad Lucía Sánchez Saornil   Perfil Instagram del Espacio de Igualdad Lucía Sánchez Saornil Metro: Canillejas (Línea 5)     Bus: 77, 140, 165 y 200",
+			"accesibility": "2",
+			"schedule": "De lunes a sábado, de 10 a 14 horas  y de 16:30 a 20:30 horas En el mes de agosto, de lunes a viernes, de 8 a 16 horas.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas.",
+			"organization-name": "Espacio de Igualdad Lucía Sánchez Saornil. San Blas-Canillejas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11257843-espacio-igualdad-maria-moliner-villa-vallecas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "11257843",
+		"title": "Espacio de Igualdad María Moliner. Villa de Vallecas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=67132bfd4f975710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/EnsancheVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CALLE HONRUBIA 4"
+		},
+		"location": {
+			"latitude": 40.37128211425518,
+			"longitude": -3.6292460351699867
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad María Moliner forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Facebook del Espacio de Igualdad María Moliner   Instagram del Espacio de Igualdad María Moliner   YouTube del Espacio de Igualdad María Moliner Metro: Congosto (Línea 1)    Bus: 103    Cercanías Renfe: Vallecas",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 horas y de 16:30 a 20:30 horas En el mes de agosto, de lunes a viernes, de 8 a 16 horas",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas.",
+			"organization-name": "Espacio de Igualdad María Moliner. Villa de Vallecas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8371766-espacio-igualdad-maria-telo-moratalaz.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "8371766",
+		"title": "Espacio de Igualdad María Telo. Moratalaz",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fe74849c67261510VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/MediaLegua"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28030",
+			"street-address": "CALLE CAMINO DE LOS VINATEROS 51"
+		},
+		"location": {
+			"latitude": 40.41087442118042,
+			"longitude": -3.6538891267077664
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad María Telo forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad María Telo   Cuenta Instagram del Espacio de Igualdad María Telo Metro: Vinateros (Línea 9). Salida José del Prado y Palacio    Bus: 30, 32, 71 y 113    Bicimad: Estación 218 (Camino de Vinateros)",
+			"accesibility": "2",
+			"schedule": "De lunes a viernes, de 10 a 14 y de 16 a 20h En el mes de agosto el horario es de 8 a 16h Los días 24 y 31 de diciembre el Espacio de Igualdad permanecerá cerrado.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas.",
+			"organization-name": "Espacio de Igualdad María Telo. Moratalaz"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185268-espacio-igualdad-maria-zambrano-chamberi.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "185268",
+		"title": "Espacio de Igualdad María Zambrano. Chamberí",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=306b89e2c9e5d010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE ANDRES MELLADO 44"
+		},
+		"location": {
+			"latitude": 40.433958260960964,
+			"longitude": -3.7143358486689415
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad María Zambrano forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Página Facebook del Espacio de Igualdad María Zambrano   Cuenta Instagram del Espacio de Igualdad María Zambrano   Perfil X (antiguo Twitter) del Espacio de Igualdad María Zambrano Metro: Moncloa (Línea 3 y 6)    Bus: 2, 16, 61 y 202    Bicimad: Estación 111a (calle Arcipreste de Hita A)",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 horas y de 16,30 a 20,30 horas. En el mes de agosto, de 8 a 16 horas.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas, biblioteca de consulta y aula de informática).",
+			"organization-name": "Espacio de Igualdad María Zambrano. Chamberí"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11696845-espacio-igualdad-maria-maeztu-latina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "11696845",
+		"title": "Espacio de Igualdad María de Maeztu. Latina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=522232c9be401810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/Aluche"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "CALLE MARCELINO CASTILLO 29"
+		},
+		"location": {
+			"latitude": 40.39420907754556,
+			"longitude": -3.744687315765447
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad María de Maeztu forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Facebook del Espacio de Igualdad María de Maeztu   X (antiguo Twitter) del Espacio de Igualdad María de Maeztu   Instagram del Espacio de Igualdad María de Maeztu Metro: Carpetana (Línea 6)    Bus: 17, 25 y 500",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 horas y de 16 a 20 horas En el mes de agosto, el horario es de 8 a 16 horas",
+			"services": "Servicios de atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.    Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.    Actividades grupales de empoderamiento dirigidas a mujeres.    Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas y biblioteca de préstamo gratuito).",
+			"organization-name": "Espacio de Igualdad María de Maeztu. Latina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10759244-espacio-igualdad-nieves-torres-chamartin.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "10759244",
+		"title": "Espacio de Igualdad Nieves Torres. Chamartín",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e58c855a64315610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/NuevaEspana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28016",
+			"street-address": "CALLE ENRIQUE JARDIEL PONCELA 8 PLANTA 2ª planta"
+		},
+		"location": {
+			"latitude": 40.46088981165102,
+			"longitude": -3.6700689174427326
+		},
+		"organization": {
+			"organization-desc": "El Espacio de Igualdad Nieves Torres forma parte de la red de Espacios de Igualdad del Ayuntamiento de Madrid, servicio público especializado en la promoción de la igualdad a través de la sensibilización y concienciación ciudadana; el empoderamiento de las mujeres; y la prevención, detección y reparación de la violencia machista. Facebook del Espacio de Igualdad Nieves Torres   Instagram del Espacio de Igualdad Nieves Torres   X (antiguo Twitter) del Espacio de Igualdad Nieves Torres   Youtube del Espacio de Igualdad Nieves Torres Metro: Pío XII (Línea 9)    Bus: 7, 11, 40, 52 y 87    Bicimad: Estación 254 (Pio XII)",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 10 a 14 y de 16 a 20h En el mes de agosto el horario es de 8 a 16h Los días 24 y 31 de diciembre el Espacio de Igualdad permanecerá cerrado.",
+			"services": "Atención individual a mujeres en el area psicológica, jurídica y de desarrollo profesional.   Actividades grupales de sensibilización, y de prevención, detección y reparación de violencia machista, dirigidas a población general y profesionales.  Actividades grupales de empoderamiento dirigidas a mujeres.  Trabajo comunitario, con asociaciones, colectivos y otros recursos del distrito para la realización de actividades o para dar respuesta a demandas específicas (disponibilidad de aulas, biblioteca de préstamo gratuito y espacio de coworking).",
+			"organization-name": "Espacio de Igualdad Nieves Torres. Chamartín"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165256-punto-municipal-i-observatorio-regional-violencia-genero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "165256",
+		"title": "Punto Municipal I del Observatorio Regional de la Violencia de Género",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9bab8f90a581c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/Tetuan/Barrio/BellasVistas"
+			},
+			"locality": "(Madrid)",			
+			"postal-code": "28039",
+			"street-address": "CALLE JUAN PANTOJA 2"
+		},
+		"location": {
+			"latitude": 40.45006145900899,
+			"longitude": -3.7038434307021824
+		},
+		"organization": {
+			"organization-desc": "Servicio de atención psicosocial y asesoramiento jurídico especializado  de carácter ambulatorio, dirigido a mujeres víctimas de violencia de género que cuentan con algún tipo de medida judicial de protección y que requieren atención especializada derivada de la situación de violencia. Beneficiarias Mujeres residentes en Madrid (en los distritos comprendidos en el área de influencia) víctimas de violencia de género que dispongan de medidas judiciales de protección, con independencia de su situación administrativa en el caso de las mujeres extranjeras.  Atención a mujeres sordas con intérprete de lengua de signos.  Servicio de interpretación telefónica para mujeres no hispanohablantes    Vias de acceso  Por iniciativa de la mujer, concertando cita previa. Por derivación del Punto de Coordinación de las Órdenes de Protección del Observatorio Regional de la Violencia de Género. Por derivación de otros recursos. Metro: Alvarado (línea 1).   Bus: 3, 64, 66, 124, 128, N22, L1.  Bicimad: Estación 204 (Cuatro Caminos 2, calle Doctor Santero, 1) y estación 205 (Estrecho, calle Navarra,1).",
+			"accesibility": "1,4",
+			"schedule": "De lunes a viernes de 8 a 20 horas con cita previa.",
+			"services": "Atención e intervención social. Tratamiento psicológico individual. Asesoramiento jurídico. Grupos psicoeducativos. Gestión del Servicio Telefónico de Atención y Protección  a las víctimas de violencia de género ATENPRO. Acceso a otros recursos de la Red Municipal de Atención a Víctimas de Violencia de Género en el ámbito de la pareja o expareja",
+			"organization-name": "Punto Municipal I del Observatorio Regional de la Violencia de Género"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7135449-punto-municipal-ii-observatorio-regional-violencia-genero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "7135449",
+		"title": "Punto Municipal II del Observatorio Regional de Violencia de Género",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=62e450ca39791410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/Carabanchel/Barrio/SanIsidro"
+			},
+			"locality": "(Madrid)",			
+			"postal-code": "28019",
+			"street-address": "CALLE VICENTA PARRA 1"
+		},
+		"location": {
+			"latitude": 40.396994905484746,
+			"longitude": -3.7180016361984167
+		},
+		"organization": {
+			"organization-desc": "Servicio de atención psicosocial y asesoramiento jurídico especializado de carácter ambulatorio, dirigido a mujeres víctimas de violencia de género que cuentan con algún tipo de medida judicial de protección y que requieren atención especializada derivada de la situación de violencia. Teléfono: 914 722 001 Beneficiarias Mujeres residentes en Madrid (en los distritos comprendidos en el área de influencia) víctimas de violencia de género que dispongan de medidas judiciales de protección, con independencia de su situación administrativa en el caso de las mujeres extranjeras.  Atención a mujeres sordas con intérprete de lengua de signos. Servicio de interpretación telefónica para mujeres no hispanohablantes    Vias de acceso  Por iniciativa de la mujer, concertando cita previa. Por derivación del Punto de Coordinación de las Órdenes de Protección del Observatorio Regional de la Violencia de Género. Por derivación de otros recursos. Metro: Marqués de Vadillo (línea 5).   Bus: 34, 35, 118 y 119.  Bicimad: Estaciones 212 (Glorieta Marqués de Vadillo, 9) y 354 (calle Jacinto Verdaguer, 12).",
+			"accesibility": "1,4",
+			"schedule": "De lunes a viernes de 8 a 20 horas con cita previa.",
+			"services": "Atención e intervención social Tratamiento psicológico individual Asesoramiento jurídico Grupos psicoeducativos Gestión del Servicio Telefónico de Atención y Protección a las víctimas de violencia de género ATENPRO Acceso a otros recursos de la Red Municipal de Atención a Víctimas de Violencia de Género en el ámbito de la pareja o expareja",
+			"organization-name": "Punto Municipal II del Observatorio Regional de Violencia de Género"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11902424-punto-municipal-iii-observatorio-regional-violencia-genero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "11902424",
+		"title": "Punto Municipal III del Observatorio Regional de Violencia de Género",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7aef5884cb8c5810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/PuenteDeVallecas/Barrio/PalomerasSureste"
+			},
+			"locality": "(Madrid)",			
+			"postal-code": "28031",
+			"street-address": "AVENIDA ALBUFERA 319 PLANTA 4 Local 409"
+		},
+		"location": {
+			"latitude": 40.38432808144638,
+			"longitude": -3.633019867127129
+		},
+		"organization": {
+			"organization-desc": "Servicio de atención psicosocial y asesoramiento jurídico especializado de carácter ambulatorio, dirigido a mujeres víctimas de violencia de género (y sus hijas e hijos) que cuentan con algún tipo de medida judicial de protección y que requieren atención especializada derivada de la situación de violencia. Teléfono: 911 987 962 Beneficiarias Mujeres residentes en Madrid (en los distritos comprendidos en el área de influencia) e hijos e hijas víctimas de violencia de género que dispongan de medidas judiciales de protección, con independencia de su situación administrativa en el caso de las mujeres extranjeras.  Atención a mujeres sordas con intérprete de lengua de signos. Servicio de interpretación telefónica para mujeres no hispanohablantes    Vias de acceso  Por iniciativa de la mujer, concertando cita previa. Por derivación del Punto de Coordinación de las Órdenes de Protección del Observatorio Regional de la Violencia de Género. Por derivación de otros recursos. Metro: Miguel Hernández y Sierra de Guadalupe (Línea 1).  Bus: 54, 103, 142, 143, 58.  Cercanías Renfe: Vallecas (líneas C2, C7 y Regional).  Bicimad: Estación 434 (calle Charleroi)",
+			"accesibility": "1,4",
+			"schedule": "De lunes a viernes de 8 a 20 horas con cita previa.",
+			"services": "Atención e intervención social Tratamiento psicológico individual Asesoramiento jurídico Grupos psicoeducativos Gestión del Servicio Telefónico de Atención y Protección a las víctimas de violencia de género ATENPRO Acceso a otros recursos de la Red Municipal de Atención a Víctimas de Violencia de Género en el ámbito de la pareja o expareja",
+			"organization-name": "Punto Municipal III del Observatorio Regional de Violencia de Género"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185182-servicio-atencion-mujeres-victimas-violencia-genero-s-v-g-24-horas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+		"id": "185182",
+		"title": "Servicio de Atención a Mujeres Víctimas de Violencia de Género (S.A.V.G. 24 horas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=764157258ae5d010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/(madrid)/Distrito/CiudadLineal/Barrio/Quintana"
+			},
+			"locality": "(Madrid)",			
+			"postal-code": "28027",
+			"street-address": "CALLE VIRGEN DE LLUC 101"
+		},
+		"location": {
+			"latitude": 40.43879035628758,
+			"longitude": -3.642149977488337
+		},
+		"organization": {
+			"organization-desc": "Servicio especializado en  atención de emergencia y protección a las víctimas de violencia de género  en el ámbito de la pareja y expareja. Atiende en primera instancia, es dispositivo referencial de primer nivel y de acceso a otros recursos que configuran la red especializada. Atiende a todo el municipio de Madrid. Acceso:  Por iniciativa de la mujer, sin necesidad de concertar cita previa. A través del teléfono 900 222 100, indicando que desea contactar con el Equipo Técnico del S.A.V.G. 24 horas Por derivación de cualquier recurso público o privado Metro: Pueblo Nuevo (líneas 5 y 7) y Ciudad Lineal (línea 5).  Bus: 21, 38, 48, 109, 113, 146.   Bicimad: Estaciones 477 (calle Misterios, 1), 482 (calle Campuzano, 1).",
+			"accesibility": "1,4",
+			"schedule": "Servicio ininterrumpido 24 horas los 365 días al año.",
+			"services": "Acogida y atención inmediata de emergencias. Valoración y atención en crisis. Protección, alojamiento y cobertura de necesidades básicas más urgentes a las mujeres y sus hijas/os. Diseño de intervención y elaboración de Plan de Seguridad individualizado. Atención social. Atención psicológica. Atención socioeducativa. Asesoramiento jurídico. Acceso a Centros de Emergencia y derivación a Casas de Acogida. Acceso a Centro de Atención Psicosocioeducativa para Mujeres víctimas de violencia de género y sus hijos/as (C.A.P.S.E.M.).  Unidad móvil.",
+			"organization-name": "Servicio de Atención a Mujeres Víctimas de Violencia de Género (S.A.V.G. 24 horas)"
+		}
+	}	  
+  ]
+}
+

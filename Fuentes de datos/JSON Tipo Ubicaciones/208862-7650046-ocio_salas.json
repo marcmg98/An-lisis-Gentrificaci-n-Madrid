@@ -1,0 +1,2831 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511835-cafe-teatro-serendipia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511835",
+		"title": "Café Teatro Serendipia",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=42a8fca35ccee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Quintana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28027",
+			"street-address": "CALLE GERMAN PEREZ CARRASCO 21"
+		},
+		"location": {
+			"latitude": 40.435190000069746,
+			"longitude": -3.645847906504054
+		},
+		"organization": {
+			"organization-desc": "  Metro: Pueblo Nuevo (líneas 5 y 7).  Bus: 109, 113, 38.  Bicimad: Estaciones 482 (Campuzano, 1), 232 (calle José María de Pereda, 1), 229 (calle José de Hierro, 5).  Aparcamiento: Corazón de María II (3), calle Corazón de María (final calle).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Café Teatro Serendipia"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7869361-dt-espacio-escenico.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7869361",
+		"title": "DT Espacio Escénico",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e9e472de9f53b410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE REINA 9"
+		},
+		"location": {
+			"latitude": 40.420414039152284,
+			"longitude": -3.7002705949717654
+		},
+		"organization": {
+			"organization-desc": "  Metro: Gran Vía (líneas 1 y 5).  Bus: 002, 3, 46, 001, 1, 146, 2, 74.  Bicimad: Estaciones 18 (plaza Pedro Zerolo, 1), 211 (calle Desengaño, 1).  Aparcamiento: Plaza Pedro Zerolo (71).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "DT Espacio Escénico"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11742393-pasillo-verde-teatro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11742393",
+		"title": "El Pasillo Verde Teatro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dff52a5e30e52810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "PASEO ESPERANZA 23 y 25"
+		},
+		"location": {
+			"latitude": 40.400858509417404,
+			"longitude": -3.7041471309706053
+		},
+		"organization": {
+			"organization-desc": "  Metro: Embajadores (línea 3), Acacias (línea 5).  Bus: 62.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estación 170 (paseo de la Esperanza, 21).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "El Pasillo Verde Teatro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037757-umbral-primavera.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10037757",
+		"title": "El umbral de la primavera",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=29aa50fba2504510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE PRIMAVERA 11"
+		},
+		"location": {
+			"latitude": 40.40953475016707,
+			"longitude": -3.7003837471642353
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lavapiés (línea 3), Antón Martín (línea 1).  Bus: M1.  Bicimad: Estaciones 53 (calle Valencia, 1), 43 (calle Lavapiés, 34), 42 (calle Santa Isabel, 32).  Aparcamientos: Garaje Amparo (75), calle Amparo; Agustín Lara (73), plaza Arturo Barea.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "El umbral de la primavera"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "1915",
+		"title": "Fernán Gómez Centro Cultural de la Villa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba663d0b5e71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Recoletos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28001",
+			"street-address": "PLAZA COLON 4"
+		},
+		"location": {
+			"latitude": 40.4249721516942,
+			"longitude": -3.689948085098791
+		},
+		"organization": {
+			"organization-desc": "  Metro: Colón (línea 4), Serrano (línea 4)  Bus: 14, 150, 27, 45, 5, 21, 37, C03, 53  Bicimad: Estación 93 (calle Goya, 1) / Estación 10 (calle Marqués de la Ensenada, 16)  Renfe: Recoletos  Aparcamiento: Colón (2), Plaza de Colón",
+			"accesibility": "1,6",
+			"schedule": "Consultar en la página del teatro.",
+			"services": "Sala Guirau (aforo 689 personas).  Sala Jardiel Poncela (aforo desde 95 hasta 175 personas, depende de la disposición de la obra que represente).   Sala de exposiciones (2000 m2)  Sala III   Sala Polivalente.",
+			"organization-name": "Fernán Gómez Centro Cultural de la Villa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037852-gran-teatro-caixabank-principe-pio.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10037852",
+		"title": "Gran Teatro CaixaBank  Príncipe Pío",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=44d450fba2504510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CUESTA SAN VICENTE 44"
+		},
+		"location": {
+			"latitude": 40.420432959783184,
+			"longitude": -3.719071300719494
+		},
+		"organization": {
+			"organization-desc": "  Metro: Príncipe Pío (líneas 6, 10 y Ramal).  Bus: 138, 25, 39, 46, 62, 75, C2, C1, 33, 41.  Cercanías Renfe: Príncipe Pío (C1, C7 y C10).  Bicimad: Estación 161 (paseo de la Florida, 8).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Gran Teatro CaixaBank  Príncipe Pío"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6599384-microteatro-dinero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "6599384",
+		"title": "Microteatro Por Dinero",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5546a391f9a2a310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE LORETO Y CHICOTE 9"
+		},
+		"location": {
+			"latitude": 40.421531134455776,
+			"longitude": -3.70405733689846
+		},
+		"organization": {
+			"organization-desc": "  Metro: Callao (líneas 3 y 5), Gran Vía (líneas 1 y 5).  Bus: 002, 001, 1, 146,  2, 46, 74, 3.  Bicimad: Estaciones 211 (Desengaño, 1), 17 (plaza de Carlos Carbonero, 2) y 2 (calle Miguel Moya, 1).  Aparcamientos: Luna-Tudescos (14) (plaza Santa María Soledad Torres Acosta con vuelta a calle Luna); Barco 1 (88) calle Barco; Luna-Tudescos (102), Tudescos.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Microteatro Por Dinero"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963121-naves-espanol-matadero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "6963121",
+		"title": "Naves Español en Matadero",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4582ee06ea5ee310VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Chopera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "PASEO CHOPERA 14"
+		},
+		"location": {
+			"latitude": 40.39245798191536,
+			"longitude": -3.6972067902718897
+		},
+		"organization": {
+			"organization-desc": "Con la apertura de las Naves del Español se inauguró una nueva era en la producción y exhibición de las artes escénicas en Madrid. Las Naves se presentaron como un espacio abierto a la reflexión y experimentación a todas las propuestas más vanguardistas atendiendo a sus espacios configurables. Para la elección de estas naves y su adecuación como espacio escénico el Ayuntamiento de Madrid contó con la colaboración de Jean-Guy Lecat, escenógrafo francés mundialmente conocido por sus sorprendentes montajes para directores como Peter Brook, Jorge Lavelli o Darío Fo entre otros.  Jean-Guy Lecat junto al director, en aquellos momentos, del Teatro Español, Mario Gas y el director técnico Francisco Fontanals, realizaron el proyecto que definía la transformación de estas naves industriales en el centro de artes escénicas: las Naves del Español. El resultado fue un espacio teatral conformado por las naves: 10, 11 y 12, unidas entre sí. En la Nave 12 se encuentra el Café teatro donde se puede disfrutar de la programación de espectáculos musicales de pequeño formato y además sirve de foyer o vestíbulo de entrada a la Nave 11 donde se ubica la Sala Fernando Arrabal. Una sala polivalente con más de 600 localidades entorno a la cual se disponen camerinos, salas de trabajo técnico y almacenes. La Nave 10 se inauguró en septiembre de 2010, en ella se alberga, un gran espacio expositivo, dos espléndidas salas de ensayos y la Sala Max Aub, un espacio escénico plurivalente con capacidad para más de 300 butacas. Desde su apertura las Naves del Español han sido regidas por Mario Gas, Juan Carlos Pérez de la Fuente y Mateo Feijoo. Desde el año 2019 están bajo la dirección de Natalia Menéndez.  La representación ha sido continuada desde su apertura pasando por sus dependencias las personas más destacadas y relevantes de la dramaturgia, dirección, interpretación, escenografía, iluminación, vestuario&amp;hellip; del teatro de este país y del mundo. Además de las salas de exhibición se cuenta con aulas y espacios utilizados para uso público con diferentes servicios como realizar e impartir cursos, talleres, charlas, encuentros y exposiciones. Entradas en taquillas y Venta de entradas. Sistema de sobretitulado para personas con discapacidad auditiva. Sistema de audiodescripción para personas con discapacidad visual. Metro: Legazpi (líneas 3 y 6)  Bus: 6, 8, 18, 19, 45, 78, 148  Renfe: Embajadores (línea C5)",
+			"accesibility": "1,6",
+			"schedule": "Horario de taquilla (situada frente a Cantina de Cineteca) en acceso Plaza de Legazpi: de martes a domingo, de 16:30 a 20:30 horas o hasta inicio de actividad. Lunes cerrado. La venta de entradas online continúa activa en la web Teatro Español.",
+			"services": "La Nave 10 se inauguró en septiembre de 2010. En ella se alberga un gran espacio expositivo, dos espléndidas salas de ensayos y la Sala Max Aub, un espacio escénico plurivalente con capacidad para más de 300 butacas. En la Nave 11 se ubica la Sala Fernando Arrabal. Una sala polivalente con más de 600 localidades entorno a la cual se disponen camerinos, salas de trabajo técnico y almacenes. En la Nave 12 se encuentra el Café teatro donde se puede disfrutar de la programación de espectáculos musicales de pequeño formato y además sirve de foyer o vestíbulo de entrada a la Nave 11.",
+			"organization-name": "Naves Español en Matadero"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/109277-nuevo-teatro-alcala.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "109277",
+		"title": "Nuevo Teatro Alcalá",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b18d8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Goya"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "CALLE JORGE JUAN 62"
+		},
+		"location": {
+			"latitude": 40.42340491784923,
+			"longitude": -3.678243555356179
+		},
+		"organization": {
+			"organization-desc": "  Metro: Príncipe de Vergara (líneas 2 y 9), Goya (líneas 2 y 4).  Bus: 146, 152, 43, 15, 29, 52, 215, E2, E3, 21, 53, 30, 63, 26, 61, C1.  Bicimad: Estación 97 (avenida Menéndez Pelayo, 3), Estación 98 (plaza de Felipe II).  Aparcamientos: Velázquez Jorge Juan (43) calle Velázquez y calle Jorge Juan; Felipe II (26) avenida Felipe II y calle Goya; Auditorio (45), calle Príncipe de Vergara junto Auditorio.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Nuevo Teatro Alcalá"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875490-off-latina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7875490",
+		"title": "Off Latina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=23b5c6f83ef4b410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE MANCEBOS 4"
+		},
+		"location": {
+			"latitude": 40.41204972508413,
+			"longitude": -3.7119760272304503
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Latina (línea 5).  Bus: 60, 148, 3, 31, 50, 65.  Bicimad: Estaciones 38 (carrera de San Francisco, 1), 37 (plaza de San Francisco, 5), 166 (calle Segovia, 26), 35 (plaza del Cordón), 39 (plaza de la Cebada, 16).  Aparcamiento: Mercado de la Cebada (501), plaza de la Cebada sin número.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Off Latina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10140094-pequeno-teatro-gran-via.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10140094",
+		"title": "Pequeño Teatro Gran Vía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=50efbe5ec3747510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 66"
+		},
+		"location": {
+			"latitude": 40.422413433319086,
+			"longitude": -3.7089446226591725
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de España (líneas 3 y 10), Santo Domingo (línea 2).  Bus: 148, 3, 46, 74, 75, 133, 44, 147, 001, 1, 2, 25, 146.  Bicimad: Estaciones 16 (calle San Bernardo, 22), 116b (calle Princesa, 5).  Aparcamientos: Isabel la Católica (98) (calle Isabel la Católica), Mostenses (50) (plaza Mostenses y calle Ricardo León).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Pequeño Teatro Gran Vía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11990372-real-teatro-retiro-centro-cultural-daoiz-velarde.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11990372",
+		"title": "Real Teatro de Retiro. Centro Cultural Daoíz y Velarde",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8f38753c30397810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/Pacifico"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28007",
+			"street-address": "PLAZA DAOIZ Y VELARDE 4"
+		},
+		"location": {
+			"latitude": 40.40180567689773,
+			"longitude": -3.6771876805396864
+		},
+		"organization": {
+			"organization-desc": "El Área de Cultura, Turismo y Deporte del Ayuntamiento de Madrid ha habilitado un nuevo espacio escénico en el Centro Cultural Daoíz y Velarde, ubicado en el distrito de Retiro, que amplia la descentralización de la cultura de la capital. Para ello, ha realizado una rehabilitación integral del antiguo cuartel de artillería de Daoíz y Velarde, construido a finales del siglo XIX, que ha buscado el equilibrio entre la arquitectura original y las funciones actuales. El Ayuntamiento de Madrid y el Teatro Real han firmado un acuerdo que permite poner en marcha un nuevo proyecto que nace con el objetivo de convertirse en un espacio cultural y artístico de referencia para niños y jóvenes en la ciudad, en el que ofrecer un acercamiento y aprendizaje en el ámbito de las artes escénicas, incluyendo ópera, danza, teatro de texto, títeres, cuentos musicales, talleres y otras actividades para toda la familia. El edificio, de 7.700 m2 distribuidos en cuatro plantas, cuenta con un gran espacio para actos culturales y exposiciones, una Sala Principal con un amplio escenario y capacidad para 330 butacas, una Sala Polivalente (con 72 butacas en graderío retráctil y espacio escénico versátil), salas de ensayos, talleres y otras dependencias auxiliares. Con la puesta en marcha de este nuevo centro municipal, el Área de Cultura, Turismo y Deporte refuerza su compromiso con el tejido cultural madrileño, incrementa la oferta cultural en los distritos e incorpora un séptimo espacio escénico en su red teatral. El Real Teatro de Retiro es el proyecto artístico del Teatro Real dedicado al público infantil, juvenil y familiar. Su programación incluye espectáculos de ópera, teatro, títeres y danza para niños y jóvenes así como conciertos, cine, cuentos musicales y talleres dirigidos a grandes y pequeños. Los espectáculos se programan también para colegios con funciones escolares en horario de mañana. El espacio acoge los proyectos educativos y sociales LÓVA (La Ópera, un Vehículo de Aprendizaje) y AMI (Agrupación Musical Inclusiva). El Real Teatro de Retiro surge de la colaboración entre el Teatro Real y el Ayuntamiento de Madrid, promoviendo el acceso a la cultura y grandes experiencias para vivir en familia.  Metro: Pacífico (líneas 1 y 6).  Bus: 24, 37, 54, 57, 141.",
+			"accesibility": "1",
+			"schedule": "Horarios de atención y taquilla:   De miércoles a sábado y domingos con función: De 10 a 14 y de 16 a 19:30 horas. Domingos sin función: De 10 a 14 horas.   Funciones para colegios: Jueves y viernes por la mañana, para más información escribir a: realjunior@teatroreal.es.",
+			"services": "Accesibilidad: 6 asientos para personas con movilidad reducida.   Canales de venta: Online, taquillas y telefónica.  Aforo: Sala Principal 330 butacas, Sala Pacífico 120 butacas.",
+			"organization-name": "Real Teatro de Retiro. Centro Cultural Daoíz y Velarde"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124469-replika-teatro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "124469",
+		"title": "Réplika Teatro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4d86051c8d91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "CALLE EXPLANADA 14"
+		},
+		"location": {
+			"latitude": 40.44821880668578,
+			"longitude": -3.7118246776358195
+		},
+		"organization": {
+			"organization-desc": "  Metro: Guzmán el Bueno (líneas 6 y 7).  Bus: 45, C2, F, C1.  Bicimad: Estación 256 (calle Beatriz de Bobadilla, 2).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Réplika Teatro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035099-sala-arapiles-16.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10035099",
+		"title": "Sala Arapiles 16",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9827c620420f3510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE ARAPILES 16"
+		},
+		"location": {
+			"latitude": 40.43312718155775,
+			"longitude": -3.708159572592643
+		},
+		"organization": {
+			"organization-desc": "  Metro: Quevedo (línea 2).  Bus: 16, 61.  Bicimad: Estación 127 (calle Fernando el Católico, 127).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Arapiles 16"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875358-sala-teatro-escalera-jacob.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7875358",
+		"title": "Sala de Teatro La Escalera de Jacob",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=824ac6f83ef4b410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE LAVAPIES 9"
+		},
+		"location": {
+			"latitude": 40.411337615129355,
+			"longitude": -3.7028377820426464
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lavapies (línea 3).  Bus: M1.  Bicimad: Estaciones 43 (calle Lavapiés, 34) y 53 (calle Valencia, 1).  Aparcamiento: Garaje Amparo (75), calle Amparo; Agustín Lara (73), plaza Arturo Barea.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala de Teatro La Escalera de Jacob"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093521-sala-teatro-usina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7093521",
+		"title": "Sala de teatro. La Usina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2f408e01a3201410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosFrontera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE PALOS DE LA FRONTERA 4"
+		},
+		"location": {
+			"latitude": 40.40262694793048,
+			"longitude": -3.7001185274328563
+		},
+		"organization": {
+			"organization-desc": "  Metro: Embajadores (línea 3).  Bus: 148, 60, 78, 55, 59, 6, 85.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estación 121 (paseo Santa María de la Cabeza, 58).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala de teatro. La Usina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7246699-sala-nave-73.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7246699",
+		"title": "Sala Nave 73",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5d5b051dbc673410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosFrontera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE PALOS DE LA FRONTERA 5"
+		},
+		"location": {
+			"latitude": 40.40317027498394,
+			"longitude": -3.698690325735142
+		},
+		"organization": {
+			"organization-desc": "  Metro: Embajadores (línea 3), Palos de la frontera (línea 3).  Bus: 59, 6, 85, 148, 60, 78, 55.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estación 121 (paseo de Santa María de la Cabeza, 58).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Nave 73"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093690-sala-teatro-azarte.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7093690",
+		"title": "Sala Teatro Azarte",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e2708ff0d6201410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE SAN MARCOS 19"
+		},
+		"location": {
+			"latitude": 40.421416728805845,
+			"longitude": -3.698351923407877
+		},
+		"organization": {
+			"organization-desc": "  Metro: Chueca (línea 5), Gran Vía (líneas 1 y 5).  Bus: 3.  Bicimad: Estaciones 58 (calle Augusto Figueroa, 33) y 18 (plaza de Pedro Zerolo,1).  Aparcamientos: Plaza Pedro Zerolo (71), Mercado San Antón (94) Libertad.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Teatro Azarte"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1983-sala-teatro-exlimite.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "1983",
+		"title": "Sala Teatro Exlímite",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8a2a8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Pradolongo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28026",
+			"street-address": "CALLE PRIMITIVA GA&amp;Ntilde;AN 5"
+		},
+		"location": {
+			"latitude": 40.380914636125546,
+			"longitude": -3.7092213102338736
+		},
+		"organization": {
+			"organization-desc": "  Bus  : 6, 60, 81.   Bicimad: Estaciones 387 (calle Isabelita Usera, 44), 391 (calle Rafaela Ybarra, 22).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Teatro Exlímite"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511899-soho-club-teatro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511899",
+		"title": "Soho Club Teatro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2fa0fef1bacee510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "PLAZA ESPAÑA 6"
+		},
+		"location": {
+			"latitude": 40.4225784750317,
+			"longitude": -3.711936020558947
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de España (líneas 3 y 10).  Bus: 148, 25, 3, 39, 46, 75, 138, 74, C2, 001, 1, 2, 133, 44.  Bicimad: Estaciones 116 a y b (calle Princesa, 5).  Aparcamiento: Plaza de España (53).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Soho Club Teatro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511843-sojo-laboratorio-teatral-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511843",
+		"title": "Sojo Laboratorio Teatral.",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3689fca35ccee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE SAN ISIDORO DE SEVILLA 2"
+		},
+		"location": {
+			"latitude": 40.404543298550344,
+			"longitude": -3.7121651506836235
+		},
+		"organization": {
+			"organization-desc": "  Metro: Pirámides (línea 5), Puerta de Toledo (línea 5).  Bus: 17,18, 23, 34, 35, 36, 41, 62, 116, 118, 119, C03, N12, N15, N16, N26.  Cercanías Renfe: Pirámides (líneas C1 y C10).  Bicimad: Estación 162 (paseo de los Olmos, 28).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sojo Laboratorio Teatral."
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037667-tablao-villa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10037667",
+		"title": "Tablao de la Villa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=899732e49e404510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE TORIJA 7"
+		},
+		"location": {
+			"latitude": 40.420747202885515,
+			"longitude": -3.710428523676321
+		},
+		"organization": {
+			"organization-desc": "  Metro: Santo Domingo (línea 2), Callao (líneas 3 y 5), Ópera (líneas 2, 5 y Ramal), Plaza de España (líneas 3 y 10).  Bus: 44, 133.  Bicimad: Estaciónes 30 (cale Pavía, 6) y 23 (plaza de Santo Domingo, 1).  Aparcamiento: Calle Isabel la Católica (98).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao de la Villa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11083891-tablao-flamenco-1911.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11083891",
+		"title": "Tablao Flamenco 1911",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fd89976f4f3fe610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "PLAZA SANTA ANA 15"
+		},
+		"location": {
+			"latitude": 40.414922971596944,
+			"longitude": -3.701424270015707
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (líneas 1, 2 y 3), Tirso de Molina (línea 1), Antón Martín (línea 1).  Bus: 002, M1.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 52 (plaza de Santa Ana, 10), 34 (plaza de Jacinto Benavente), 33 (calle Carretas, 8).  Aparcamientos: Plaza de Santa (77), plaza Jacinto Benavente (15).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco 1911"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187413",
+		"title": "Tablao Flamenco Café Ziryab",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=504212e1c4d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "PASEO ESPERANZA 17"
+		},
+		"location": {
+			"latitude": 40.40224798842407,
+			"longitude": -3.7051358275837947
+		},
+		"organization": {
+			"organization-desc": "  Metro: Acacias (línea 5), Embajadores (línea 3), Pirámides (línea 5).  Bus: 62.  Cercanías Renfe: Pirámides (líneas C1 y C10), Embajadores (línea C5).  Bicimad: Estaciones 170 (paseo de la Esperanza, 21) y 163 (paseo de la Esperanza, 2).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Café Ziryab"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187763",
+		"title": "Tablao Flamenco Cardamomo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1657b096d9d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ECHEGARAY 15"
+		},
+		"location": {
+			"latitude": 40.41546754063365,
+			"longitude": -3.6995403937914704
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sevilla (línea 2), Antón Martín (línea 1), Sol (líneas 1, 2 y 3).  Bus: 002, M1, 51.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 52 (plaza Santa Ana, 10), 28 (calle Alcalá, 27).  Aparcamiento: Plaza de Santa Ana (77); Sevilla (41), calle Sevilla y calle Alcalá; Hub de Movilidad Canalejas 360 (1239), calle Alcalá, 17.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Cardamomo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187520",
+		"title": "Tablao Flamenco Corral de la Morería",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d23712e1c4d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE MORERIA 17"
+		},
+		"location": {
+			"latitude": 40.412712789880366,
+			"longitude": -3.7142548150063295
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Latina (línea 5).  Bus: 148, 3, 31, 50, 65.  Bicimad: Estaciones 166 (calle Segovia, 26), 37 (plaza de San Francisco, 5), 38 (carrera de San Francisco, 1).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Corral de la Morería"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-leones.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187560",
+		"title": "Tablao Flamenco de Leones",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=be49b096d9d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Recoletos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28001",
+			"street-address": "PLAZA INDEPENDENCIA 4 PLANTA 1"
+		},
+		"location": {
+			"latitude": 40.42065971465086,
+			"longitude": -3.6890553146620775
+		},
+		"organization": {
+			"organization-desc": "  Metro: Retiro (línea 2).  Bus: 1, 146, 15, 2, 20, 51, 52, 74, 9, 28, 19.B  Cercanías Renfe: Recoletos (líneas C1, C2, C7 y C10).  Bicimad: Estaciones 60 (plaza de la Independencia, 6), 107 (calle Serrano, 8).  Aparcamiento: Serrano III (40), calle Serrano entre Jorge Juan y plaza de la Independencia.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco de Leones"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11083903-tablao-flamenco-lucero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11083903",
+		"title": "Tablao Flamenco El Lucero",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1b2d976f4f3fe610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE MARQUES DE CUBAS 25"
+		},
+		"location": {
+			"latitude": 40.41626690688702,
+			"longitude": -3.6957342044022425
+		},
+		"organization": {
+			"organization-desc": "  Metro: Banco de España (línea 2).  Bus: 001, 10, 14, 27, 34, 37, 45, C03.  Bicimad: Estación 29 (calle del Marqués de Cubas, 25).  Aparcamientos: Plaza de las Cortes (46 y 103).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco El Lucero"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11083811-tablao-flamenco-carmela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11083811",
+		"title": "Tablao Flamenco La Carmela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f9a7c8897cfee610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE VICTORIA 4"
+		},
+		"location": {
+			"latitude": 40.41630783060771,
+			"longitude": -3.701737920263045
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (líneas 1, 2 y 3).  Bus: 002, M1.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 33 (calle Carretas, 8), 52 (plaza de Santa Ana, 10).  Aparcamientos: Plaza de Santa Ana (77); Sevilla (41), calle Sevilla y calle Alcalá; Hub de Movilidad Canalejas 360 (1239), calle de Alcalá, 17; plaza del Carmen (8); plaza Jacinto Benavente (15).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco La Carmela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11264373-tablao-flamenco-estacion-porches.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11264373",
+		"title": "Tablao Flamenco La Estación de los Porches",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8901450abcbb5710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Entrevias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28053",
+			"street-address": "CALLE TIMOTEO PEREZ RUBIO 2"
+		},
+		"location": {
+			"latitude": 40.388034703602294,
+			"longitude": -3.672208524314873
+		},
+		"organization": {
+			"organization-desc": "  Bus: 102, 24.  Bicimad: Estación 422 (travesía de Palomeras, 7).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco La Estación de los Porches"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11083826-tablao-flamenco-quimera-plaza-mayor.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11083826",
+		"title": "Tablao Flamenco La Quimera Plaza Mayor",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b118976f4f3fe610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE CUCHILLEROS 7"
+		},
+		"location": {
+			"latitude": 40.41455139884737,
+			"longitude": -3.7079639628064585
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (líneas 1, 2 y 3), Tirso de Molina (línea 1), La Latina (línea 5).  Bus: 31, 50, 65, 17, 002, 18, 23, M1, 35.  Bicimad: Estaciones 32 (plaza de la Provincia, 1), 9 (plaza de San Miguel, 9), 35 (plaza del Cordón).  Cercanías Renfe: Sol (líneas C3 y C4).  Aparcamiento: Plaza Mayor (55).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco La Quimera Plaza Mayor"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/143436-tablao-flamenco-tablas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "143436",
+		"title": "Tablao flamenco Las Tablas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cfb3c8a3d881c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Arguelles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "PLAZA ESPAÑA 9"
+		},
+		"location": {
+			"latitude": 40.42199234070159,
+			"longitude": -3.7136613610076252
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de España (líneas 3 y 10), Príncipe Pío (líneas 6, 10 y Ramal), Santo Domingo (línea 2).  Bus: 138, 25, 39, 46, 62, 75, C2, C1, 148, 3, 74.  Cercanías Renfe: Príncipe Pío (líneas C1, C7, C10 y Regional).  Bicimad: Estaciones 116 a y b (calle Princesa, 5).  Aparcamientos: Plaza de España (53), plaza de Oriente (32).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao flamenco Las Tablas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11083893-tablao-flamenco-torero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11083893",
+		"title": "Tablao Flamenco Torero",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=817a976f4f3fe610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE CRUZ 26"
+		},
+		"location": {
+			"latitude": 40.41491309678971,
+			"longitude": -3.7026944132785204
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (líneas 1, 2 y 3).  Bus: 002, M1, 26, 32, 6, 65.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 34 (plaza de Jacinto Benavente), 33 (calle Carretas, 8), 52 (plaza de Santa Ana, 10).  Aparcamientos: Plaza Jacinto Benavente (15), plaza de Santa Ana (77).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Torero"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187547",
+		"title": "Tablao Flamenco Torres Bermejas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8168b096d9d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE MESONERO ROMANOS 11"
+		},
+		"location": {
+			"latitude": 40.419889267861706,
+			"longitude": -3.7041707075343053
+		},
+		"organization": {
+			"organization-desc": "  Metro: Callao (líneas 3 y 5), Gran Vía (líneas 1 y 5), Sol (líneas 1, 2 y 3).  Bus: 001, 1, 146, 2, 3, 46, 74, 002.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 210 (Tres Cruces, 7), 211 (Desengaño, 1), 2 (calle Miguel Moya, 1).  Aparcamientos: El Corte Inglés Callao (92), plaza de Callao; Luna-Tudescos (102) calle Tudescos; Luna-Tudescos (14), plaza Santa María Soledad Torres Acosta con vuelta a calle Luna); plaza del Carmen (8); el Corte Inglés Preciados (93), calle Preciados.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Torres Bermejas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2177-teatro-alcazar.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2177",
+		"title": "Teatro Alcázar",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a52b8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ALCALA 20"
+		},
+		"location": {
+			"latitude": 40.417801427758604,
+			"longitude": -3.699048171807146
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sevilla (línea 2).  Bus: 46, 150, 5, 52, 15, 20, 51, 53, M1, 002, 9, 001, 1, 146, 2, 3, 74.  Bicimad: Estación 28 (calle Alcalá 27).  Aparcamiento: Sevilla (41), calle Sevilla con calle Alcalá; Hub de Movilidad Canalejas 360 (1239), calle de Alcalá, 17.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Alcázar"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2199-teatro-alfil.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2199",
+		"title": "Teatro Alfil",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a83b8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE PEZ 10"
+		},
+		"location": {
+			"latitude": 40.423153008537106,
+			"longitude": -3.7044603063098367
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (línea 2), Callao (líneas 3 y 5)  Bus: 002, 147, 3.  Bicimad: Estaciones 17 (plaza de Carlos Cambronero, 2), 16 (calle San Bernardo, 22), 59 (calle Espíritu Santo, 30), 55 (plaza de San Ildefonso).  Aparcamiento: Luna-Tudescos (14) plaza Santa María Soledad Torres Acosta; Luna-Tudescos (102), calle Tudescos.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Alfil"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17306-teatro-amaya.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "17306",
+		"title": "Teatro Amaya",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6b4b8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Almagro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "PASEO GENERAL MARTINEZ CAMPOS 9"
+		},
+		"location": {
+			"latitude": 40.435137164508355,
+			"longitude": -3.6971796085531734
+		},
+		"organization": {
+			"organization-desc": "  Metro: Iglesia (línea 1).  Bus: 16, 5, 61, 3, 37.  Bicimad: Estaciones 125 (calle Fernández de la Hoz, 29) y 246 (calle Santa Engracia, 87).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Amaya"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2186-teatro-apolo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2186",
+		"title": "Teatro Apolo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e6d8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "PLAZA TIRSO DE MOLINA 1"
+		},
+		"location": {
+			"latitude": 40.412347852154134,
+			"longitude": -3.703362524169017
+		},
+		"organization": {
+			"organization-desc": "  Metro: Tirso de Molina (línea 1).  Bus: 26, 32, 6, M1, 002, 50, 65.  Bicimad: Estaciones 44 (calle Mesón de Paredes, 35), 34 (plaza de Jacinto Benavente), 43 (calle Lavapiés, 34), 52 (plaza de Santa Ana, 10).  Aparcamiento: Garaje Centro (68), calle Relatores, 11.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Apolo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7717745-teatro-arlequin-gran-via.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7717745",
+		"title": "Teatro Arlequín Gran Vía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f38726c2a9489410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE SAN BERNARDO 5"
+		},
+		"location": {
+			"latitude": 40.42103186108598,
+			"longitude": -3.708289221399078
+		},
+		"organization": {
+			"organization-desc": "  Metro: Santo Domingo (línea 2), Callao (líneas 3 y 5).  Bus: 133, 44, 001, 1, 146, 2, 3, 46, 74, 147, 148, 75.  Bicimad: Estaciones 23 (plaza Santo Domingo, 1), 16 (calle Jacometrezo, 22), 2 (calle Miguel Moya, 1).  Aparcamientos: Isabel la Católica (98), calle de Isabel la Católica; Luna-Tudescos (102), calle Tudescos.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Arlequín Gran Vía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7572916-teatro-auditorio-casa-campo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7572916",
+		"title": "Teatro Auditorio Casa de Campo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c9d5dce7e6a17410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28011",
+			"street-address": "AVENIDA PRINCIPAL 9"
+		},
+		"location": {
+			"latitude": 40.41359310144815,
+			"longitude": -3.7411161249274913
+		},
+		"organization": {
+			"organization-desc": "Tiene una excelente calidad acústica y visual y es perfecto para la celebración de conciertos, funciones teatrales, seminarios, convenciones y espectáculos. Dispone de un escenario semicircular, cafetería y amplias zonas de acceso.  Metro: Lago (línea 10), Puerta del Ángel (línea 6).  Bus: 31, 33, 36, 39, 65.  Aparcamiento: Avenida de Portugal (7). Frente al número 51.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Auditorio Casa de Campo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2178-teatro-bellas-artes.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2178",
+		"title": "Teatro Bellas Artes",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e07b8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE MARQUES DE CASA RIERA 2"
+		},
+		"location": {
+			"latitude": 40.41833969537658,
+			"longitude": -3.696409630244443
+		},
+		"organization": {
+			"organization-desc": "  Metro: Banco de España (línea 2).  Bus: 15, 150, 20, 5, 51, 53, 001, 146, 52, 9, 1, 2, 74, 002, 3, 46, 14, 27, 37, 45, C03.  Bicimad: Estaciones 20a (calle Alcalá, 49), 28 (calle Alcalá, 27).  Aparcamientos: Sevilla (41) (calle Sevilla con calle Alcalá); Hub de Movilidad Canalejas 360 (1239), calle de Alcalá, 17; plaza del Rey (54).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Bellas Artes"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8176468-teatro-calderon.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "8176468",
+		"title": "Teatro Calderón",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aecf08cee9e5f410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE ATOCHA 18"
+		},
+		"location": {
+			"latitude": 40.41400427798526,
+			"longitude": -3.7033440587300324
+		},
+		"organization": {
+			"organization-desc": "  Metro: Tirso de Molina (línea 1), Sol (líneas 1, 2 y 3).  Bus: 002, M1, 26, 32, 6, 65, 50.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estación 34 (plaza Jacinto Benavente).  Aparcamiento: Plaza Jacinto Benavente (15); Garaje Centro (68), calle Relatores, 11.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Calderón"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511563-teatro-capitol-gran-via.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511563",
+		"title": "Teatro Capitol Gran Vía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6fc8459f66cee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 41"
+		},
+		"location": {
+			"latitude": 40.42044662928379,
+			"longitude": -3.706582132732834
+		},
+		"organization": {
+			"organization-desc": "  Metro: Callao (líneas 3 y 5), Santo Domingo (línea 2).  Bus: 148, 147, 146, 75, 001, 1, 2, 3, 46, 74, 133, 44.  Bicimad: Estaciones 22 (calle Jacometrezo, 3), 23 (plaza de Santo Domingo, 1), 2 (calle Miguel Moya, 1).  Aparcamientos: Luna - Tudescos (102), calle de los Tudescos; El Corte Inglés Callao (92), plaza de Callao; Luna - Tudescos (14), plaza Santa María Soledad Torres Acosta con vuelta a calle Luna).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Capitol Gran Vía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511914-teatro-centro-actor.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511914",
+		"title": "Teatro Centro del Actor",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5942fef1bacee510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/VistaAlegre"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28025",
+			"street-address": "CALLE DOLORES ARMENGOT 22 PLANTA BAJA"
+		},
+		"location": {
+			"latitude": 40.38586748767665,
+			"longitude": -3.743020950442359
+		},
+		"organization": {
+			"organization-desc": "  Metro: Carabanchel (línea 5).  Bus: 35.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Centro del Actor"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184955-teatro-circo-price.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "184955",
+		"title": "Teatro Circo Price",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=432257258ae5d010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosFrontera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "RONDA ATOCHA 35"
+		},
+		"location": {
+			"latitude": 40.40596936645757,
+			"longitude": -3.698589986849812
+		},
+		"organization": {
+			"organization-desc": "Toma su nombre del que existió, durante casi un siglo, en el Paseo de Recoletos. A comienzos del 2000, el Ayuntamiento recuperó el antiguo edificio industrial de una fábrica, de estilo neomudéjar, para ubicar el nuevo Teatro Circo Price que desde 2007 ofrece una variada programación de circo, música y teatro.  Metro: Embajadores (línea 3) , Lavapiés (línea 3), Estación del Arte (Atocha) (línea 1)  Bus: 27, 34, 36, 41, 119, C03, C2, C1  Renfe: Embajadores (C5)",
+			"accesibility": "1",
+			"schedule": "Taquilla   De martes a viernes de 17:30 a 20:30 horas. Los fines de semana la taquilla abre dos horas antes del inicio de la sesión (consultar matinalees)",
+			"services": "Espacios:   Sala principal Pista circular y escenario Sala Parish 2 salas de exposiciones (sala Malabar y sala Trapecio 1 Sala de ensayos  12 Camerinos   Aparcamiento propio y vigilado, entrada por la calle Juan Sebastián Elcano, 25, de uso exclusivo para los espectadores y con horario limitado sujeto al espectáculo.",
+			"organization-name": "Teatro Circo Price"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511809-teatro-coliseum.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511809",
+		"title": "Teatro Coliseum",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c9e5459f66cee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 78"
+		},
+		"location": {
+			"latitude": 40.4232376492877,
+			"longitude": -3.7102689441860126
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de España (líneas 3 y 10), Noviciado (línea 2).  Bus: 001, 1, 133, 2, 44, 3, 46, 74, 25, 148, 75, 39, 138, C2, 002.  Bicimad: Estaciones 116b (plaza de España).  Aparcamientos: Plaza de España (53), plaza Montenses (50).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Coliseum"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11742400-teatro-corral-cervantes.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11742400",
+		"title": "Teatro Corral de Cervantes",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d3296ece16e52810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Chopera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "PASEO CHOPERA 10"
+		},
+		"location": {
+			"latitude": 40.39307289237465,
+			"longitude": -3.699005654074825
+		},
+		"organization": {
+			"organization-desc": "  Metro: Legazpi (líneas 3 y 6).  Bus: 148, 18, 6, 78, 62.  Bicimad: Estaciones 165 (paseo de la Chopera, 14), 267 (paseo de la Chopera, 33).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Corral de Cervantes"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2207-teatro-abadia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2207",
+		"title": "Teatro de la Abadía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=efcb8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE FERNANDEZ DE LOS RIOS 42"
+		},
+		"location": {
+			"latitude": 40.435223017244546,
+			"longitude": -3.7092064811910204
+		},
+		"organization": {
+			"organization-desc": "  Metro: Quevedo (línea 2), Canal (líneas 2 y 7) Islas Filipinas (línea 7).  Bus: 16, 61, 2.  Bicimad: Estaciones 245 (calle Galileo, 63), 127 (calle Fernando el Católico, 19).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro de la Abadía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2193-teatro-comedia-compania-nacional-teatro-clasico.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2193",
+		"title": "Teatro de la Comedia. Compañía Nacional de Teatro Clásico",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e2eb8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE PRINCIPE 14"
+		},
+		"location": {
+			"latitude": 40.41566852368688,
+			"longitude": -3.7004049132099373
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sevilla (línea 2), Sol (líneas 1, 2, y 3).  Bus: 002, M1, 51.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 52 (plaza de Santa Ana, 10), 33 (calle Carretas, 8).  Aparcamiento: Plaza de Santa Ana (77).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro de la Comedia. Compañía Nacional de Teatro Clásico"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511901-teatro-escuela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511901",
+		"title": "Teatro de la Escuela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5471fef1bacee510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE PALMA 18"
+		},
+		"location": {
+			"latitude": 40.42628172562985,
+			"longitude": -3.7030590988558933
+		},
+		"organization": {
+			"organization-desc": "  Metro: Tribunal (líneas 1 y 10).  Bus: 002.  Bicimad: Estación 11 (calle San Andrés, 18), estación 59 (Calle Espíritu Santo, 30).  Aparcamientos: Barceló (69), calle Barceló sin número; Arquitecto Ribera (Barceló) (17), calle Barceló, 2.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro de la Escuela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2194-teatro-zarzuela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2194",
+		"title": "Teatro de la Zarzuela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e5fb8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE JOVELLANOS 4"
+		},
+		"location": {
+			"latitude": 40.41719654959032,
+			"longitude": -3.6968562410770316
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sevilla (línea 2), Banco de España (línea 2).  Bus: 53, 15, 20, 150, 5, 51, 001, 146, 52, 9, 002, 1, 2, 3, 46, 74.  Bicimad: Estaciones 28 (calle Alcalá, 27) y 29 (calle de Marqués de Cubas, 25), 20a (calle Alcalá, 49).  Aparcamientos: Cortes (46), plaza de las Cortes; plaza de las Cortes (103); Sevilla (41) calle Sevilla y calle Alcalá; Hub de Movilidad Canalejas 360 (1239), calle de Alcalá, 17.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro de la Zarzuela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511805-teatro-aguas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511805",
+		"title": "Teatro de las Aguas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9ce4459f66cee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE AGUAS 8"
+		},
+		"location": {
+			"latitude": 40.41086121309178,
+			"longitude": -3.712230923915896
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Latina (línea 5).  Bus: 60, 148, 3.  Bicimad: Estación 38 (carrera de San Francisco, 1), estación 37 (plaza de San Francisco, 5).  Aparcamientos: Mercado de la Cebada (501), plaza de la Cebada sin número; La Latina (86), calle de Toledo.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro de las Aguas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7239548-teatro-barrio.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "7239548",
+		"title": "Teatro del Barrio",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8891c0a221f23410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE ZURITA 20"
+		},
+		"location": {
+			"latitude": 40.40968091147868,
+			"longitude": -3.6991127577598806
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lavapiés (línea 3), Antón Martín (línea 1).  Bus: M1, 26, 32, 6.  Bicimad: Estaciones 42 (calle Atocha, 95) y 53 (calle Valencia, 1).  Aparcamiento: Garaje Amparo (75) calle Amapero.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro del Barrio"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17334-teatro-edp-gran-via.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "17334",
+		"title": "Teatro EDP Gran Vía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e69b8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 66"
+		},
+		"location": {
+			"latitude": 40.422413433319086,
+			"longitude": -3.7089446226591725
+		},
+		"organization": {
+			"organization-desc": "  Metro: Santo Domingo (línea 2), Plaza de España (líneas 3 y 10).  Bus: 148, 3, 46, 74, 75, 133, 44, 147, 001, 1, 2, 25, 146.  Bicimad: Estaciones 16 (calle San Bernardo, 22), 116b (calle Princesa, 5), 23 (plaza de Santo Domingo, 1).  Aparcamientos: Isabel la Católica (98) calle Isabel la Católica; Plaza Mostenses (50).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro EDP Gran Vía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2190-teatro-espanol.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2190",
+		"title": "Teatro Español",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6d3ce3914381c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE PRINCIPE 25"
+		},
+		"location": {
+			"latitude": 40.414828532240946,
+			"longitude": -3.700164949543688
+		},
+		"organization": {
+			"organization-desc": "La historia del Teatro Español de Madrid comienza el 21 de septiembre de 1583,  momento en el que tiene lugar su primera representación, y continúa hasta el día de hoy, convirtiéndose así en el teatro más antiguo del mundo en cuanto a representación continuada se refiere. Acercarse al Teatro Español en la actualidad es entrar en un edificio único en cuanto a su historia, vida, anécdotas y actualidad. Entre sus espacios destacamos: La Sala Principal con 735 localidades de perfecta visibilidad, dispuestas en tres pisos con una prodigiosa acústica. En sus tablas vieron por primera vez la luz las obras de Cervantes, Lope de Vega, Tirso de Molina, Calderón, Duque de Rivas, Zorrilla, Pérez Galdós, Unamuno, Valle-Inclán, Benavente, los Machado, García Lorca, Mihura o Buero Vallejo, entre otros. La Sala Margarita Xirgu, situada en el antiguo Café del Príncipe, se convirtió en 2006 en sala de teatro de unas 110 localidades, que varían según la disposición de las gradas, pudiendo adoptar distintas configuraciones: una, dos, tres o incluso a cuatro bandas. Otros espacios con encanto del Teatro son: El Salón de Té, el Salón Tirso de Molina, el Parnasillo y el espacio Andrea D&amp;acute;Odorico. Entradas en taquilla y en la página web. Sistema de sobretitulado para personas con discapacidad auditiva. Sistema de audiodescripción para personas con discapacidad visual. Metro: Sevilla (línea 2), Sol (líneas 1, 2, 3)  Bus: 002, 6, 26, 32, M1, M3  Renfe: Sol (líneas C3 y C4)",
+			"accesibility": "1,6",
+			"schedule": "",
+			"services": "La Sala Principal cuenta con 735 localidades, dispuestas en tres pisos con una prodigiosa acústica. En sus tablas vieron por primera vez la luz las obras de Lope de Vega, Tirso de Molina, Calderón, Duque de Rivas, Zorrilla, Pérez Galdós, Unamuno, Valle-Inclán, Benavente, los Machado, García Lorca, Mihura o Buero Vallejo, entre otros. La Sala Margarita Xirgu, situada en el antiguo Café del Príncipe, se convirtió en 2006 en sala de teatro de unas 110 localidades, que varían según la disposición de las gradas, pudiendo adoptar distintas configuraciones: una, dos, tres o incluso a cuatro bandas. El espacio Andrea D&amp;acute;Odorico, situado encima de la sala Margarita Xirgu, es una sala con infinidad de usos desde ruedas de prensa, charlas, encuentros a exposiciones.   El Salón de Té, donde existe un &amp;ldquo;reloj-ascensor&amp;rdquo; de principios de siglo y es utilizado para realizar actos institucionales. En otro tiempo fue el verdadero ambigú del Teatro Español. Es una sala del siglo XIX, obra de Juan de Villanueva.  El Parnasillo, un lugar especialmente recordado porque en él los dramaturgos se reunían con la compañía para hacer la primera lectura de la obra. En 1929 se decoró con una valiosa colección de retratos de artistas y literatos, única en su género, realizada por el pintor José Sánchez Pescador. El Salón Tirso de Molina, que en su origen fue el saloncito privado donde los primeros actores y actrices recibían a sus allegados,  es un espacio de gran belleza por su carácter neoclásico, obra de Juan de Villanueva. Está situado en la segunda planta del Teatro Español y todos sus balcones miran a la Plaza Santa Ana.",
+			"organization-name": "Teatro Español"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511854-teatro-estudio-2-manuel-galiana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511854",
+		"title": "Teatro Estudio 2 Manuel Galiana",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e1afca35ccee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE MORATINES 11"
+		},
+		"location": {
+			"latitude": 40.40322240916376,
+			"longitude": -3.702664395307727
+		},
+		"organization": {
+			"organization-desc": "  Metro: Embajadores (línea 3), Acacias (línea 5).  Bus: 148, 60, 78, 116, 118, 119, 34, 36.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estaciones 47 (glorieta de Embajadores, 6), 48 (glorieta de Embajadores, 2).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Estudio 2 Manuel Galiana"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2181-teatro-figaro-adolfo-marsillach.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2181",
+		"title": "Teatro Fígaro - Adolfo Marsillach",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=715c8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE DOCTOR CORTEZO 5"
+		},
+		"location": {
+			"latitude": 40.41345712623912,
+			"longitude": -3.7036750985515776
+		},
+		"organization": {
+			"organization-desc": "  Metro: Tirso de Molina (línea 1), Sol (líneas 1, 2 y 3).  Bus: 002, M1, 26, 32, 6, 65, 50.  Cercanías Renfe: Sol (líenas C3, C4, C4a y Regional).  Bicimad: Estaciones 34 (plaza de Jacinto Benavente).  Aparcamientos: Plaza Jacinto Benavente (15), Garaje Centro (68) calle Relatores, 11.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Fígaro - Adolfo Marsillach"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038751-teatro-flamenco-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10038751",
+		"title": "Teatro Flamenco Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7420d852ee904510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE PEZ 10"
+		},
+		"location": {
+			"latitude": 40.423153008537106,
+			"longitude": -3.7044603063098367
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (línea 2), Callao (líneas 3 y 5)  Bus: 002, 147, 3.  Bicimad: Estaciones 17 (plaza de Carlos Cambronero, 2), 16 (calle San Bernardo, 22), 59 (calle Espíritu Santo, 30), 55 (plaza de San Ildefonso).  Aparcamiento: Luna-Tudescos (14) plaza Santa María Soledad Torres Acosta; Luna-Tudescos (102), calle Tudescos.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Flamenco Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511730-teatro-grada-magica.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511730",
+		"title": "Teatro Grada Mágica",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4b90459f66cee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Numancia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28038",
+			"street-address": "CALLE EMILIO ORTUÑO 20"
+		},
+		"location": {
+			"latitude": 40.39872198573073,
+			"longitude": -3.666187573469471
+		},
+		"organization": {
+			"organization-desc": "  Metro: Puente de Vallecas (línea 1).  Bus: 113, 141, 8.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Grada Mágica"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2198-teatro-infanta-isabel.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2198",
+		"title": "Teatro Infanta Isabel",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=777c8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE BARQUILLO 24"
+		},
+		"location": {
+			"latitude": 40.42222446320089,
+			"longitude": -3.695574910195452
+		},
+		"organization": {
+			"organization-desc": "  Metro: Chueca (línea 5), Banco de España (línea 2).  Bus: 37.  Cercanías Renfe: Recoletos (líneas C1, C2, C7 y C10).  Bicimad: Estaciones 19 (calle Prim, 2), 58 (calle Augusto Figueroa, 33), 26 (plaza de las Salesas, 7).  Aparcamientos: Gravina 21 (89); Garaje Piamonte (96) calle Piamonte; Mercado San Antón (94), Libertad.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Infanta Isabel"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99245-teatro-karpas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "99245",
+		"title": "Teatro Karpas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7a8c8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE SANTA ISABEL 19"
+		},
+		"location": {
+			"latitude": 40.41046636580597,
+			"longitude": -3.6976884322997865
+		},
+		"organization": {
+			"organization-desc": "  Metro: Anton Martín (línea 1), Lavapies (línea 3).  Bus: 26, 32, 6.  Bicimad: Estación 42 (calle Santa Isabel, 32).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Karpas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511853-teatro-encina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511853",
+		"title": "Teatro La Encina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6ae9fca35ccee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE ERCILLA 15"
+		},
+		"location": {
+			"latitude": 40.40292081826184,
+			"longitude": -3.7028072697686376
+		},
+		"organization": {
+			"organization-desc": "  Metro: Acacias (línea 5), Embajadores (línea 3).  Bus: 148, 60, 78, 116, 118.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estación 47 (glorieta de Embajadores, 6).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro La Encina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2182-teatro-latina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2182",
+		"title": "Teatro la Latina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7d9c8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "PLAZA CEBADA 2"
+		},
+		"location": {
+			"latitude": 40.411402834899235,
+			"longitude": -3.7087714263674325
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Latina (Línea 5).  Bus: 002, 17, 18, 23, 35, 60, M1.  Bicimad: Estación 39 (plaza de la Cebada, 16).  Aparcamiento: Mercado plaza de la Cebada (501).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro la Latina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11742377-teatro-sala.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11742377",
+		"title": "Teatro La Sala",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a4642a5e30e52810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosFrontera"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE PALOS DE LA FRONTERA 3"
+		},
+		"location": {
+			"latitude": 40.40309417359402,
+			"longitude": -3.6989842711202656
+		},
+		"organization": {
+			"organization-desc": "  Metro: Embajadores (línea 3).  Bus: 148, 60, 78, 59, 6, 85, 55.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estación 121 (paseo Santa María de la Cabeza, 58).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro La Sala"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79864-teatro-lagrada.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "79864",
+		"title": "Teatro Lagrada",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=70bc8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE ERCILLA 20"
+		},
+		"location": {
+			"latitude": 40.40269686624398,
+			"longitude": -3.702879182971478
+		},
+		"organization": {
+			"organization-desc": "  Metro: Embajadores (línea 3), Acacias (línea 5).  Bus: 148, 60, 78.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estación 47 (glorieta de Embajadores, 6), 170 (paseo de la Esperanza, 21).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Lagrada"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2208-teatro-lara.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2208",
+		"title": "Teatro Lara",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=73cc8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE CORREDERA BAJA DE SAN PABLO 15"
+		},
+		"location": {
+			"latitude": 40.42208992840841,
+			"longitude": -3.7044330667766356
+		},
+		"organization": {
+			"organization-desc": "  Metro: Callao (líneas 3 y 5), Santo Domingo (línea 2), Gran Vía (líneas 1 y 5).  Bus: 002, 001, 1, 146, 2, 46, 74.  Bicimad: Estaciones 17 (plaza de Carlos Carbonero, 2), 2 (calle Miguel Moya, 1), 211 (calle Desengaño, 1).  Aparcamientos: Luna-Tudescos (14), plaza Santa María Soledad Torres Acosta con vuelta a calle Luna); Barco 1 (88), calle Barco.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Lara"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17338-teatro-lope-vega.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "17338",
+		"title": "Teatro Lope de Vega",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=79ec8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 57"
+		},
+		"location": {
+			"latitude": 40.42190319947077,
+			"longitude": -3.7088650025651506
+		},
+		"organization": {
+			"organization-desc": "  Metro: Santo Domingo (línea 2), Plaza de España (línea 3 y 10), Callao (líneas 3 y 5).  Bus: 147, 3, 133, 001, 1, 148, 2, 44, 46, 74, 75, 146.  Bicimad: Estaciones 16 (calle San Bernardo, 22), 23 (plaza de Santo Domingo, 1), 116b (calle Princesa, 5).  Aparcamientos: Isabel la Católica (98) calle de Isabel la Católica; Mostenses (50), plaza Mostenses y calle Ricardo León.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Lope de Vega"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174142-teatro-maravillas-melendez.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "174142",
+		"title": "Teatro Maravillas Meléndez",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f8608c89dd91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE MANUELA MALASA&amp;Ntilde;A 6"
+		},
+		"location": {
+			"latitude": 40.42868512425655,
+			"longitude": -3.703093557594087
+		},
+		"organization": {
+			"organization-desc": "  Metro: Bilbao (líneas 1 y 4).  Bus: 147, 21, C03, 149, 3, 37, 40.  Bicimad: Estación 4 (calle Manuela malasaña, 5), 5 (calle Fuencarral, 108).  Aparcamiento: Fuencarral (27), calle Fuencarral, 111 (entre 111 y 121).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Maravillas Meléndez"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2191-teatro-maria-guerrero-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2191",
+		"title": "Teatro María Guerrero.",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3cfc8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE TAMAYO Y BAUS 4"
+		},
+		"location": {
+			"latitude": 40.42289798776825,
+			"longitude": -3.693053196862537
+		},
+		"organization": {
+			"organization-desc": "  Metro: Colón (línea 4), Banco de España (línea 2), Chueca (línea 5).  Bus: 37, 14, 150, 27, 45, 5, 53, C03.  Cercanías Renfe: Recoletos (líneas C1, C2, C7 y C10).  Bicimad: Estaciones 26 (plaza de las Salesas, 7), 19 (calle Prim, 2), 10 (calle Marqués de la Ensenada, 16).  Aparcamientos: Garaje Piamonte (96), calle Piamont; Villa de París (67), plaza Villa de París.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro María Guerrero."
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2184-teatro-marquina.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2184",
+		"title": "Teatro Marquina",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fe0d8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE PRIM 11"
+		},
+		"location": {
+			"latitude": 40.421966872256846,
+			"longitude": -3.693734410007287
+		},
+		"organization": {
+			"organization-desc": "  Metro: Banco de España (línea 2), Chueca (línea 5), Colón (línea 4).  Bus: 37, 14, 150, 27, 45, 5, 53, C03, 001, 1, 146, 15, 2, 20, 203, 51, 52, 74, 9.  Cercanías Renfe: Recoletos (líneas C1, C2, C7 y C10).  Bicimad: Estaciones 19 (calle Prim, 2), 26 (plaza de las Salesas, 7).  Aparcamientos: Garaje Piamonte (96), calle Piamonte; Gravina 21 (8), calle Gravina.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Marquina"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11466205-teatro-multiespacio-strada.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11466205",
+		"title": "Teatro Multiespacio La Strada",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=10f87509ab8eb710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE MAGALLANES 23"
+		},
+		"location": {
+			"latitude": 40.435354235764464,
+			"longitude": -3.705754037741118
+		},
+		"organization": {
+			"organization-desc": "  Metro: Quevedo (línea 2), Canal (líneas 2 y 7).  Bus: 146, 61, 149, 37   Bicimad :   Estaciones 200 (glorieta de Quevedo, 5), 127 (calle Fernando el Católico, 19).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Multiespacio La Strada"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4077-teatro-municipal-titeres-parque-retiro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "4077",
+		"title": "Teatro Municipal de Títeres. Parque de El Retiro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=784d8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "AVENIDA MÉXICO 4 Parque de El Retiro. Entrada por Puerta de la Independencia"
+		},
+		"location": {
+			"latitude": 40.41878362561595,
+			"longitude": -3.6866519471003647
+		},
+		"organization": {
+			"organization-desc": "Dentro del parque de El Retiro, muy cerca de la entrada desde la plaza de la Independencia, donde se encuentra la Puerta de Alcalá, está el Teatro de Títeres, toda una institución para el público infantil madrileño.  Este teatro permanente ofrece representaciones, normalmente, los sábados y domingos en diferentes horarios según la climatología de cada época del año y está dedicado el mundo del títere y la marioneta.  Metro: Retiro (línea 2).  Bus: 1, 2, 9, 15, 19, 20, 51, 52, 74, 146, 28.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Municipal de Títeres. Parque de El Retiro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10890410-teatro-municipal-vallecas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10890410",
+		"title": "Teatro Municipal de Vallecas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2193cb665c6e8610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/CascoHVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CALLE PASO DE VILLAMANRIQUE 3"
+		},
+		"location": {
+			"latitude": 40.37762362093048,
+			"longitude": -3.6229095774784765
+		},
+		"organization": {
+			"organization-desc": "Para la construcción del teatro se ha remodelado el antiguo salón de actos de la Biblioteca Gerardo Diego. Cuenta con cien butacas y se especializa en la programación de teatro y de cine. Alberga la escuela de teatro de Vallecas. Dentro de su programación, se ha previsto que se celebren tres representaciones teatrales y una proyección cinematográfica al mes, en sábado, completando así la oferta los centros culturales del distrito, cuyas actividades se convocan los viernes.  Metro: Villa de Vallecas (línea 1)  Bus: 103, 142, 54, 58",
+			"accesibility": "1",
+			"schedule": "Para atención presencial, pedir cita en el teléfono de contacto.  Horario habitual: lunes a viernes, 17 a 21 horas. Sábados, de 10 a 14 horas.",
+			"services": "El aforo es de 94 butacas más 2 de movilidad reducida. 3 aulas para clases.",
+			"organization-name": "Teatro Municipal de Vallecas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2185-teatro-munoz-seca.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2185",
+		"title": "Teatro Muñoz Seca",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b5d8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "PLAZA CARMEN 1"
+		},
+		"location": {
+			"latitude": 40.41841411050799,
+			"longitude": -3.703270693985126
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (líneas 1, 2 y 3), Gran Vía (líneas 1 y 5), Sevilla (línea 2), Callao (líneas 3 y 5).  Bus: 002.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 56 (plaza del Carmen, 1), 210 (calle Tres Cruces, 7).  Aparcamientos: Plaza del Carmen (8); el Corte Inglés Preciados (93), calle Preciados.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Muñoz Seca"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037829-teatro-nuev9-norte.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10037829",
+		"title": "Teatro Nuev9 Norte",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7ac150fba2504510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE NORTE 9"
+		},
+		"location": {
+			"latitude": 40.42601717514524,
+			"longitude": -3.7076146318877625
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (línea 2).  Bus: 002, 147, 3.  Bicimad: Estación 15 (calle Norte, 8).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Nuev9 Norte"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511703-teatro-pavon.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511703",
+		"title": "Teatro Pavón",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6d6f459f66cee510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE EMBAJADORES 9"
+		},
+		"location": {
+			"latitude": 40.41002883652138,
+			"longitude": -3.7061994964420886
+		},
+		"organization": {
+			"organization-desc": "  Metro: Latina (línea 5), Tirso de Molina (línea 1).  Bus: M1.   Bicimad:   Estación 44 (calle Mesón de Paredes, 35).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Pavón"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2202-teatro-pradillo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2202",
+		"title": "Teatro Pradillo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f7ad8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/CiudadJardin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28002",
+			"street-address": "CALLE PRADILLO 12"
+		},
+		"location": {
+			"latitude": 40.448573903848,
+			"longitude": -3.6747122950899285
+		},
+		"organization": {
+			"organization-desc": "  Metro: Concha Espina (línea 9).  Bus: 16, 29, 52.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Pradillo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/31360-teatro-principe-gran-via.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "31360",
+		"title": "Teatro Príncipe Gran Vía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fabd8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE TRES CRUCES 8"
+		},
+		"location": {
+			"latitude": 40.419428942506514,
+			"longitude": -3.7027432836384193
+		},
+		"organization": {
+			"organization-desc": "  Metro: Gran Vía (líneas 1 y 5).  Bus: 002, 001, 1, 146, 2, 46, 74, 3.  Bicimad: Estaciones 210 (Tres Cruces, 7), 211 (calle Desengaño, 1), 56 (plaza del Carmen, 1).  Aparcamientos: plaza del Carmen (8); Barco 1 (88), calle Barco; el Corte Inglés Preciados (93), calle Preciados.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Príncipe Gran Vía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/87056-teatro-quique-san-francisco.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "87056",
+		"title": "Teatro Quique San Francisco",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=346c8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE GALILEO 39"
+		},
+		"location": {
+			"latitude": 40.433719454283505,
+			"longitude": -3.7104468992841753
+		},
+		"organization": {
+			"organization-desc": "La sala del Teatro Quique San Francisco ofrece una variada programación teatral dirigida tanto para adultos como para niños. En la temporada estival, algunas de las representaciones tienen lugar al aire libre.  Metro: Quevedo (línea 2)  Bus: 2, 16, 61  Bicimad: Estación 127 (calle Fernando el Católico, 19)",
+			"accesibility": "1",
+			"schedule": "Horario según funciones.",
+			"services": "Aforo: 191 butacas",
+			"organization-name": "Teatro Quique San Francisco"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2187-teatro-reina-victoria.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2187",
+		"title": "Teatro Reina Victoria",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1bfd8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CARRERA SAN JERONIMO 24"
+		},
+		"location": {
+			"latitude": 40.41652126622025,
+			"longitude": -3.6998037829414807
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (líneas 1, 2 y 3), Sevilla (línea 2).  Bus: 002, 51, M1, 53, 15, 20, 150, 5, 46, 52  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 28 (calle Alcalá, 27), 33 (calle Carretas, 8), 52 (plaza de Santa Ana, 10).  Aparcamiento: Sevilla (41), calle Sevilla y Calle Alcalá; Hub de Movilidad Canalejas 360 (1239), calle de Alcalá, 17.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Reina Victoria"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17361-teatro-rialto.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "17361",
+		"title": "Teatro Rialto",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b12d8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 54"
+		},
+		"location": {
+			"latitude": 40.42139454047835,
+			"longitude": -3.707366153320881
+		},
+		"organization": {
+			"organization-desc": "  Metro: Santo Domingo (línea 2), Callao (líneas 3 y 5).  Bus: 001, 1, 133, 147, 148, 2, 44, 46, 74, 75, 146, 3.  Bicimad: Estaciones 23 (plaza de Santo Domingo, 1), 2 (calle Miguel Moya, 1), 22 (calle Jacometrezo, 3), 16 (San Bernardo, 22), 16 (calle San Bernardo, 22).  Aparcamientos: Isabel la Católica (98) calle de Isabel la Católica; Luna-Tudescos (102), Tudescos; Luna-Tudescos (14) plaza Santa María Soledad Torres Acosta.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Rialto"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2205-teatro-sala-cuarta-pared.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2205",
+		"title": "Teatro Sala Cuarta Pared",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4c0208231f91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE ERCILLA 17"
+		},
+		"location": {
+			"latitude": 40.40278578703392,
+			"longitude": -3.7027011010089894
+		},
+		"organization": {
+			"organization-desc": "  Metro: Embajadores (línea 3), Acacias (línea 5).  Bus: 148, 60, 78, 116, 118, 119, 34, 36, 62, C2, 41, C03, 27, C1, M1.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estaciones 47 (glorieta de Embajadores, 6), 170 (paseo de la Esperanza, 21).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Sala Cuarta Pared"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038763-teatro-sala-mirador.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10038763",
+		"title": "Teatro Sala Mirador",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8103d852ee904510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE DOCTOR FOURQUET 31 PLANTA local 3"
+		},
+		"location": {
+			"latitude": 40.40706813699774,
+			"longitude": -3.6988988076525446
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lavapiés (Línea 3), Embajadores (línea 3).  Bus: 119, 27, 34, 36, 41, C03, C1, C2, M1.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estaciones 49 (ronda de Atocha, 34), 53 (plaza de Lavapiés).  Aparcamiento: Garaje Amparo (75), calle Amparo.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Sala Mirador"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2189-teatro-sanpol.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "2189",
+		"title": "Teatro Sanpol",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=331e8c7c0f91f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE SAN POL DE MAR 1"
+		},
+		"location": {
+			"latitude": 40.42395111326244,
+			"longitude": -3.726586966145146
+		},
+		"organization": {
+			"organization-desc": "  Metro: Príncipe Pío (Líneas 6, 10 y Ramal).  Bus: 41, 75, 46.  Renfe: Príncipe Pío (líneas C1, C7 y C10).  Bicimad: Estación 161 (paseo de la Florida, 8).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Sanpol"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161000-teatro-tarambana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "161000",
+		"title": "Teatro Tarambana",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=53cf8c89dd91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/VistaAlegre"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28025",
+			"street-address": "CALLE DOLORES ARMENGOT 31"
+		},
+		"location": {
+			"latitude": 40.38580831044196,
+			"longitude": -3.743215284694563
+		},
+		"organization": {
+			"organization-desc": "  Metro: Carabanchel (línea 5).  Bus: 35.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Tarambana"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/135051-teatro-tribuene.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "135051",
+		"title": "Teatro Tribueñe",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=96df2189cb81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/FuenteBerro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28028",
+			"street-address": "CALLE SANCHO DAVILA 31"
+		},
+		"location": {
+			"latitude": 40.42558036809144,
+			"longitude": -3.661585724582637
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ventas (líneas 2 y 5), Manuel Becerra (líneas 2 y 6).  Bus: 12.  Bicimad: Estación 185 (Sancho Dávila esquina Paseo Marqués de Zafra).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Tribueñe"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173052-teatro-valle-inclan-centro-dramatico-nacional.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "173052",
+		"title": "Teatro Valle Inclán. Centro Drámatico Nacional",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=67c08c89dd91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Distrito"
+			},
+			"locality": "MADRID",			
+			"postal-code": "",
+			"street-address": "PLAZUELA ANA DIOSDADO "
+		},
+		"location": {
+			"latitude": 40.40816959733343,
+			"longitude": -3.7006531533366718
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lavapiés (línea 3).  Bus: M1.  Bicimad: Estación 53 (calle de Valencia, 1).  Aparcamiento: Garaje calle Amparo (75).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Valle Inclán. Centro Drámatico Nacional"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174525-teatro-victoria.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "174525",
+		"title": "Teatro Victoria",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cbe08c89dd91f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE PEZ 17"
+		},
+		"location": {
+			"latitude": 40.423796586306075,
+			"longitude": -3.705602340628895
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (línea 2).  Bus: 002.  Bicimad: Estaciones 16 (calle San Bernardo, 22), 17 (plaza de Carlos Carbonero, 2), 59 (calle Espíritu Santo, 30).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Victoria"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11466221-teatrolab-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "11466221",
+		"title": "TeatroLAB Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=733a7509ab8eb710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/Aluche"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "CALLE LUIS FEITO 24"
+		},
+		"location": {
+			"latitude": 40.39188020285107,
+			"longitude": -3.7447341234745273
+		},
+		"organization": {
+			"organization-desc": "  Metro: Carpetana (Línea 6), Carabanchel (línea 5).  Bus: 17.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "TeatroLAB Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5000655-teatros-canal.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "5000655",
+		"title": "Teatros del Canal",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8f63986ba58bc110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28003",
+			"street-address": "CALLE CEA BERMUDEZ 1"
+		},
+		"location": {
+			"latitude": 40.438548128643944,
+			"longitude": -3.7050571160614263
+		},
+		"organization": {
+			"organization-desc": "Descripción monumental: Arquitecto Juan Navarro Baldeweg. Inaugurado oficialmente el 20 de febrero de 2009.  Metro: Canal (líneas 2 y 7).  Bus: 149, 37, 12, 3.  Bicimad: Estación 201 (José Abascal, frente al número 2).",
+			"accesibility": "1,6",
+			"schedule": "Taquillas: Todos los días de 14:30 h a 21 horas. Los meses de julio y agosto el horario de taquilla puede variar.",
+			"services": "Servicios de accesibilidad a la comunicación: subtitulado adaptado, audiodescripción, bucle magnético individual, sonido en sala con auriculares (Más información y próximas funciones en www.teatroaccesible.com).",
+			"organization-name": "Teatros del Canal"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037669-teatros-luchana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10037669",
+		"title": "Teatros Luchana",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=668632e49e404510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE LUCHANA 38"
+		},
+		"location": {
+			"latitude": 40.43193878823772,
+			"longitude": -3.698178873794016
+		},
+		"organization": {
+			"organization-desc": "  Metro: Iglesia (línea 1), Bilbao (líneas 1 y 4), Alonso Martínez (líneas 4, 5 y 10), Quevedo (línea 2).  Bus: 147, 40, 3, 37.  Bicimad: Estación 124 (calle Manuel Silvela, 20).  Aparcamiento: Plaza de Olavide (52).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatros Luchana"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038955-teatro-arte-desmayo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10038955",
+		"title": "Teatro. Arte &amp; Desmayo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fe5f364c13a04510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/Comillas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28019",
+			"street-address": "CALLE BALEARES 14 PLANTA local 3"
+		},
+		"location": {
+			"latitude": 40.394818509595254,
+			"longitude": -3.7135603167319573
+		},
+		"organization": {
+			"organization-desc": "  Metro: Marques de Vadillo (Línea 5).  Bus: 116.  Bicimad: Estación 354 (calle Jacinto Verdaguer, 12).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro. Arte &amp; Desmayo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187464-teatro-artespacio-plot-point.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "187464",
+		"title": "Teatro. Artespacio Plot Point",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ea2dd2bec675e010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE ERCILLA 29"
+		},
+		"location": {
+			"latitude": 40.401936015245106,
+			"longitude": -3.702039763916271
+		},
+		"organization": {
+			"organization-desc": "  Metro: Embajadores (línea 3), Acacias (línea 5).  Autobuses: 148, 60, 78.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estaciones 170 (paseo de la Esperanza, 21), 47 (glorieta de Embajadores, 6), 121 (paseo de Santa María de la Cabeza, 58).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro. Artespacio Plot Point"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6831483-teatro-bululu-2120.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "6831483",
+		"title": "Teatro. Bululú 2120",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=11fee3831910d310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosMoguer"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "CALLE CANARIAS 16"
+		},
+		"location": {
+			"latitude": 40.401958738062355,
+			"longitude": -3.6965212526388838
+		},
+		"organization": {
+			"organization-desc": "  Metro: Palos de la Frontera (línea 3), Delicias (línea 3).  Bus: 19, 247, 45, 47, 8, 86, 55, 6, 59, 85.  Cercanías Renfe: Delicias (Líneas C1 y C10).  Bicimad: Estaciones 121 (paseo de Santa María de la Cabeza, 58), 120 (calle Palos de la Frontera, 27).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro. Bululú 2120"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037710-teseo-teatro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10037710",
+		"title": "Teseo Teatro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f852a73970504510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "RONDA SEGOVIA 61"
+		},
+		"location": {
+			"latitude": 40.40849618377386,
+			"longitude": -3.715902634905134
+		},
+		"organization": {
+			"organization-desc": "  Metro: Puerta de Toledo (línea 5).  Bus: C2, C1, 41.  Bicimad: Estación 236 (paseo Imperial, 20).  Aparcamiento: Parking VOT (97), Ventosa.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teseo Teatro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511907-theatre-for-the-people.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10511907",
+		"title": "Theatre for the people",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0ad1fef1bacee510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "PLAZA CARLOS CAMBRONERO 5"
+		},
+		"location": {
+			"latitude": 40.42314671010554,
+			"longitude": -3.7038821535136424
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (línea 2), Chueca (línea 5), Tribunal (líneas 1 y 10), Callao (línea 3 y 5), Gran Vía (líneas 1 y 5).  Bus: 002.  Bicimad: Estaciones 17 (plaza de Carlos Carbonero, 2), 55 (plaza de San Ildefonso)  Aparcamientos: Luna-Tudescos (14) plaza Santa María Soledad Torres Acosta; Barco (1), calle Barco.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Theatre for the people"
+		}
+	}	  
+  ]
+}
+

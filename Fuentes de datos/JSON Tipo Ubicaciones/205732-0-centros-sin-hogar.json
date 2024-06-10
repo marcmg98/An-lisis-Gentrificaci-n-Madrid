@@ -1,0 +1,281 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12046758-centro-acogida-juan-luis-vives-.json",
+		"id": "12046758",
+		"title": "Centro de acogida 'Juan Luis Vives'",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6165efcf8b009810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28052",
+			"street-address": "CALLE ALCALDE JUAN DE MATA SEVILLANO 18"
+		},
+		"location": {
+			"latitude": 40.39879572303464,
+			"longitude": -3.5844478231452626
+		},
+		"organization": {
+			"organization-desc": " Información Complementaria:       Plazas: 140   Tipología: Mixto     Acceso:  a través del Equipo Puerta Única (PUE), del servicio &amp;ldquo;Madrid en Calle&amp;rdquo;. La solicitud de plaza puede realizarse:   Presencial: Centro de acogida San Isidro (de lunes a viernes, de 9 a 14 h)  Telemáticamente: pue@grupo5.net  Teléfono:914802007 - 609209667 Metro: Puerta de Arganda (Línea 9)  Renfe: Vicálvaro  Bus: 100, 106 y T 23",
+			"accesibility": "1",
+			"schedule": "Servicio ininterrumpido, 24 horas los 365 días del año",
+			"services": "Alojamiento, Manutención: desayuno, comida, merienda y cena Atención sanitaria y social Talleres y actividades ocupacionales Preparación para el empleo  Programa de animales de compañía.",
+			"organization-name": "Centro de acogida 'Juan Luis Vives'"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179409-centro-acogida-temporal-inmigrantes-san-blas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialIntegracionInmigrantes",
+		"id": "179409",
+		"title": "Centro de Acogida Temporal para Inmigrantes 'San Blas'",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eacf38d60b41c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Simancas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28037",
+			"street-address": "CALLE VALDECANILLAS 112 ENTRADA POR C/ CASTILLO DE UCLES"
+		},
+		"location": {
+			"latitude": 40.43325108649509,
+			"longitude": -3.6232281855154618
+		},
+		"organization": {
+			"organization-desc": "  Metro:Simancas Bus: 28",
+			"accesibility": "1",
+			"schedule": "Abierto 24 horas",
+			"services": "EQUIPAMIENTOS: Centro de Acogida con 120 plazas.  SERVICIOS: Alojamiento - Manutención (desayuno y cena) - Trabajo Social - Asesoramiento - Búsqueda de empleo - Apoyo psicológico - Asistencia sanitaria - Talleres",
+			"organization-name": "Centro de Acogida Temporal para Inmigrantes 'San Blas'"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12060347-centro-acogida-emergencia-campana-frio-pinar-san-jose-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+		"id": "12060347",
+		"title": "Centro de Acogida de Emergencia de Campaña contra el Frío Pinar de San José.",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=31ef425e4dc69810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/CuatroVientos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28044",
+			"street-address": "CALLE PINAR DE SAN JOSE 106"
+		},
+		"location": {
+			"latitude": 40.363611441480245,
+			"longitude": -3.776461943528168
+		},
+		"organization": {
+			"organization-desc": "Centro de acogida: campaña contra el frío del 23 de noviembre al 31 de marzo. 150 plazas en régimen de pernocta para hombres y mujeres. 40 plazas en régimen de Centro de Día para hombres y mujeres. Autobús: 483, 486 y 487",
+			"accesibility": "1",
+			"schedule": "Pernocta: de 20 a 9 horas. Centro de día: De 9 a 20 horas.",
+			"services": "Cena y desayuno. Atención social y actividades ocupacionales.",
+			"organization-name": "Centro de Acogida de Emergencia de Campaña contra el Frío Pinar de San José."
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12060888-centro-acogida-emergencia-personas-hogar-vallecas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+		"id": "12060888",
+		"title": "Centro de Acogida de Emergencia para personas sin hogar Vallecas.",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d557a2625bd69810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/CascoHVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CAMINO POZO DEL TIO RAIMUNDO, S/N 1"
+		},
+		"location": {
+			"latitude": 40.37403087580941,
+			"longitude": -3.651217463372421
+		},
+		"organization": {
+			"organization-desc": "Centro de acogida contra el frío del 23 de noviembre al 31 de marzo 140 plazas para hombres. Servicio especial de la EMT desde la Glorieta de Atocha.Bus T3, de lunes a viernes, desde la estación de Cercanías El Pozo o estación de Metro Sierra de Guadalupe.",
+			"accesibility": "2",
+			"schedule": "De 21:30 a 9:30 horas. Del 23 de noviembre al 31 de marzo.",
+			"services": "Alojamiento, desayuno y cena. Atención social y sanitaria.",
+			"organization-name": "Centro de Acogida de Emergencia para personas sin hogar Vallecas."
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5169789-centro-servicios-sociales-valdebernardo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+		"id": "5169789",
+		"title": "Centro de Servicios Sociales Valdebernardo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a6fb665e5dead110VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/Valdebernardo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "CALLE LADERA DE LOS ALMENDROS 6"
+		},
+		"location": {
+			"latitude": 40.40316021249795,
+			"longitude": -3.623339471293246
+		},
+		"organization": {
+			"organization-desc": "Para recibir atención en el centro de servicios sociales, debe solicitar cita previa.  Para pedir la cita puede utilizar cualquiera de las alternativas que le ofrece Línea Madrid:    Internet en Atención Servicios Sociales           Chat online de www.madrid.es    Redes sociales  @lineamadrid de Twitter y Facebook   Teléfono 010 o marcando el 914 800 010 si llama desde fuera del municipio de Madrid.  También puede solicitar cita a través del correo electrónico o el teléfono del centro de servicios sociales en horario de 9 a 14 horas de lunes a viernes. Si necesita saber qué centro le corresponde a su zona, puede consultarlo en el siguiente listado organizado por distritos. Ámbito de actuación   Barrio de Valdebernardo Barrio de Valderrivas Metro: Valdebernardo (línea 9)  Bus: 8, 71, 100, 130",
+			"accesibility": "1",
+			"schedule": "Horario de atención de la trabajadora o del trabajador social, mediante cita previa, de 9:00 h a 13:00 h y de 15:00 h a 19:00 h, de lunes a viernes.",
+			"services": "Información, orientación y asesoramiento sobre derechos y recursos sociales. Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención social. Gestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (dependencia, residencias de mayores, discapacidad, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción social. Información y gestión de los programas de prevención dirigidos a menores, adolescentes, personas adultas, mayores, etc.",
+			"organization-name": "Centro de Servicios Sociales Valdebernardo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178080-comedor-social-santa-maria-josefa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/ComedoresSociales",
+		"id": "178080",
+		"title": "Comedor Social Santa María Josefa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c7edb3e0dcd4f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/SanDiego"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28053",
+			"street-address": "CALLE ENCARNACION GONZALEZ 3"
+		},
+		"location": {
+			"latitude": 40.39139820532087,
+			"longitude": -3.667827984709319
+		},
+		"organization": {
+			"organization-desc": " Plazas 180 (en tres turnos)  Tipología mixto Bus: 24 , 111 , 310Metro:L1(Nueva Numancia)",
+			"accesibility": "0",
+			"schedule": "Comedor: de lunes a sábado de 13 a 14,30 horas, en dos turnos,uno a las 13 y otro a las 13,30",
+			"services": "Comedor - Ropero para población con escasos recursos",
+			"organization-name": "Comedor Social Santa María Josefa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322988-dispositivo-acogida-emergencia-campana-frio-pinar-san-jose.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+		"id": "6322988",
+		"title": "Dispositivo de acogida de emergencia de Campaña contra el Frío Pinar de San José",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b520e1cbf585310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/CuatroVientos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28044",
+			"street-address": "CALLE PINAR DE SAN JOSE 106"
+		},
+		"location": {
+			"latitude": 40.363611441480245,
+			"longitude": -3.776461943528168
+		},
+		"organization": {
+			"organization-desc": "Centro de acogida contra el frío del 23 de noviembre al 31 de marzo.  El acceso debe ser valorado previamente desde la Central del SAMUR Social Darío Pérez Madera. 150 plazas en régimen de pernocta para hombres y mujeres. 40 plazas en régimen de centro de día para hombres y mujeres. Servicio especial de la EMT desde Plaza Elíptica.  Autobús: 483, 486 y 487 (desde Aluche). Metro: La Peseta (22' andando).",
+			"accesibility": "1",
+			"schedule": "Pernocta: de 20 a 9 horas. Centro de día: De 9 a 20 horas.",
+			"services": "Pernocta: Alojamiento, cena y desayuno. Centro de día: Comida y merienda. Atención social y actividades ocupacionales. Atención sanitaria. Transporte.",
+			"organization-name": "Dispositivo de acogida de emergencia de Campaña contra el Frío Pinar de San José"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6323009-dispositivo-acogida-emergencia-campana-frio-villa-vallecas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+		"id": "6323009",
+		"title": "Dispositivo de acogida de emergencia de Campaña contra el Frío de Villa de Vallecas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=35060e1cbf585310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/CascoHVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CAMINO POZO DEL TIO RAIMUNDO, S/N 1"
+		},
+		"location": {
+			"latitude": 40.37403087580941,
+			"longitude": -3.651217463372421
+		},
+		"organization": {
+			"organization-desc": "Centro de acogida contra el frío del 23 de noviembre al 31 de marzo. El acceso a este recurso debe ser valorado previamente por la Central del SAMUR Social Darío Pérez Madera. 140 plazas para hombres. Servicio especial de la EMT desde la Glorieta de Atocha.",
+			"accesibility": "1",
+			"schedule": "De 21:30 a 9:30 horas. Del 23 de noviembre al 31 de marzo.",
+			"services": "Alojamiento, desayuno y cena. Atención social y sanitaria. Transporte.",
+			"organization-name": "Dispositivo de acogida de emergencia de Campaña contra el Frío de Villa de Vallecas"
+		}
+	}	  
+  ]
+}
+

@@ -1,0 +1,1007 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12301032-mercadillo-navidad-bulevar-pena-gorbea.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "12301032",
+		"title": "Mercadillo de Navidad del Bulevar de Peña Gorbea",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3fe00a49715ed810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/SanDiego"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28053",
+			"street-address": "CALLE PE&amp;Ntilde;A GORBEA  entre calle Concordia y Avenida del Monte Igueldo"
+		},
+		"location": {
+			"latitude": 40.395768368041054,
+			"longitude": -3.66696715055101
+		},
+		"organization": {
+			"organization-desc": "  Metro: Nueva Numancia (línea 1)  Bus: 310, 136, 54, 57, 58, 10",
+			"accesibility": "1",
+			"schedule": "Lunes a domingo, del 5 de diciembre al 7 de enero.",
+			"services": "Puestos: 19",
+			"organization-name": "Mercadillo de Navidad del Bulevar de Peña Gorbea"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11926645-mercadillo-artes-distrito-centro-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "11926645",
+		"title": "Mercadillo de las Artes (Distrito Centro)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8ea6ceb45fa36810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "PLAZA DOS DE MAYO "
+		},
+		"location": {
+			"latitude": 40.426680736940675,
+			"longitude": -3.704464811057942
+		},
+		"organization": {
+			"organization-desc": "  Metro: Tribunal (líneas 1, 10), Bilbao (líneas 1, 4), Noviciado (línea 2), San Bernardo (líneas 2, 4)  Bus: 002, 147  Bicimad: Estación 11 (calle San Andrés, 18), estación 59 (calle Espíritu Santo, 30)  Aparcamiento: Barceló (69), calle Barceló / Arquitecto Ribera (Barceló) (17), calle Barceló, 2",
+			"accesibility": "1",
+			"schedule": "Sábados.",
+			"services": "Puestos: 20.",
+			"organization-name": "Mercadillo de las Artes (Distrito Centro)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12300676-mercadillo-pinos-abetos-otros-elementos-vegetales-caracter-ornamental-navideno.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "12300676",
+		"title": "Mercadillo de pinos, abetos y otros elementos vegetales de carácter ornamental navideño",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b283f4c9594ed810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "PLAZA MAYOR "
+		},
+		"location": {
+			"latitude": 40.4157939804409,
+			"longitude": -3.7074105137385245
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (líneas 1, 2, 3),  Ópera (línea 2, 5, Ramal).  Bus: SE712, 50, 17, 31, 65.  Cercanías Renfe: Sol (líneas línea 1, C3, C4).  Bicimad: Estaciones 31 (calle Mayor 20), 32 (plaza de la Provincia 1), 25a y 25b (Plaza de Celenque, 1)  Aparcamiento: Plaza Mayor, 55.",
+			"accesibility": "1",
+			"schedule": "24 de noviembre a 25 de diciembre.",
+			"services": "Puestos: 21",
+			"organization-name": "Mercadillo de pinos, abetos y otros elementos vegetales de carácter ornamental navideño"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19530-mercadillo-via-publica-ciudad-angeles-distrito-villaverde-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19530",
+		"title": "Mercadillo en la vía pública Ciudad de los Ángeles (Distrito Villaverde)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=383092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/LosAngeles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "PASEO GIGANTES Y CABEZUDOS "
+		},
+		"location": {
+			"latitude": 40.35451487853377,
+			"longitude": -3.6938424734230515
+		},
+		"organization": {
+			"organization-desc": "  Metro: Villaverde Bajo-Cruce (línea 3).  Bus: 22, 59, 79, 85, 116, 18, 86.",
+			"accesibility": "0",
+			"schedule": "Jueves, de 9 a 14 horas.",
+			"services": "Alimentación, textil y calzado, otros. Puestos: 105.",
+			"organization-name": "Mercadillo en la vía pública Ciudad de los Ángeles (Distrito Villaverde)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11845382-mercadillo-via-publica-san-fermin-distrito-usera-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "11845382",
+		"title": "Mercadillo en la vía pública San Fermín (Distrito Usera)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0088e3fdb9664810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/SanFermin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CAMINO PERALES 23"
+		},
+		"location": {
+			"latitude": 40.3690829380518,
+			"longitude": -3.6852444414433685
+		},
+		"organization": {
+			"organization-desc": "  ",
+			"accesibility": "1",
+			"schedule": "Martes, de 9 a 14 horas.",
+			"services": "Puestos: 45.",
+			"organization-name": "Mercadillo en la vía pública San Fermín (Distrito Usera)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19487-mercadillo-via-publica-uva-hortaleza-distrito-hortaleza-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19487",
+		"title": "Mercadillo en la vía pública UVA Hortaleza (Distrito Hortaleza)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f75f92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/PinarRey"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28033",
+			"street-address": "CARRETERA ESTACION DE HORTALEZA "
+		},
+		"location": {
+			"latitude": 40.478709768692674,
+			"longitude": -3.6522994776813156
+		},
+		"organization": {
+			"organization-desc": "  Metro: Hortaleza (línea 4).  Bus: 107, 172.",
+			"accesibility": "1",
+			"schedule": "Domingos de 9 a 14 horas.",
+			"services": "Puestos: 104.",
+			"organization-name": "Mercadillo en la vía pública UVA Hortaleza (Distrito Hortaleza)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19633-mercadillo-via-publica-camino-cruces-distrito-carabanchel-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19633",
+		"title": "Mercadillo en la vía pública de Camino de las Cruces (Distrito Carabanchel)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=65bf92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/Buenavista"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28044",
+			"street-address": "CAMINO CRUCES "
+		},
+		"location": {
+			"latitude": 40.37467890972045,
+			"longitude": -3.7554092617091417
+		},
+		"organization": {
+			"organization-desc": "  Metro: Carabanchel Alto (línea 11).  Bus: 139, 34.",
+			"accesibility": "1",
+			"schedule": "Lunes, de 9 a 14 horas.",
+			"services": "Puestos: 52.",
+			"organization-name": "Mercadillo en la vía pública de Camino de las Cruces (Distrito Carabanchel)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19542-mercadillo-via-publica-pardo-distrito-fuencarral-pardo-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19542",
+		"title": "Mercadillo en la vía pública de El Pardo (Distrito Fuencarral - El Pardo)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=18cf92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElPardo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28048",
+			"street-address": "CALLE SAN LEANDRO "
+		},
+		"location": {
+			"latitude": 40.51788643866983,
+			"longitude": -3.7756892543609064
+		},
+		"organization": {
+			"organization-desc": "  ",
+			"accesibility": "0",
+			"schedule": "Viernes, de 9 a 14 horas.",
+			"services": "Puestos: 34.",
+			"organization-name": "Mercadillo en la vía pública de El Pardo (Distrito Fuencarral - El Pardo)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19629-mercadillo-via-publica-orcasur-distrito-usera-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19629",
+		"title": "Mercadillo en la vía pública de Orcasur (Distrito Usera)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9d5092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Orcasur"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "AVENIDA ORCASUR "
+		},
+		"location": {
+			"latitude": 40.36806275578338,
+			"longitude": -3.7001297500715613
+		},
+		"organization": {
+			"organization-desc": "  Bus: 78, 116.  Metro: San Fermín (línea 3).  Cercanías Renfe: Orcasitas (Línea C5).",
+			"accesibility": "1",
+			"schedule": "Sábados, de 9 a 14 horas.",
+			"services": "Puestos: 82.",
+			"organization-name": "Mercadillo en la vía pública de Orcasur (Distrito Usera)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63209-mercadillo-via-publica-parque-cornisa-distrito-centro-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "63209",
+		"title": "Mercadillo en la vía pública de Parque de la Cornisa (Distrito Centro)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=68f2e7510551c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "PLAZA CAMPILLO DEL MUNDO NUEVO "
+		},
+		"location": {
+			"latitude": 40.40644768286364,
+			"longitude": -3.707987344713689
+		},
+		"organization": {
+			"organization-desc": "  Metro: Puerta de Toledo (línea 5), Embajadores (línea 3).  Bus: 148, 41, 60, C03, C1, C2, 002.  Cercanías RENFE: Embajadores (línea C5).  Bicimad: Estación 45 (glorieta Puerta de Toledo, 1).  Aparcamiento: Puerta Toledo (64), Glorieta Puerta Toledo con vuelta Capitán Salazar Martínez",
+			"accesibility": "1",
+			"schedule": "Todos los martes y sábados, de 9 a 14 horas.",
+			"services": "Puestos: 85.",
+			"organization-name": "Mercadillo en la vía pública de Parque de la Cornisa (Distrito Centro)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19529-mercadillo-via-publica-rafael-finat-distrito-latina-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19529",
+		"title": "Mercadillo en la vía pública de Rafael Finat (Distrito Latina)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d21092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/LasAguilas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28044",
+			"street-address": "CALLE RAFAEL FINAT  con Avenida de los Poblados"
+		},
+		"location": {
+			"latitude": 40.3832261040368,
+			"longitude": -3.7659710574393395
+		},
+		"organization": {
+			"organization-desc": "  Metro: Aluche (línea 5).  Bus: 138, 139, 17, 34, 39, 121, 131.  Cercanías Renfe: Aluche (línea C5), Maestra Justa Freire - Polideportivo Aluche (antigua estación de Fanjul) (línea C5).  Bicimad: estación 337 (calle Valmojado, 295)",
+			"accesibility": "0",
+			"schedule": "Sábados por la mañana.",
+			"services": "Puestos: 77.",
+			"organization-name": "Mercadillo en la vía pública de Rafael Finat (Distrito Latina)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19631-mercadillo-via-publica-ronda-sur-distrito-puente-vallecas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19631",
+		"title": "Mercadillo en la vía pública de Ronda del Sur (Distrito Puente de Vallecas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=407092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Entrevias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28053",
+			"street-address": "RONDA SUR "
+		},
+		"location": {
+			"latitude": 40.37362311563833,
+			"longitude": -3.6631527179191012
+		},
+		"organization": {
+			"organization-desc": "  Bus: 102, 103.  Cercanías Renfe: El Pozo (líneas C2, C7, C8, Regional).",
+			"accesibility": "1",
+			"schedule": "Domingos, de 9 a 15 horas.",
+			"services": "Alimentación, bazar, calzado, textiles y otros. Puestos: 275.",
+			"organization-name": "Mercadillo en la vía pública de Ronda del Sur (Distrito Puente de Vallecas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19476-mercadillo-via-publica-san-cristobal-angeles-distrito-villaverde-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19476",
+		"title": "Mercadillo en la vía pública de San Cristóbal de los Ángeles (Distrito Villaverde)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a59092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/SanCristobal"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28021",
+			"street-address": "CALLE BURJASOT "
+		},
+		"location": {
+			"latitude": 40.34505061164135,
+			"longitude": -3.6880510053286395
+		},
+		"organization": {
+			"organization-desc": "  Bus: 59, 79.  Metro: San Cristóbal (línea 3).  Cercanías Renfe: San Cristóbal de los Ángeles (línea C3).",
+			"accesibility": "0",
+			"schedule": "Jueves, de 9 a 14 horas.",
+			"services": "Alimentación, textil y otros. Puestos: 38.",
+			"organization-name": "Mercadillo en la vía pública de San Cristóbal de los Ángeles (Distrito Villaverde)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19536-mercadillo-via-publica-san-restituto-distrito-moncloa-aravaca-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19536",
+		"title": "Mercadillo en la vía pública de San Restituto (Distrito Moncloa-Aravaca)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=58a092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Valdezarza"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28039",
+			"street-address": "CALLE SAN RESTITUTO "
+		},
+		"location": {
+			"latitude": 40.46500944601515,
+			"longitude": -3.7118692033210126
+		},
+		"organization": {
+			"organization-desc": "  Metro: Valdezarza (línea 7).  Bus: 126, 127, 132, 128.",
+			"accesibility": "1",
+			"schedule": "Jueves, de 9 a 14 horas.",
+			"services": "Alimentación, textil y calzado, hogar y más. Puestos: 17.",
+			"organization-name": "Mercadillo en la vía pública de San Restituto (Distrito Moncloa-Aravaca)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19484-mercadillo-via-publica-santa-ana-distrito-fuencarral-pardo-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19484",
+		"title": "Mercadillo en la vía pública de Santa Ana (Distrito Fuencarral - El Pardo)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0bb092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/Valverde"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28034",
+			"street-address": "CALLE SAN CUGAT DEL VALLES "
+		},
+		"location": {
+			"latitude": 40.496893825424046,
+			"longitude": -3.6953071080027495
+		},
+		"organization": {
+			"organization-desc": "  Metro: Fuencarral (línea 10).  Bus: 66, 137.",
+			"accesibility": "0",
+			"schedule": "Miércoles, de 9 a 14 horas.",
+			"services": "Puestos: 67.",
+			"organization-name": "Mercadillo en la vía pública de Santa Ana (Distrito Fuencarral - El Pardo)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19491-mercadillo-via-publica-villaverde-alto.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19491",
+		"title": "Mercadillo en la vía pública de Villaverde Alto",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c50192355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/SanAndres"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28021",
+			"street-address": "PASEO FERROVIARIOS "
+		},
+		"location": {
+			"latitude": 40.34738953464962,
+			"longitude": -3.715870883860481
+		},
+		"organization": {
+			"organization-desc": "  Bus: 247, 47",
+			"accesibility": "0",
+			"schedule": "Sábados, de 9 a 14 horas.",
+			"services": "Puestos: 58.",
+			"organization-name": "Mercadillo en la vía pública de Villaverde Alto"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19489-mercadillo-via-publica-via-lusitana-distrito-carabanchel-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19489",
+		"title": "Mercadillo en la vía pública de Vía Lusitana (Distrito Carabanchel)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=13f092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/Abrantes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28025",
+			"street-address": "CALLE VIA LUSITANA "
+		},
+		"location": {
+			"latitude": 40.383324557147205,
+			"longitude": -3.720633039981772
+		},
+		"organization": {
+			"organization-desc": "  Metro: Pan Bendito (línea 11), Plaza Elíptica (líneas 6, 11), Opañel (línea 6).  Bus: 116, E1, 118, 108, 47, 121, 131, 155.",
+			"accesibility": "1",
+			"schedule": "Jueves, de 9 a 14 horas.",
+			"services": "Puestos: 150.",
+			"organization-name": "Mercadillo en la vía pública de Vía Lusitana (Distrito Carabanchel)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19548-mercadillo-via-publica-avenida-asturias-distrito-tetuan-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19548",
+		"title": "Mercadillo en la vía pública de avenida de Asturias (Distrito Tetuán)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ea4092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/Almenara"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28029",
+			"street-address": "AVENIDA ASTURIAS "
+		},
+		"location": {
+			"latitude": 40.46687948276402,
+			"longitude": -3.690220214214766
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de Castilla (líneas 1, 9, 10).  Bus: 42, 177.  Bicimad: Estaciónes 208 y 209 (plaza de Castilla).",
+			"accesibility": "0",
+			"schedule": "Domingos y festivos, de 9 a 14 horas.",
+			"services": "Puestos: 256.",
+			"organization-name": "Mercadillo en la vía pública de avenida de Asturias (Distrito Tetuán)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21200-mercadillo-via-publica-avenida-felipe-ii-distrito-salamanca-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "21200",
+		"title": "Mercadillo en la vía pública de avenida de Felipe II (Distrito Salamanca)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=009f92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Goya"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "AVENIDA FELIPE II  Acera par zona peatonal de Avenida Felipe II"
+		},
+		"location": {
+			"latitude": 40.42429581104769,
+			"longitude": -3.6761810611835473
+		},
+		"organization": {
+			"organization-desc": "Mercadillo fijo de productos artesanía y ropa.  Metro: Goya (líneas 2 y 4).  Bus: 26, 61, E4, E5, 30, 215, C2, 15, C1, 43, 53, 63, 146, 21, 29, 15, E3, 152.  Bicimad: Estaciones 98 (plaza de Felipe II) y 100 (calle Goya, 99).  Aparcamiento: Felipe II (26), avenida Felipe II y calle Goya.",
+			"accesibility": "1",
+			"schedule": "Anual.",
+			"services": "Puestos: 19.",
+			"organization-name": "Mercadillo en la vía pública de avenida de Felipe II (Distrito Salamanca)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19732-mercadillo-via-publica-calle-alcorisa-camino-silvano-distrito-hortaleza-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19732",
+		"title": "Mercadillo en la vía pública de la calle Alcorisa - camino Silvano (Distrito Hortaleza)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cadf92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CALLE ALCORISA  CON CALLE SILVANO"
+		},
+		"location": {
+			"latitude": 40.46260890916121,
+			"longitude": -3.6397136681138367
+		},
+		"organization": {
+			"organization-desc": "  Metro: Canillas (línea 4).  Bus: 120, 122.",
+			"accesibility": "0",
+			"schedule": "Martes, de 9 a 14 horas.",
+			"services": "Puestos: 100.",
+			"organization-name": "Mercadillo en la vía pública de la calle Alcorisa - camino Silvano (Distrito Hortaleza)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19734-mercadillo-via-publica-calle-aragoneses-distrito-puente-vallecas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19734",
+		"title": "Mercadillo en la vía pública de la calle Aragoneses (Distrito Puente Vallecas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa6f92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/PalomerasSureste"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28018",
+			"street-address": "CALLE ARAGONESES "
+		},
+		"location": {
+			"latitude": 40.38218073843558,
+			"longitude": -3.644279322221026
+		},
+		"organization": {
+			"organization-desc": "  Bus: 10, 144.",
+			"accesibility": "1",
+			"schedule": "Lunes, de 9 a 14 horas.",
+			"services": "Alimentación, bazar, calzado, textiles y otros. Puestos: 67.",
+			"organization-name": "Mercadillo en la vía pública de la calle Aragoneses (Distrito Puente Vallecas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19731-mercadillo-via-publica-calle-ayerbe-distrito-barajas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19731",
+		"title": "Mercadillo en la vía pública de la calle Ayerbe (Distrito Barajas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b2af92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "CALLE AYERBE  Recinto Ferial de Barajas"
+		},
+		"location": {
+			"latitude": 40.47094093217071,
+			"longitude": -3.5774552622617275
+		},
+		"organization": {
+			"organization-desc": "  Bus: 105, 115, 166.",
+			"accesibility": "0",
+			"schedule": "Sábados, de 9 a 14 horas.",
+			"services": "Puestos: 94.",
+			"organization-name": "Mercadillo en la vía pública de la calle Ayerbe (Distrito Barajas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19549-mercadillo-via-publica-calle-fontarron-distrito-puente-vallecas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19549",
+		"title": "Mercadillo en la vía pública de la calle Fontarrón (Distrito Puente de Vallecas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7def92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Numancia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28038",
+			"street-address": "CALLE RAMON PEREZ DE AYALA 116"
+		},
+		"location": {
+			"latitude": 40.39871676300231,
+			"longitude": -3.651962084808092
+		},
+		"organization": {
+			"organization-desc": "  Bus: 141.",
+			"accesibility": "1",
+			"schedule": "Jueves, de 9 a 14 horas.",
+			"services": "Alimentación, bazar, calzado, textiles y otros. Puestos: 79.",
+			"organization-name": "Mercadillo en la vía pública de la calle Fontarrón (Distrito Puente de Vallecas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19547-mercadillo-via-publica-calle-gandhi-distrito-ciudad-lineal-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19547",
+		"title": "Mercadillo en la vía pública de la calle Gandhi (Distrito Ciudad Lineal)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=200092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/PuebloNuevo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28017",
+			"street-address": "CALLE GANDHI "
+		},
+		"location": {
+			"latitude": 40.424255982276584,
+			"longitude": -3.6339196583262754
+		},
+		"organization": {
+			"organization-desc": "  Metro: García Noblejas (línea 7), La Almudena (línea 2).  Bus: 70, 109.",
+			"accesibility": "0",
+			"schedule": "Viernes, de 9 a 14 horas.",
+			"services": "Textil, alimentación y otros. Puestos: 60.",
+			"organization-name": "Mercadillo en la vía pública de la calle Gandhi (Distrito Ciudad Lineal)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19736-mercadillo-via-publica-calle-gorrion-distrito-carabanchel-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19736",
+		"title": "Mercadillo en la vía pública de la calle Gorrión (Distrito Carabanchel)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=852092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/SanIsidro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28019",
+			"street-address": "CALLE GORRION "
+		},
+		"location": {
+			"latitude": 40.39631165327364,
+			"longitude": -3.7295025009087492
+		},
+		"organization": {
+			"organization-desc": "  Metro: Urgel (línea 5).",
+			"accesibility": "0",
+			"schedule": "Lunes, de 9 a 14 horas.",
+			"services": "Puestos: 18.",
+			"organization-name": "Mercadillo en la vía pública de la calle Gorrión (Distrito Carabanchel)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19531-mercadillo-via-publica-calle-san-roman-valle-distrito-san-blas-canillejas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19531",
+		"title": "Mercadillo en la vía pública de la calle San Román del Valle (Distrito San Blas - Canillejas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5d7f92355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Arcos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28037",
+			"street-address": "CALLE SAN ROMAN DEL VALLE "
+		},
+		"location": {
+			"latitude": 40.42027705095574,
+			"longitude": -3.621741078700336
+		},
+		"organization": {
+			"organization-desc": "  Metro: Alsacia (línea 2).  Bus: 4, 106, 140.",
+			"accesibility": "0",
+			"schedule": "Martes, de 9 a 14 horas.",
+			"services": "Alimentación y textil. Puestos: 80.",
+			"organization-name": "Mercadillo en la vía pública de la calle San Román del Valle (Distrito San Blas - Canillejas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19537-mercadillo-via-publica-calle-santa-genoveva-distrito-ciudad-lineal-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19537",
+		"title": "Mercadillo en la vía pública de la calle Santa Genoveva (Distrito Ciudad Lineal)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bdc092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Ventas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28017",
+			"street-address": "AVENIDA TRECE ROSAS "
+		},
+		"location": {
+			"latitude": 40.42627295716398,
+			"longitude": -3.6471182978336296
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Elipa (línea 2).  Bus: 15, 106, 110, 113, 210.",
+			"accesibility": "0",
+			"schedule": "Jueves y sábados, de 9 a 14 horas.",
+			"services": "Textil, alimentación y otros. Puestos: 68.",
+			"organization-name": "Mercadillo en la vía pública de la calle Santa Genoveva (Distrito Ciudad Lineal)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19486-mercadillo-via-publica-calle-sierra-gorda-distrito-villa-vallecas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19486",
+		"title": "Mercadillo en la vía pública de la calle Sierra Gorda (Distrito Villa de Vallecas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=60e092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/CascoHVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CALLE SIERRA GORDA  23-25"
+		},
+		"location": {
+			"latitude": 40.38096134977272,
+			"longitude": -3.6183214417054987
+		},
+		"organization": {
+			"organization-desc": "  Metro: Villa de Vallecas (línea 1).  Bus: 58.  Cercanías Renfe: Vallecas (línea C2 y C7).",
+			"accesibility": "1",
+			"schedule": "Martes, de 9 a 14 horas.",
+			"services": "Puestos: 116.",
+			"organization-name": "Mercadillo en la vía pública de la calle Sierra Gorda (Distrito Villa de Vallecas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19550-mercadillo-via-publica-calle-villablanca-distrito-vicalvaro-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "19550",
+		"title": "Mercadillo en la vía pública de la calle Villablanca (Distrito Vicálvaro)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f28092355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "CALLE VILLABLANCA "
+		},
+		"location": {
+			"latitude": 40.40931170246993,
+			"longitude": -3.6085969353358753
+		},
+		"organization": {
+			"organization-desc": "  Metro: San Cipriano (línea 9).  Bus: 100, 106.",
+			"accesibility": "1",
+			"schedule": "Jueves, de 8 a 14 horas.",
+			"services": "Alimentación, textil y otros. Puestos: 112.",
+			"organization-name": "Mercadillo en la vía pública de la calle Villablanca (Distrito Vicálvaro)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181296-mercadillo-via-publica-colonia-marconi-distrito-villaverde-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "181296",
+		"title": "Mercadillo en la vía pública de la colonia Marconi (Distrito Villaverde)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=96645c2cdc41c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/VillaverdeAltoCH"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28021",
+			"street-address": "CALLE SAN EUSTAQUIO "
+		},
+		"location": {
+			"latitude": 40.333393322619095,
+			"longitude": -3.701588856774625
+		},
+		"organization": {
+			"organization-desc": "  Bus: T41.  Cercanias Renfe: San Cristobal Industrial (Línea C3).",
+			"accesibility": "0",
+			"schedule": "Domingos, de 9 a 14 horas.",
+			"services": "Alimentación. Puestos: 1.",
+			"organization-name": "Mercadillo en la vía pública de la colonia Marconi (Distrito Villaverde)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21199-mercadillo-via-publica-rastro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "21199",
+		"title": "Mercadillo en la vía pública. El Rastro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=781192355c51c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE RIBERA DE CURTIDORES  Y OTRAS"
+		},
+		"location": {
+			"latitude": 40.408614766057475,
+			"longitude": -3.7071850660071277
+		},
+		"organization": {
+			"organization-desc": " Instalado en Plaza de Cascorro, entre Calle San Millán y Ribera de Curtidores y entre Calle Embajadores hasta la esquina con Calle Encomienda - Ribera de Curtidores - Calle Amazonas - Plaza General Vara de Rey - Calle Rodrigo de Guevara - Calle Mira el Río Alta, entre Calle Carlos Arniches y Calle Bastero - Calle Carnero, entre Ribera de Curtidores y Calle Mira el Río Baja - Callejón del Mellizo - Calle Carlos Arniches - Calle Mira el Río Baja - Calle San Cayetano, desde número 4 hasta Ribera de Curtidores - Calle Fray Ceferino González, hasta los números 9 y 10, inclusives - Calle Mira el Sol, entre Plaza Campillo del Nuevo Mundo y Ribera de Curtidores - Ronda de Toledo, desde Colegio Público Santa María 193 m. lineales en la acera de los impares - Plaza Campillo del Mundo Nuevo - Calle Ribera de Curtidores - Calle Maldonadas en la acera de los impares. El Rastro en días laborables abre todos sus comercios, anticuarios y galerías, pero no sus puestos callejeros. Metro: Tirso de Molina (línea 1), Embajadores (línea 3), La Latina (línea 5).  Bus: 3, 17, 18, 23, 35, 41, 60, 148, C1, C2, C03.  Cercanías Renfe: Embajadores (línea C5).  Bicimad: Estaciones 46 (calle Ribera de Curtidores, 28), 47 y 48 (glorieta de Embajadores), 39 (plaza de la Cebada, 16).  Aparcamiento: Casino de la Reina (19), calle Casino.",
+			"accesibility": "1",
+			"schedule": "Todos los domingos y festivos, de 9 a 15 horas.",
+			"services": "Puestos: 1200",
+			"organization-name": "Mercadillo en la vía pública. El Rastro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12301182-mercadillos-vecinales-hortaleza-calle-principe-carlos.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "12301182",
+		"title": "Mercadillos vecinales de Hortaleza. Calle Príncipe Carlos",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eeca0bcdf55ed810VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Valdefuentes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28050",
+			"street-address": "CALLE PRINCIPE CARLOS 36"
+		},
+		"location": {
+			"latitude": 40.49135075229485,
+			"longitude": -3.651967448366824
+		},
+		"organization": {
+			"organization-desc": "Mercadillo ocasional.  Bus: 170",
+			"accesibility": "0",
+			"schedule": "Domingos, desde febrero hasta diciembre, excepto meses de julio y agosto.",
+			"services": "Alimentación y textil. Puestos: 80.",
+			"organization-name": "Mercadillos vecinales de Hortaleza. Calle Príncipe Carlos"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12300698-mercado-tradicional-navidad.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+		"id": "12300698",
+		"title": "Mercado tradicional de Navidad",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d145f4c9594ed810VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "PLAZA MAYOR "
+		},
+		"location": {
+			"latitude": 40.4157939804409,
+			"longitude": -3.7074105137385245
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (líneas 1, 2, 3),  Ópera (línea 2, 5, Ramal).  Bus: SE712, 50, 17, 31, 65.  Cercanías Renfe: Sol (líneas línea 1, C3, C4).  Bicimad: Estaciones 31 (calle Mayor 20), 32 (plaza de la Provincia 1), 25a y 25b (Plaza de Celenque, 1)  Aparcamiento: Plaza Mayor, 55.",
+			"accesibility": "1",
+			"schedule": "1 a 25 de diciembre, aproximadamente.",
+			"services": "Puestos: 106",
+			"organization-name": "Mercado tradicional de Navidad"
+		}
+	}	  
+  ]
+}
+

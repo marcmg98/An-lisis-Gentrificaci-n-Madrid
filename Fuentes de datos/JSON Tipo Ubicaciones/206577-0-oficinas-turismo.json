@@ -1,0 +1,1094 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"@graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7805",
+		"title": "Centro de Turismo Plaza Mayor",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b0a093e5fd61c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "PLAZA MAYOR 27 Casa de la Panadería"
+		},
+		"location": {
+			"latitude": 40.41583855082183,
+			"longitude": -3.7074257084323636
+		},
+		"organization": {
+			"organization-desc": "Madrid cuenta en el Salón de Columnas de la Casa de la Panadería de la céntrica Plaza Mayor con uno de los más modernos centros turísticos del país que ofrece atención especializada con una plantilla de profesionales expertos en turismo e idiomas que atiende personalmente a los visitantes y da respuesta también a todas las peticiones de información que se realizan de manera no presencial. Centro de turismo cofinanciado por el Fondo Europeo de Desarrollo Regional.  Metro: Sol (líneas 1, 2, 3), Ópera (línea 2, 5, Ramal)  Bus: 17, 18, 23, 31, 50, 65, SE712  Renfe: Sol (líneas C3, C4)  Bicimad: Estaciones 31  (calle Mayor, 20),  32 (plaza Provincia , 1 )    Parking: Plaza Mayor (55), Plaza Mayor",
+			"accesibility": "1,4,5,6",
+			"schedule": "Todos los días del año de 9 a 20 horas.",
+			"services": "Atención presencial en varios idiomas  Atención especializada  Servicio de atención no presencial (teléfono 915 787 810 y email turismo@esmadrid.com) Atención por Whatsapp 619 111 094 Autoconsulta con folletos descargables mediante código QR Wifi gratuita Taquilla de Teatros Municipales (abierta de martes a domingo, de 10:30 a 14:30 y de 16:30 a 20:30 horas. Cerrado lunes y días 24, 25 y 31 diciembre y 1 enero)  Tienda con recuerdos y artesanías madrileñas (solo pago con tarjeta de crédito)   Accesibilidad:     Programa de visitas guiadas accesibles (previa reserva)     Lengua de Signos Española     Bucles magnéticos (3)     Encaminamientos podotáctiles     Apoyos isquiáticos     Plano háptico     Mostrador adaptado     Guía de Turismo Accesible     Área tecnológica: Audiovisuales  El Centro de Turismo de Plaza Mayor está certificado en la UNE 170001-2 de Accesibilidad Universal.",
+			"organization-name": "Centro de Turismo Plaza Mayor"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11209095-centro-turismo-sol-comunidad-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "11209095",
+		"title": "Centro de Turismo de Sol. Comunidad de Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8ff104fc413c3710VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "PLAZA PUERTA DEL SOL 5"
+		},
+		"location": {
+			"latitude": 40.41661777543638,
+			"longitude": -3.702829899539909
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sol (línea 1, 2, 3)  Bus: 002, M1, SE712  Renfe: Sol (C3, C3a, C4)  Bicimad: Estación 33 (calle Carretas, 8) / Estación 1 a y b (Puerta del Sol, 1)",
+			"accesibility": "3",
+			"schedule": "De lunes a sábado de 9 a 20 horas. Domingos y festivos de 9 a 14 horas. Cerrado 1 enero, 1 mayo y 25 diciembre.",
+			"services": "",
+			"organization-name": "Centro de Turismo de Sol. Comunidad de Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3344-faro-moncloa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "3344",
+		"title": "Faro de la Moncloa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee4f13db5b71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CiudadUniversitaria"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28040",
+			"street-address": "AVENIDA MEMORIA 2"
+		},
+		"location": {
+			"latitude": 40.43727075977316,
+			"longitude": -3.721682694006853
+		},
+		"organization": {
+			"organization-desc": "Vistas a 92 metros de altura que recorren los ascensores panorámicos que trasladan a los visitantes hasta el gran mirador del Faro de Moncloa, que emerge en el corazón de la Ciudad Universitaria de Madrid. Se trata de una torre de iluminación, construida en 1992, año en que la ciudad fue designada Capital Europea del Cultura, de 110 metros de altura. A través de sus enormes cristaleras se pueden contemplar el Palacio Real, la Catedral de la Almudena, el edificio de Telefónica en la Gran Vía, las Cuatro Torres y, de fondo, la sierra de Guadarrama.  Metro: Moncloa (líneas 3, 6)  Bus: 160, 161, A, 46, 162  Bicimad: Estación 110 (Paseo de Moret, 2)",
+			"accesibility": "1",
+			"schedule": "Mirador: de martes a domingo de 9:30 a 20 (última subida a las 19:30 horas).  Taquilla: de martes a domingo de 9:30 a 19:30 horas.  Lunes cerrado, excepto 25 de marzo, 1 de abril, 24 de junio, 2 de septiembre, 23 y 30 diciembre.  Horario especial Navidad:   Días 24 y 31 de diciembre se cerrará al público a las 17 horas (última subida a las 16:30 horas).  Días 25 de diciembre y 1 de enero se abrirá a las 11 horas.",
+			"services": "Las visitas al mirador del Faro de Moncloa se podrán ver afectadas por las inclemencias meteorológicas. En caso de condiciones adversas, el acceso al mirador permanecerá cerrado.  Por motivos de seguridad, en el mirador no podrá haber más de una silla de ruedas al mismo tiempo.",
+			"organization-name": "Faro de la Moncloa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10692696-madrid-film-office.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "10692696",
+		"title": "Madrid Film Office",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b72a196f7d003610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "PLAZA MAYOR 27"
+		},
+		"location": {
+			"latitude": 40.4157939804409,
+			"longitude": -3.7074105137385245
+		},
+		"organization": {
+			"organization-desc": "Madrid Film Office es un servicio público del Ayuntamiento de Madrid que tiene como misión promocionar la ciudad como escenario de rodaje de producciones audiovisuales, asistir a las empresas y a los profesionales que eligen la ciudad de Madrid para llevar a cabo sus proyectos, apoyar al sector audiovisual madrileño y estimular la inversión y el desarrollo local. Madrid Film Office colabora desde la fase de preproducción para facilitar la búsqueda de localizaciones, te asesora en materia de permisos y te acompaña durante el desarrollo de los proyectos audiovisuales en la ciudad de Madrid. La oficina está abierta a consultas y solicitudes de asistencia por vía telefónica o email. Si deseas una atención presencial, solicita cita previa a través del correo electrónico info@madridfilmoffice.com.  Metro: Sol (líneas 1, 2 y 3), Ópera (líneas 2, 5, Ramal).  Bus: 50, 31, 65, SE712, 17, 002, 35, 18, 23.  Cercanías Renfe: Sol (líneas C3, C3a y C4).  Bicimad: Estación 32 (plaza Provincia, 1) / estación 31 (calle Mayor, 20).  Aparcamiento: Plaza Mayor (55), Plaza Mayor.",
+			"accesibility": "1",
+			"schedule": "Horario de trabajo de la oficina: de 9 a 16 horas.",
+			"services": "Funciones que presta  La oficina ofrece los siguientes servicios básicos a los productores que desean rodar en Madrid:  1. Ayuda en la búsqueda de localizaciones para rodajes  Apoyo en la búsqueda de localizaciones que se adecúen a las necesidades de las producciones y asesoría en el terreno de la logística de producción y postproducción a desarrollar en Madrid. Madrid Film Office cuenta con un catálogo con sugerencias de localizaciones para rodajes en la ciudad de Madrid: https://madridfilmoffice.com/localizaciones/.   2. Orientación en la gestión de permisos de rodaje  Información sobre gestores, procedimientos, tarifas y buenas prácticas para la obtención de permisos de rodaje en espacios municipales, así como localizaciones institucionales y privadas. Madrid Film Office no tiene autoridad para dar los permisos de rodaje en ningún espacio municipal o extramunicipal, actuando únicamente como una oficina de orientación en la búsqueda del titular correspondiente y de apoyo en el proceso de petición de los permisos. En el caso de los espacios municipales:  Los permisos de rodaje en vía pública, parques y jardines los otorga el Negociado de Autorizaciones de Rodaje, perteneciente al Área de Gobierno de Medio Ambiente y Movilidad. Cuenta con dos tipos de permisos de rodaje, que se pueden solicitar electrónica o presencialmente en sus oficinas (C/ Albarracín, 33). Los permisos de rodaje en edificios e instalaciones municipales los otorgan los diferentes y múltiples órganos municipales de los que son competencia. Por ejemplo, los centros deportivos y culturales municipales suelen gestionarlos las Juntas Municipales de Distrito en las que se ubican, los cementerios municipales los gestiona la Empresa Municipal de Servicios Funerarios y Cementerios de Madrid, etc.   3. Asistencia en la gestión de servicios municipales  Mediación entre el sector audiovisual y el amplio abanico de departamentos municipales con el que pueden necesitar contactar y colaborar (alumbrado, zonas verdes, mobiliario urbano, etc.). En este sentido, conocidos los servicios que el productor necesita, Madrid Film Office se presta a ayudar en:  La búsqueda de los posibles interlocutores municipales implicados. El estudio de la viabilidad de la petición solicitada. La coordinación entre empresa y departamento municipal.   4.  Información sobre empresas y profesionales del sector audiovisual   Madrid Film Office pone a disposición de los interesados un directorio de profesionales y de empresas del sector audiovisual en Madrid:   Empresas: https://madridfilmoffice.com/directorio-empresas/  Profesionales: https://madridfilmoffice.com/directorio-profesionales/",
+			"organization-name": "Madrid Film Office"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7836-oficina-joven-tive-moncloa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7836",
+		"title": "Oficina Joven TIVE - Moncloa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=397e19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE FERNANDO EL CATOLICO 88"
+		},
+		"location": {
+			"latitude": 40.43442736874463,
+			"longitude": -3.717814046077588
+		},
+		"organization": {
+			"organization-desc": "  Metro: Moncloa (líneas 3 y 6)  Bus: 1, 138, 44, 62, C2, 001, 132, 82, 16, 61, 133, 83, G, C1, 161, 46, 160, 162  Bicimad:  Estaciones 111 a y b (calle Arcipreste de Hita, 12),  110 (paseo de Moret, 2)",
+			"accesibility": "1",
+			"schedule": "De lunes a viernes, de 9 a 19 horas (abril a septiembre). De lunes a viernes, de 9 a 14 horas (octubre a marzo).",
+			"services": "Información:   Actividades culturales, deportivas y de ocio Carnés Cursos y talleres Garantía juvenil   Trámites:   Expedición de carnés Inscripción Garantía Juvenil",
+			"organization-name": "Oficina Joven TIVE - Moncloa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10127255-oficina-turismo-andalucia-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "10127255",
+		"title": "Oficina de Turismo de Andalucía en Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d0abc974d4ae6510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Goya"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "AVENIDA FELIPE II 15 PLANTA 1ª"
+		},
+		"location": {
+			"latitude": 40.42418610087622,
+			"longitude": -3.6738047502099067
+		},
+		"organization": {
+			"organization-desc": "  Metro: Goya (líneas 2, 4), O'Donnell (línea 6), Príncipe de Vergara (líneas 2, 9)   Bus: 26, 61, E4, E5, C2, 15, C1, 30, 215, E2, E3, 152, 29, 146, 43, 53, 21    Bicimad: Estación 100 (calle Goya, 99)   Aparcamiento: Felipe II (26), avenida. Felipe II y calle Goya)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Andalucía en Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27402-oficina-turismo-andorra.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "27402",
+		"title": "Oficina de Turismo de Andorra",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eb68444a2951c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Recoletos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "CALLE ALCALA 73"
+		},
+		"location": {
+			"latitude": 40.4204717248739,
+			"longitude": -3.6873856851812166
+		},
+		"organization": {
+			"organization-desc": "  Metro: Retiro (línea 2), Serrano (línea 4), Banco de España (línea 2)  Autobuses: 28, 1, 146, 15, 19, 2, 20, 51, 52, 74, 9  Bicimad: Estación 60 (Plaza de la Independencia, 6) / estación 107 (calle Serrano, 8)  Cercanias: Recoletos (C1, C2, C7, C8, C10)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Andorra"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/127469-oficina-turismo-brasil.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "127469",
+		"title": "Oficina de Turismo de Brasil",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b15d47048781c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Almagro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE ALMAGRO 28 PLANTA 2ª"
+		},
+		"location": {
+			"latitude": 40.43018984080442,
+			"longitude": -3.6927619911552654
+		},
+		"organization": {
+			"organization-desc": "  Metro: Alonso Martínez (líneas 4, 5, 10), Rubén Darío (línea 5), Colón (línea 4)  Bus: 7  Cercanías: Recoletos (C1, C2, C7, C8, C10)  Aparcamiento: Almagro (12), calle Almagro, 11",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Brasil"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1637-oficina-turismo-galicia-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "1637",
+		"title": "Oficina de Turismo de Galicia en Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b6f40a47f441f010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE CASADO DEL ALISAL 8"
+		},
+		"location": {
+			"latitude": 40.41386554403495,
+			"longitude": -3.690595208784034
+		},
+		"organization": {
+			"organization-desc": "  Bus: 19  Bicimad: Estación 68 (calle Espalter, 1)",
+			"accesibility": "3",
+			"schedule": "Consultar.",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Galicia en Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6416785-oficina-turismo-guatemala.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "6416785",
+		"title": "Oficina de Turismo de Guatemala",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=df5f44e4373f6310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/NuevaEspana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28046",
+			"street-address": "PASEO CASTELLANA 178 PLANTA 6 IZQUIERDA"
+		},
+		"location": {
+			"latitude": 40.46081583825652,
+			"longitude": -3.689177427623146
+		},
+		"organization": {
+			"organization-desc": "  Metro: Cuzco (línea 10)  Bus: 147, 27, 5, 11, 40",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Guatemala"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39693-oficina-turismo-iran.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "39693",
+		"title": "Oficina de Turismo de Irán",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=66e6e7510551c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Castellana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28006",
+			"street-address": "CALLE MARIA DE MOLINA 26 PLANTA 1ª IZQUIERDA"
+		},
+		"location": {
+			"latitude": 40.43758020962193,
+			"longitude": -3.684793470102174
+		},
+		"organization": {
+			"organization-desc": "  Metro: Avenida de América (líneas 4, 6, 7, 9), Gregorio Marañón (líneas 7, 10), Núñez de Balboa (líneas 5, 9)  Bus: 16, 19, 51, 9, 12  Bicimad: Estación 140 (calle Velázquez, 130)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Irán"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7834-oficina-turismo-jordania.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7834",
+		"title": "Oficina de Turismo de Jordania",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ad3d19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Lista"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28006",
+			"street-address": "CALLE MONTESA 41"
+		},
+		"location": {
+			"latitude": 40.430608207603065,
+			"longitude": -3.6722235177864584
+		},
+		"organization": {
+			"organization-desc": "  Metro: Diego de León (líneas 4, 5 y 6), Manuel Becerra (líneas 2 y 6)  Bus: 12, 210, 43, 48, 56, C1, 1, 74  Bicimad: Estación 192 (avenida de los Toreros, 3) / Estación 145 (calle Ortega y Gasset, 87)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Jordania"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52471-oficina-turismo-malta.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "52471",
+		"title": "Oficina de Turismo de Malta",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f8f6e7510551c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Almagro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28046",
+			"street-address": "PASEO CASTELLANA 45 PLANTA 6ª Derecha"
+		},
+		"location": {
+			"latitude": 40.43570202661336,
+			"longitude": -3.6896704429447333
+		},
+		"organization": {
+			"organization-desc": " Localizada en la Embajada de Malta Metro: Gregorio Marañón (líneas 7, 10), Rubén Darío (línea 5)  Bus: 16, 5, 61, 147, 40, 7, 14, 150, 27, 45,   Bicimad: Estación 141 (Paseo de la Castellana, 43)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Malta"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7824-oficina-turismo-marruecos.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7824",
+		"title": "Oficina de Turismo de Marruecos",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9fbd19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Arguelles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE VENTURA RODRIGUEZ 24 PLANTA 1º Izquierda"
+		},
+		"location": {
+			"latitude": 40.42421078155391,
+			"longitude": -3.714570930299745
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ventura Rodríguez (línea 3), Plaza de España (línea 3)  Bus: 62, 74  Bicimad: Estación 116B (Plaza de España)  Aparcamiento: Plaza de España (53), Plaza de España",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Marruecos"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7826-oficina-turismo-peru.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7826",
+		"title": "Oficina de Turismo de Perú",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b4ed19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Lista"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28006",
+			"street-address": "PLAZA MARQUES DE SALAMANCA 10"
+		},
+		"location": {
+			"latitude": 40.429681612294374,
+			"longitude": -3.679285350795378
+		},
+		"organization": {
+			"organization-desc": "  Metro: Lista (línea 4), Diego de León (línea 4, 5, 9), Núñez de Balboa (línea 5, 9)  Bus: 1, 74, 29, 52  Bicimad: Estación 186 (calle General Pardiñas, 56)  Aparcamiento: Marqués de Salamanca (25), Plaza Marques de Salamanca",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Perú"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7835-oficina-turismo-polonia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7835",
+		"title": "Oficina de Turismo de Polonia",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=47fd19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/Arguelles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE PRINCESA 3 local 1310"
+		},
+		"location": {
+			"latitude": 40.42474343764168,
+			"longitude": -3.7128566472819906
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de España (líneas 3, 10), Ventura Rodríguez (línea 3), Noviciado (línea 2)  Bus: 001, 1, 2, 133, 138, 44, C2, C1, 39, 74  Bicimad: estación 14 Ventrura Rodriguez (Ventura Rodriguez, 2) estación116B (Plaza de España)  Aparcamiento: Plaza de España (53), Plaza de España",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Polonia"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405234-oficina-turismo-portugal.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "5405234",
+		"title": "Oficina de Turismo de Portugal",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f3ad9a4aca553210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Castellana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28001",
+			"street-address": "CALLE LAGASCA 88 PLANTA 4ª B"
+		},
+		"location": {
+			"latitude": 40.429919325594405,
+			"longitude": -3.6847431067997025
+		},
+		"organization": {
+			"organization-desc": "  Metro: Núñez de Balboa (líneas 5, 9), Serrano (línea 4), Velázquez (línea 4)  Bus: 1, 19, 51, 74, 9  Bicimad: Estación 103 (Calle José Ortega y Gasset, 4)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Portugal"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181856-oficina-turismo-republica-checa.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "181856",
+		"title": "Oficina de Turismo de República Checa",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c9980e4e6d41c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/NuevaEspana"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28016",
+			"street-address": "AVENIDA PIO XII 22 -24"
+		},
+		"location": {
+			"latitude": 40.466195029254166,
+			"longitude": -3.674926102930997
+		},
+		"organization": {
+			"organization-desc": "  Metro: Pío XII (línea 9), Duque de Pastrana (línea 9)  Bus: 150, 16, 29, 107, 70",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de República Checa"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7829-oficina-turismo-republica-dominicana.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7829",
+		"title": "Oficina de Turismo de República Dominicana",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6c1e19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Recoletos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ALCALA 59 PLANTA 4º"
+		},
+		"location": {
+			"latitude": 40.41983515973237,
+			"longitude": -3.6913871919698398
+		},
+		"organization": {
+			"organization-desc": "  Metro: Banco España (línea 2)  Bus: 14, 150, 27, 37, 45, 5, 53, C03, 203, N27, E1, 001, 1, 146, 15, 2, 20, 51, 52, 74  Renfe: Recoletos  Aparcamiento: Montalbán (49), calle Montalbán (entre calle Alfonso XI y paseo Prado)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de República Dominicana"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7832-oficina-turismo-turquia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7832",
+		"title": "Oficina de Turismo de Turquía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a66e19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ANTONIO MAURA 18 PLANTA 2º D"
+		},
+		"location": {
+			"latitude": 40.41640236621119,
+			"longitude": -3.6897711925342342
+		},
+		"organization": {
+			"organization-desc": "  Metro: Retiro (línea 2), Banco de España (línea 2), Estación del Arte (Atocha) (línea 1)  Bus: 19  Bicimad: Estación 65 (calle Antonio Maura, 15)  Renfe: Atocha (C1, C2, C3, C4, C5, C7, C10)  Aparcamiento: Montalbán (49), calle Montalbán (entre calle Alfonso XI y paseo Prado)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Turquía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7841-oficina-turismo-tunez.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7841",
+		"title": "Oficina de Turismo de Túnez",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=145e19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE RODRIGUEZ SAN PEDRO 2 Oficina 1108"
+		},
+		"location": {
+			"latitude": 40.43158083851068,
+			"longitude": -3.7055131033895483
+		},
+		"organization": {
+			"organization-desc": "  Metro: San Bernardo (líneas 2, 4),  Quevedo (línea 2)  Bus: 3, 37, 149  Bicimad: Estación 3 (Plaza del Conde Suchil 2-4)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Túnez"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405423-oficina-turismo-venezuela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "5405423",
+		"title": "Oficina de Turismo de Venezuela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2457116bb1653210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE ELOY GONZALO 40 PLANTA 13"
+		},
+		"location": {
+			"latitude": 40.43470677362925,
+			"longitude": -3.6990941188479263
+		},
+		"organization": {
+			"organization-desc": " Localizada en la Embajada de Venezuela Metro: Iglesia (línea 1)  Bus: 16, 61, 3, 37, 5  Bicimad: Estación 246 (Santa Engracia 87)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Oficina de Turismo de Venezuela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190857-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-t4-t1-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "190857",
+		"title": "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto Adolfo Suárez Madrid Barajas (T4) - (T1)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=28aa8f79e9c70110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "AVENIDA HISPANIDAD 2"
+		},
+		"location": {
+			"latitude": 40.45189718117108,
+			"longitude": -3.585970196635729
+		},
+		"organization": {
+			"organization-desc": "  Metro: Línea 8 - estación Aeropuerto T-4   Bus: Línea 201 Barajas - Aeropuerto T4",
+			"accesibility": "3",
+			"schedule": "T4: Lunes a sábado, de 8 a 20 horas. Domingos y festivos, de 9 a 14 horas.  T1: Lunes a sábado, de 8 a 15:30 horas. Domingos y festivos, de 9 a 14 horas. (Cerrada temporalmente)  Cerradas los días 1 de enero, 1 de mayo y 25 de diciembre.",
+			"services": "",
+			"organization-name": "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto Adolfo Suárez Madrid Barajas (T4) - (T1)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68611-oficina-turismo-comunidad-madrid-estacion-atocha.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "68611",
+		"title": "Oficina de Turismo de la Comunidad de Madrid. Estación de Atocha",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f1f96e2cf41c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Atocha"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "PLAZA EMPERADOR CARLOS V 3"
+		},
+		"location": {
+			"latitude": 40.40768324646422,
+			"longitude": -3.691848204232547
+		},
+		"organization": {
+			"organization-desc": "  Metro: Estación del Arte (Atocha) (línea 1)  Bus: 27, 34, C03, C1, 59, 6, 85, E1, 102, 86, C2, 001, 10, 14, 119, 36, 41, 19, 45, 26, 32  Renfe: Atocha (C1, C2, C3, C4, C5, C7, C10)  Bicimad: Estación 50 (calle Santa Isabel, 57) / Estación 51 (Ronda Atocha, 2)  Aparcamiento: Sánchez Bustillo (37), calle Sánchez Bustillo",
+			"accesibility": "3",
+			"schedule": "De lunes a viernes, de 8 a 20 horas. Sábados, de 8 a 15:30 horas. Domingos y festivos, de 9 a 14 horas. Cerrado 1 enero, 1 mayo y 25 diciembre.",
+			"services": "",
+			"organization-name": "Oficina de Turismo de la Comunidad de Madrid. Estación de Atocha"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7844-oficina-informacion-turistica-castilla-leon-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7844",
+		"title": "Oficina de información turística de Castilla y León en Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c93c19d41471c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Recoletos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "CALLE ALCALÁ 105 PLANTA baja"
+		},
+		"location": {
+			"latitude": 40.42177018095319,
+			"longitude": -3.6828394778643716
+		},
+		"organization": {
+			"organization-desc": "  Metro: Retiro (línea 2), Principe de Vergara (línea 2), Velázquez (línea 4)  Bus: 146, 15, 52, 1, 19, 51, 74, 9, 20   Bicimad: Estación 102: calle Alcalá, 95 / Estación 96: calle Alcalá, 111",
+			"accesibility": "3",
+			"schedule": "Consultar.",
+			"services": "",
+			"organization-name": "Oficina de información turística de Castilla y León en Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11051271-oficina-promocion-castilla-mancha-madrid.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "11051271",
+		"title": "Oficina de promoción de Castilla - La Mancha en Madrid",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f7750a11f811e610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 45"
+		},
+		"location": {
+			"latitude": 40.42090127868798,
+			"longitude": -3.707295329224958
+		},
+		"organization": {
+			"organization-desc": "  Metro: Santo Domingo (línea 2), Callao (líneas 1 y 3).  Bus: 001, 1, 146, 2, 3, 46, 74, 133, 147, 148, 44, 75  Bicimad: Estación 2 (calle Miguel Moya, 1) / Estación 22 (calle Jacometrezzo, 3) / Estación 23 (Plaza Santo Domingo, 1)  Aparcamientos: Isabel la Católica (98), Calle de Isabel la Católica / Luna-Tudescos (14), P. Sta M&amp;ordf; Soledad Torres Acosta / El Corte Inglés Callao (92), Plaza de Callao",
+			"accesibility": "3",
+			"schedule": "Consultar.",
+			"services": "",
+			"organization-name": "Oficina de promoción de Castilla - La Mancha en Madrid"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "5631196",
+		"title": "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=88dfad2e06ea7210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 5 y 6"
+		},
+		"location": {
+			"latitude": 40.45188738242834,
+			"longitude": -3.5859807207200376
+		},
+		"organization": {
+			"organization-desc": "  Metro: Aeropuerto T2 (línea 8)  Bus: 200 y autobús Express aeropuerto",
+			"accesibility": "1,4,6",
+			"schedule": "Lunes a domingo, de 8 a 20 horas.",
+			"services": "Atención presencial en varios idiomas Servicio de atención no presencial (teléfono 915 787 810 y email turismo@esmadrid.com) Atención por WhatsApp 619 111 094 Autoconsulta con folletos descargables mediante código QR Audiovisuales  Acceso adaptado Lengua de signos en remoto Blucle magnético Servicio MAULSE: Servicio de interpretación de Lengua de Signos Española en remoto Guía de Turismo Accesible  También disponen de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además, los informadores turísticos han recibido formación específica para la atención a personas con discapacidad .",
+			"organization-name": "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "178759",
+		"title": "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8f871c7a2c61c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Barajas/Barrio/Aeropuerto"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28042",
+			"street-address": "AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 10"
+		},
+		"location": {
+			"latitude": 40.45188738242834,
+			"longitude": -3.5859807207200376
+		},
+		"organization": {
+			"organization-desc": "  Metro: Aeropuerto T 4 (línea 8)  Bus: 200 y Exprés Aeropuerto  Renfe: Aeropuerto T 4",
+			"accesibility": "1,4,6",
+			"schedule": "Lunes a domingo, de 8 a 20 horas.",
+			"services": "Atención presencial en varios idiomas Servicio de atención no presencial (teléfono 915 787 810 y e-mail turismo@esmadrid.com) Atención por WhatsApp 619 111 094 Autoconsulta con folletos descargables mediante código QR Audiovisuales Acceso adaptado  Lengua de signos en remoto Bucle magnético Mostrador adaptado Servicio MAULSE: Servicio de interpretación de Lengua de Signos Española en remoto Guía de Turismo Accesible  También disponen de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además, los informadores turísticos han recibido formación específica para la atención a personas con discapacidad.",
+			"organization-name": "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11050930-punto-informacion-turistica-palacio-real.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "11050930",
+		"title": "Punto de Información Turística Palacio Real",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=81d3b801a201e610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE BAILEN semiesquina calle Requena, frente Palacio Real"
+		},
+		"location": {
+			"latitude": 40.41700064452497,
+			"longitude": -3.7121662397143345
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ópera (líneas 2, 5, R)  Bus: 3, 25, 39, 46, 75, 138, 148, C1  Bicimad: Estación 36 (Plaza de Ramales, 1)",
+			"accesibility": "1,4,6",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia. Todos los días del año de 9 a 20 horas.",
+			"services": "Atención presencial en varios idiomas Servicio de atención no presencial (teléfono 915 787 810 y email turismo@esmadrid.com) Atención por WhatsApp 619 111 094 Autoconsulta con folletos descargables mediante código QR Audiovisuales Guía de Turismo Accesible WIFI gratuita Bucle magnético Lengua de signos en remoto Mostrador adaptado Servicio MAULSE: Servicio de interpretación de Lengua de Signos Española en remoto. Guía de Turismo Accesible Rampa de acceso para atención a personas en silla de ruedas.  También disponen de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además,  los informadores turísticos han recibido formación específica para la atención a personas con discapacidad.",
+			"organization-name": "Punto de Información Turística Palacio Real"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-reina-sofia.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "10085167",
+		"title": "Punto de Información Turística Reina Sofía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8321a9a7e3525510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE SANTA ISABEL 52"
+		},
+		"location": {
+			"latitude": 40.40864029339671,
+			"longitude": -3.6939504103293244
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.  Metro: Estación del Arte (Atocha) (línea 1)  Bus: 6, 26, 27, 32, 34, C01, C1  Renfe: Largo recorrido, AVE y cercanías  Bicimad: Estación 50 (calle Santa Isabel, 57) / Estación 51 (Ronda de Atocha, 2)  Aparcamiento: Sánchez Bustillo (37), Calle Sánchez Bustillo",
+			"accesibility": "1,4,6",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia. Todos los días del año de 10 a 18 horas.",
+			"services": "Atención presencial en varios idiomas Servicio de atención no presencial (teléfono 915 787 810 y email turismo@esmadrid.com) Atención por WhatsApp 619 111 094 Audiovisuales Autoconsulta con folletos descargables mediante código QR WIFI Gratuita Bucle magnético  Lengua de signos en remoto Mostrador adaptado Servicio MAULSE: Servicio de interpretación de Lengua de Signos Española en remoto Guía de Turismo Accesible  También disponen de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además, los informadores turísticos han recibido formación específica para la atención a personas con discapacidad.",
+			"organization-name": "Punto de Información Turística Reina Sofía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11456723-punto-informacion-turistica-cuesta-moyano.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "11456723",
+		"title": "Punto de Información Turística de Cuesta de Moyano",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6795f567e869b710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE CLAUDIO MOYANO 1"
+		},
+		"location": {
+			"latitude": 40.40978192192937,
+			"longitude": -3.6893720604492173
+		},
+		"organization": {
+			"organization-desc": "  Metro: Estación del Arte (Atocha) (línea 1)  Bus: 1, 10, 14, 19, 26, 27, 32, 34, 37, 45, C03, E1  Renfe: Largo recorrido, AVE y cercanías  Bicimad: Estación 81: Cuesta de Moyano (Calle Cuesta Moyano) / Estación 69: Puerta del Ángel Caído (Avenida de Alfonso XII, 54) / Estación 50: Museo Reina Sofía (calle Santa Isabel, 57) / Estación 67: Almadén (calle Almadén, 28)",
+			"accesibility": "1,4",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia. Todos los días del año de 10 a 18 horas.",
+			"services": "Atención presencial en varios idiomas. Servicio de atención no presencial (teléfono 915 787 810 y email turismo@esmadrid.com) Atención por WhatsApp 619 111 094 Autoconsulta en folletos físicos y descargables WIFI gratuita Lengua de signos en remoto Servicio MAULSE: Servicio de interpretación de Lengua de Signos Española en remoto Guía de Turismo Accesible  Dispone de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además, los informadores turísticos han recibido formación específica para la atención a personas con discapacidad.",
+			"organization-name": "Punto de Información Turística de Cuesta de Moyano"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "7050847",
+		"title": "Punto de Información Turística. CentroCentro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=81c63eebd56ff310VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "PLAZA CIBELES 1"
+		},
+		"location": {
+			"latitude": 40.41902261618159,
+			"longitude": -3.692188193693138
+		},
+		"organization": {
+			"organization-desc": "El espacio de exposiciones CentroCentro, en el Palacio de Cibeles (actual sede del Ayuntamiento de Madrid y antiguo Palacio de Correos) alberga un punto de información turística y una tienda con recuerdos y artesanías madrileñas. Periodo 1904 &amp;middot; 1918 Actuaciones: Antonio Palacios Ramilo , Joaquín Otamendi Machimbarrena: 1904 (P) 1905-1918 (O). Ampliación calle Montalbán: Julián Otamendi Machimbarrena, Luis Lozano Losilla: 1934 (P) 1934-1945 (O). Restauración fachadas y torreón central : María Belén Isla Ayuso: 1996 (P). Adecuación sede municipal: Arquimática S.L.: 2007 Metro: Banco de España (línea 2) Bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 203, C03, E1  Renfe: Recoletos  Bicimad: Estación 86 (Plaza de Cibeles)",
+			"accesibility": "1,4",
+			"schedule": "De martes a domingo de 10 a 20 horas.",
+			"services": "Atención presencial en varios idiomas Servicio de atención no presencial (teléfono 915 787 810 y email turismo@esmadrid.com) Atención por WhatsApp 619 111 094 Autoconsulta con folletos descargables mediante código QR Audiovisuales Acceso adaptado  Tienda de recuerdos y artesanías madrileñas (solo pago con tarjeta) WIFI Gratuita Lengua de signos en remoto Mostrador adaptado Guía de Turismo Accesible  También disponen de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además, los informadores turísticos han recibido formación específica para la atención a personas con discapacidad.",
+			"organization-name": "Punto de Información Turística. CentroCentro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "10085202",
+		"title": "Punto de Información Turística. Estadio Santiago Bernabéu",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2da4a9a7e3525510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/ElViso"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28046",
+			"street-address": "PASEO CASTELLANA 138 junto al Estadio Santiago Bernabéu"
+		},
+		"location": {
+			"latitude": 40.451465916355055,
+			"longitude": -3.69008606793658
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.  Metro: Santiago Bernabeu (línea 10)  Bus: 27, 40, 126, 147 y 150",
+			"accesibility": "1,4,6",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia.  Horario de atención al público: de 9:30 a 20:30 horas, todos los días del año.",
+			"services": "Atención presencial en varios idiomas Servicio de atención no presencial (teléfono 915 787 810 y email turismo@esmadrid.com) Atención por WhatsApp 619 111 094 Audiovisuales Autoconsulta en folletos descargables WIFI Gratuita Lengua de signos en remoto Bucle magnético  Mostrador adaptado Servicio MAULSE: Servicio de interpretación de Lengua de Signos Española en remoto.  También disponen de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además, los informadores turísticos han recibido formación específica para la atención a personas con discapacidad.",
+			"organization-name": "Punto de Información Turística. Estadio Santiago Bernabéu"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "10085398",
+		"title": "Punto de Información Turística. Paseo del Prado",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1f6bdae9bb525510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "PLAZA NEPTUNO 1 FRENTE AL MUSEO DEL PRADO"
+		},
+		"location": {
+			"latitude": 40.41688576337496,
+			"longitude": -3.692184322678944
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.  Metro: Banco de España (línea 2)  Bus: 1, 10, 14, 27, 34, 37, 45, C03",
+			"accesibility": "1",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia. Todos los días del año de 9 a 20 horas.",
+			"services": "Atención presencial en varios idiomas   Audiovisuales  Servicio de atención no presencial (teléfono 915 787 810 y email (turismo@esmadrid.com) Atención por WhatsApp 619 111 094 WIFI Gratuita Bucle magnético Mostrador adaptado Servicio MAULSE: Servicio de interpretación de Lengua de Signos Española en remoto.  También disponen de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además, los informadores turísticos han recibido formación específica para la atención a personas con discapacidad.",
+			"organization-name": "Punto de Información Turística. Paseo del Prado"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "171082",
+		"title": "Punto de Información Turística. Plaza de Callao",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=acf029ea9281c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "PLAZA CALLAO 1"
+		},
+		"location": {
+			"latitude": 40.41975521983192,
+			"longitude": -3.7061194305808858
+		},
+		"organization": {
+			"organization-desc": "Punto de Información Turística cofinanciado por el Fondo Europeo de Desarrollo Regional.  Metro: Callao (líneas 1, 3, 5)  Bus: 1, 2, 3, 46, 74, 75, 146, 148  Bicimad: Estación 22 (Calle Jacometrezo, 3)/ Estación 2 (Calle Miguel Moya, 1)  Aparcamiento: El Corte Inglés Callao (92), Plaza de Callao",
+			"accesibility": "1,4,6",
+			"schedule": "Abierto durante todo el año ofrece todo lo que el visitante necesita para disfrutar de su estancia. Todos los días del año de 9 a 20 horas.",
+			"services": "Atención presencial en varios idiomas Servicio de atención no presencial (teléfono 915 787 810 y email turismo@esmadrid.com) Atención por WhatsApp 619 111 094 Autoconsulta con descargables mediante código QR Audiovisuales WIFI gratuita Lengua de signos en remoto Bucle magnético  Mostrador adaptado Servicio MAULSE: Servicio de interpretación de Lengua de Signos Española en remoto  Todos los quioscos de información turística tienen un mostrador accesible y están equipados de bucles magnéticos para atención a personas con discapacidad auditiva. También disponen de un Mapa Accesible de Madrid en braille y con un QR descargable en los dispositivos móviles para personas con discapacidad visual con toda la información turística. Además, los informadores turísticos han recibido formación específica para la atención a personas con discapacidad.",
+			"organization-name": "Punto de Información Turística. Plaza de Callao"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629537-servicio-atencion-turistica-emergencia-sate-comisaria-centro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+		"id": "4629537",
+		"title": "Servicio de Atención Turística de Emergencia (SATE). Comisaría de Centro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d37386bde6594110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE LEGANITOS 19"
+		},
+		"location": {
+			"latitude": 40.42154122155197,
+			"longitude": -3.7101413569005515
+		},
+		"organization": {
+			"organization-desc": "El servicio de Atención Turística de Emergencia -SATE- es un servicio especializado gestionado por la Empresa Municipal Madrid Destino en colaboración con funcionarios del Cuerpo Nacional de Policía. Tiene por finalidad atender al turista extranjero que, durante su estancia en Madrid, haya vivido una situación excepcional y requiera de apoyo policial. Entre las funciones del servicio destaca el apoyo en trámites policiales, la localización de familiares, la cancelación de tarjetas de crédito, el contacto con embajadas y consulados, información turística y otros.  Metro: Santo Domingo (línea 2), Callao (líneas 3 y 5), plaza de España (líneas 3 y 10).  Bus: 133, 148, 44, 75, 3, 46, 74, 001, 1, 2, 25, 39.  Bicimad: Estaciones 116b (calle Princesa, 5), 23 (plaza de Santo Domingo, 1), 16 (calle San Bernardo, 22).  Aparcamiento: Isabel la Católica (98), calle de Isabel la Católica.",
+			"accesibility": "1",
+			"schedule": "Lunes a domingo, de 8:30 a 22 horas.",
+			"services": "Atención presencial en varios idiomas",
+			"organization-name": "Servicio de Atención Turística de Emergencia (SATE). Comisaría de Centro"
+		}
+	}	  
+  ]
+}
+
